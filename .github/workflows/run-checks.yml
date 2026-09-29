@@ -54,6 +54,31 @@ jobs:
           path: sites/ga2/playwright-report/
           retention-days: 7
 
+  highgen-smoke-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      # Same shape as ga2-smoke-tests, for the HighGen site.
+      - name: Build HighGen production bundle
+        run: npm run build-local:highgen
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+      - name: Run HighGen smoke tests
+        run: npm run test:e2e:highgen
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report-highgen
+          path: sites/highgen/playwright-report/
+          retention-days: 7
+
   run-checks:
     runs-on: ubuntu-latest
     steps:
@@ -93,6 +118,8 @@ jobs:
       - name: Validate GA2 catalog files
         # Validate the GA2 catalog source files.
         run: npm run validate-ga2-catalog
+      - name: Validate HighGen catalog files
+        run: npm run validate-highgen-catalog
       - name: poetry lint
         # Validate the GA2 catalog source files.
         run: poetry check -P catalog/py_package/

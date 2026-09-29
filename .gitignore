@@ -35,11 +35,13 @@ backend/**/.env
 
 # favicons
 /sites/ga2/public/favicons/*
+/sites/highgen/public/favicons/*
 /sites/brc-analytics/public/favicons/*
 
 # catalog build
 /catalog/build/temp
 /catalog/ga2/build/temp
+/catalog/highgen/build/temp
 
 # Build Dir
 out/
@@ -63,6 +65,7 @@ __pycache__
 
 # public api
 /sites/ga2/public/api
+/sites/highgen/public/api
 /sites/brc-analytics/public/api
 
 # Sentry Config File

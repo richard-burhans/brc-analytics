@@ -196,6 +196,23 @@ const config = [
     },
   },
   {
+    files: ["sites/highgen/**/*.{ts,tsx}"],
+    rules: {
+      "@typescript-eslint/no-restricted-imports": [
+        "error",
+        {
+          patterns: [
+            {
+              group: ["..", "../*", "../**"],
+              message:
+                "Reach outside this directory via the @highgen/… alias; relative imports are for ./ same-dir and descendants only.",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
     files: ["pages/**/*.{ts,tsx}"],
     rules: {
       "@typescript-eslint/no-restricted-imports": [

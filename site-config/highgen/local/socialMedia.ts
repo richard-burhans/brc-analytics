@@ -1,0 +1,32 @@
+import { GitHubIcon } from "@databiosphere/findable-ui/lib/components/common/CustomIcon/components/GitHubIcon/gitHubIcon";
+import { type SocialMedia } from "@databiosphere/findable-ui/lib/components/Layout/components/Header/common/entities";
+import { type MenuItem } from "@databiosphere/findable-ui/lib/components/Layout/components/Header/components/Content/components/Navigation/components/NavigationMenuItems/navigationMenuItems";
+import {
+  ANCHOR_TARGET,
+  REL_ATTRIBUTE,
+} from "@databiosphere/findable-ui/lib/components/Links/common/entities";
+
+export const SOCIALS = {
+  GITHUB: {
+    label: "GitHub",
+    rel: REL_ATTRIBUTE.NO_OPENER_NO_REFERRER,
+    target: ANCHOR_TARGET.BLANK,
+    url: "https://github.com/richard-burhans/brc-analytics",
+  },
+};
+
+export const socialMenuItems: MenuItem[] = [
+  {
+    ...SOCIALS.GITHUB,
+    icon: GitHubIcon({ fontSize: "small" }),
+  },
+];
+
+export const socialMedia: SocialMedia = {
+  socials: [
+    {
+      ...SOCIALS.GITHUB,
+      Icon: GitHubIcon,
+    },
+  ],
+};

@@ -1,0 +1,48 @@
+<Section border>
+  <SectionLayout paired>
+    <SectionHeadline paired>
+      ## Our plan
+      <SubHeadline>
+        Every public Cannabis sativa genome in one place, ready to analyze in Galaxy
+      </SubHeadline>
+    </SectionHeadline>
+    <SectionContent paired>
+      <Grid gridSx={{ gap: 4 }}>
+        <Accordion>
+          <AccordionSummary>★ Upcoming features</AccordionSummary>
+          <AccordionDetails>
+            Specific features planned for upcoming releases:
+
+            1. Catalog the assemblies that have no NCBI accession, such as the Salk pangenome on figshare and deposits in Zenodo, NGDC, CoGe, Ensembl Plants and GigaDB
+            2. Mark duplicate records of the same assembly across repositories, so each distinct genome is counted once
+            3. Add Cannabis sativa to the Galaxy reference data cache, so read-based workflows (RNA-seq, ChIP-seq, ATAC-seq, Hi-C) can run on these assemblies
+            4. Offer Galaxy workflows for comparative genomics across the cannabis panel: masking, whole-genome alignment, chaining and pangenome graphs
+            5. Link each assembly to its BioProject, sequencing runs and publications
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary>Cultivar and chemotype context</AccordionSummary>
+          <AccordionDetails>
+            Cannabis research is organized around cultivars and chemotypes. We intend to:
+
+            1. Record cultivar, sex and chemotype for each assembly where the source states it
+            2. Let users browse and filter assemblies by those attributes
+            3. Keep the provenance of every attribute visible, so a stated value is never confused with an inferred one
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary>Lowering barriers to bioinformatics</AccordionSummary>
+          <AccordionDetails>
+            In order to make complex analyses accessible to researchers with varying computational expertise, we will:
+
+            1. Leverage Galaxy's GUI-based platform and pre-built workflows, eliminating the need to learn command-line interfaces
+            2. Run analyses on the public usegalaxy.org service, removing the need for institutional or paid hardware
+            3. Integrate curated, community-developed Galaxy workflows from the Intergalactic Workflow Commission (IWC)
+            4. Build on the Galaxy Training Network's tutorials to provide educational resources
+          </AccordionDetails>
+        </Accordion>
+      </Grid>
+    </SectionContent>
+
+  </SectionLayout>
+</Section>

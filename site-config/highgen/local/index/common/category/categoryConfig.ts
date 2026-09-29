@@ -1,0 +1,90 @@
+import { type CategoryConfig } from "@databiosphere/findable-ui/lib/common/categories/config/types";
+import {
+  HG_CATEGORY_KEY,
+  HG_CATEGORY_LABEL,
+} from "@site-config/highgen/category";
+
+export const ACCESSION: CategoryConfig = {
+  key: HG_CATEGORY_KEY.ACCESSION,
+  label: HG_CATEGORY_LABEL.ACCESSION,
+};
+
+export const ANNOTATION_STATUS: CategoryConfig = {
+  key: HG_CATEGORY_KEY.ANNOTATION_STATUS,
+  label: HG_CATEGORY_LABEL.ANNOTATION_STATUS,
+};
+
+export const ASSEMBLY_TAXONOMY_IDS: CategoryConfig = {
+  key: HG_CATEGORY_KEY.ASSEMBLY_TAXONOMY_IDS,
+  label: HG_CATEGORY_LABEL.ASSEMBLY_TAXONOMY_IDS,
+};
+
+export const COVERAGE: CategoryConfig = {
+  key: HG_CATEGORY_KEY.COVERAGE,
+  label: HG_CATEGORY_LABEL.COVERAGE,
+};
+
+export const IS_REF: CategoryConfig = {
+  key: HG_CATEGORY_KEY.IS_REF,
+  label: HG_CATEGORY_LABEL.IS_REF,
+};
+
+export const LEVEL: CategoryConfig = {
+  key: HG_CATEGORY_KEY.LEVEL,
+  label: HG_CATEGORY_LABEL.LEVEL,
+};
+
+export const TAXONOMIC_GROUP: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_GROUP,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_GROUP,
+};
+
+export const TAXONOMIC_LEVEL_DOMAIN: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_DOMAIN,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_DOMAIN,
+};
+
+export const TAXONOMIC_LEVEL_KINGDOM: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_KINGDOM,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_KINGDOM,
+};
+
+export const TAXONOMIC_LEVEL_PHYLUM: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_PHYLUM,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_PHYLUM,
+};
+
+export const TAXONOMIC_LEVEL_CLASS: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_CLASS,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_CLASS,
+};
+
+export const TAXONOMIC_LEVEL_ORDER: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_ORDER,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_ORDER,
+};
+
+export const TAXONOMIC_LEVEL_FAMILY: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_FAMILY,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_FAMILY,
+};
+
+export const TAXONOMIC_LEVEL_GENUS: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_GENUS,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_GENUS,
+};
+
+export const TAXONOMIC_LEVEL_SPECIES: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_SPECIES,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_SPECIES,
+};
+
+export const TAXONOMIC_LEVEL_STRAIN: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMIC_LEVEL_STRAIN,
+  label: HG_CATEGORY_LABEL.TAXONOMIC_LEVEL_STRAIN,
+};
+
+export const TAXONOMY_ID: CategoryConfig = {
+  key: HG_CATEGORY_KEY.TAXONOMY_ID,
+  label: HG_CATEGORY_LABEL.TAXONOMY_ID,
+};

@@ -1,0 +1,57 @@
+assemblies:
+  # Cannabis sativa (Purple Kush)
+  - accession: GCA_000230575.5
+  # Cannabis sativa (Chemdog91)
+  - accession: GCA_001509995.1
+  # Cannabis sativa subsp. indica (LA Confidential)
+  - accession: GCA_001510005.1
+  # Cannabis sativa (Cannatonic)
+  - accession: GCA_001865755.1
+  # Cannabis sativa (Pineapple Banana Bubba Kush)
+  - accession: GCA_002090435.1
+  # Cannabis sativa (Finola)
+  - accession: GCA_003417725.2
+  # Cannabis sativa (Jamaican Lion DASH)
+  - accession: GCA_003660325.2
+  # Cannabis sativa (Jamaican Lion ^4)
+  - accession: GCA_012923435.1
+  # Cannabis sativa (Jamaican Lion ^4)
+  - accession: GCA_013030025.1
+  # Cannabis sativa (JL)
+  - accession: GCA_013030365.1
+  # Cannabis sativa (Cannbio-2)
+  - accession: GCA_016165845.1
+  # Cannabis sativa (Jamaican Lion ^4)
+  - accession: GCA_016415525.1
+  # Cannabis sativa (Abacus)
+  - accession: GCA_025232715.1
+  # Cannabis sativa (Pink pepper)
+  - accession: GCA_029168945.1
+  # Cannabis sativa (Pink pepper)
+  - accession: GCF_029168945.1
+  # Cannabis sativa (Punto Rojo x Cherry Pie)
+  - accession: GCA_049724855.1
+  # Cannabis sativa (Punto Rojo x Cherry Pie)
+  - accession: GCA_049725155.1
+  # Cannabis sativa (Hawthorne OG)
+  - accession: GCA_051911645.1
+  # Cannabis sativa (Anders CBD)
+  - accession: GCA_051911655.1
+  # Cannabis sativa (Anders CBD)
+  - accession: GCA_051911675.1
+  # Cannabis sativa (Hawthorne OG)
+  - accession: GCA_051911705.1
+  # Cannabis sativa (Sri Lankan)
+  - accession: GCA_051911715.1
+  # Cannabis sativa (Sri Lankan)
+  - accession: GCA_051911735.1
+  # Cannabis sativa (Travis CBD)
+  - accession: GCA_051911765.1
+  # Cannabis sativa (Travis CBD)
+  - accession: GCA_051911785.1
+  # Cannabis sativa
+  - accession: GCA_054642775.1
+  # Cannabis sativa
+  - accession: GCA_054642815.1
+  # Cannabis sativa (CBDRx, cs10)
+  - accession: GCA_900626175.2

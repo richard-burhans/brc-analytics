@@ -15,6 +15,7 @@ const customJestConfig = {
   // @ga2 explicitly here.
   moduleNameMapper: {
     "^@ga2/(.*)$": "<rootDir>/sites/ga2/$1",
+    "^@highgen/(.*)$": "<rootDir>/sites/highgen/$1",
   },
   setupFiles: ["<rootDir>/tests/setup/environment.ts"],
   testEnvironment: "jest-environment-jsdom",

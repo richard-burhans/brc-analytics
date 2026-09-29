@@ -1,0 +1,71 @@
+{
+    "assembly_count": 28,
+    "children": [
+        {
+            "assembly_count": 28,
+            "children": [
+                {
+                    "assembly_count": 28,
+                    "children": [
+                        {
+                            "assembly_count": 28,
+                            "children": [
+                                {
+                                    "assembly_count": 28,
+                                    "children": [
+                                        {
+                                            "assembly_count": 28,
+                                            "children": [
+                                                {
+                                                    "assembly_count": 28,
+                                                    "children": [
+                                                        {
+                                                            "assembly_count": 28,
+                                                            "children": [
+                                                                {
+                                                                    "assembly_count": 28,
+                                                                    "children": [],
+                                                                    "name": "Cannabis sativa",
+                                                                    "ncbi_tax_id": "3483",
+                                                                    "rank": "species"
+                                                                }
+                                                            ],
+                                                            "name": "Cannabis",
+                                                            "ncbi_tax_id": "3482",
+                                                            "rank": "genus"
+                                                        }
+                                                    ],
+                                                    "name": "Cannabaceae",
+                                                    "ncbi_tax_id": "3481",
+                                                    "rank": "family"
+                                                }
+                                            ],
+                                            "name": "Rosales",
+                                            "ncbi_tax_id": "3744",
+                                            "rank": "order"
+                                        }
+                                    ],
+                                    "name": "Magnoliopsida",
+                                    "ncbi_tax_id": "3398",
+                                    "rank": "class"
+                                }
+                            ],
+                            "name": "Streptophyta",
+                            "ncbi_tax_id": "35493",
+                            "rank": "phylum"
+                        }
+                    ],
+                    "name": "Viridiplantae",
+                    "ncbi_tax_id": "33090",
+                    "rank": "kingdom"
+                }
+            ],
+            "name": "Eukaryota",
+            "ncbi_tax_id": "2759",
+            "rank": "domain"
+        }
+    ],
+    "name": "root",
+    "ncbi_tax_id": "1",
+    "rank": "NA"
+}
