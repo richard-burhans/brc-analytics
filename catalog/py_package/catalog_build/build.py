@@ -290,15 +290,21 @@ def get_genomes_and_primarydata_df(source_ncbi_genomes_df: pd.DataFrame):
     )
 
 
-def _get_gene_model_urls_from_genark_list():
+DEFAULT_GENARK_LIST_URL = "https://hgdownload.soe.ucsc.edu/hubs/genArkFileList.txt.gz"
+
+
+def _get_gene_model_urls_from_genark_list(genark_url=DEFAULT_GENARK_LIST_URL):
     """Download and parse the genArkFileList.txt.gz file to extract GTF URLs.
+
+    Args:
+        genark_url: URL to fetch the file list from (e.g. a UCSC mirror); the
+          returned GTF URLs always point at hgdownload.soe.ucsc.edu
 
     Returns:
         dict: A dictionary mapping genome assembly IDs to their GTF file URLs
     """
 
     print("Downloading genArkFileList.txt.gz...")
-    genark_url = "https://hgdownload.soe.ucsc.edu/hubs/genArkFileList.txt.gz"
     download_base_url = "https://hgdownload.soe.ucsc.edu/hubs"
     response = requests.get(genark_url)
     response.raise_for_status()
@@ -353,11 +359,14 @@ def _get_gene_model_urls_from_genark_list():
     return gene_model_urls
 
 
-def add_gene_model_url(genomes_df: pd.DataFrame):
+def add_gene_model_url(
+    genomes_df: pd.DataFrame, genark_list_url=DEFAULT_GENARK_LIST_URL
+):
     """Add gene model URLs to the genomes DataFrame using the genArkFileList.txt.gz file.
 
     Args:
         genomes_df: DataFrame containing genome information with 'accession' column
+        genark_list_url: URL to fetch genArkFileList.txt.gz from
 
     Returns:
         DataFrame with added 'geneModelUrl' column
@@ -365,7 +374,7 @@ def add_gene_model_url(genomes_df: pd.DataFrame):
     print("Fetching gene model URLs from genArkFileList.txt.gz")
 
     # Get all gene model URLs at once
-    gene_model_urls = _get_gene_model_urls_from_genark_list()
+    gene_model_urls = _get_gene_model_urls_from_genark_list(genark_list_url)
 
     # Map accessions to URLs
     gene_model_url_series = genomes_df["accession"].map(gene_model_urls)
@@ -1422,6 +1431,7 @@ def build_files(
     organism_image_path=None,
     organism_image_source_information_path=None,
     datacache_base_url=None,
+    genark_list_url=DEFAULT_GENARK_LIST_URL,
 ):
     """
     Build catalog-related data files based on specified input data and data from services such as the NCBI API.
@@ -1443,6 +1453,7 @@ def build_files(
       outbreak_taxonomy_mapping_path: Path to save taxonomic information for outbreaks at
       organism_image_path: path to folder containing organism images
       organism_image_source_information_path: path to json file with information about the image source
+      genark_list_url: URL of UCSC's genArkFileList.txt.gz (e.g. on a mirror)
     """
     if taxonomic_group_sets is None:
         taxonomic_group_sets = {}
@@ -1619,7 +1630,7 @@ def build_files(
     )
 
     if do_gene_model_urls:
-        genomes_df = add_gene_model_url(genomes_df)
+        genomes_df = add_gene_model_url(genomes_df, genark_list_url)
         qc_report_params["missing_gene_model_urls"] = report_missing_values(
             "accessions",
             "matched with gene model URLs",

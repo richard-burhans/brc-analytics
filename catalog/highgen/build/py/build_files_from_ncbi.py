@@ -4,7 +4,14 @@ ASSEMBLIES_PATH = "catalog/highgen/source/assemblies.yml"
 
 ORGANISMS_PATH = "catalog/highgen/source/organisms.yml"
 
-UCSC_ASSEMBLIES_URL = "https://hgdownload.soe.ucsc.edu/hubs/plants/assemblyList.json"
+# Build-time downloads use UCSC's hgdownload2 mirror, which stayed reachable
+# when hgdownload.soe.ucsc.edu was not (2026-09-29). Gene model URLs written
+# into the catalog still point at hgdownload.soe.ucsc.edu.
+UCSC_DOWNLOAD_MIRROR = "https://hgdownload2.soe.ucsc.edu"
+
+UCSC_ASSEMBLIES_URL = f"{UCSC_DOWNLOAD_MIRROR}/hubs/plants/assemblyList.json"
+
+GENARK_LIST_URL = f"{UCSC_DOWNLOAD_MIRROR}/hubs/genArkFileList.txt.gz"
 
 GENOMES_OUTPUT_PATH = "catalog/highgen/build/intermediate/genomes-from-ncbi.tsv"
 
@@ -66,6 +73,7 @@ def build_ncbi_data():
         organism_image_source_information_path=ORGANISM_IMAGE_INFO_PATH,
         # No Galaxy datacache tree exists for cannabis yet (only brc/ and vgp/)
         datacache_base_url=None,
+        genark_list_url=GENARK_LIST_URL,
     )
 
 
