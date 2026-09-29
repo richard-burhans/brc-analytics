@@ -55,3 +55,7 @@ assemblies:
   - accession: GCA_054642815.1
   # Cannabis sativa (CBDRx, cs10)
   - accession: GCA_900626175.2
+  # Cannabis sativa (CBDRx, cs10). Suppressed by NCBI, but it carries the RefSeq
+  # annotation (release 100.20200513) and is the version the 2025 pangenome
+  # paper (Lynch et al., Nature) cites.
+  - accession: GCF_900626175.2

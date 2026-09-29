@@ -1875,5 +1875,72 @@
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_029168945.1"
+  },
+  {
+    "accession": "GCF_900626175.2",
+    "annotationStatus": "Updated annotation",
+    "chromosomes": 10,
+    "coverage": "100",
+    "galaxyDatacacheUrl": null,
+    "gcPercent": 33.5,
+    "geneModelUrl": "https://hgdownload.soe.ucsc.edu/hubs/GCF/900/626/175/GCF_900626175.2/genes/GCF_900626175.2_cs10.ncbiRefSeq.gtf.gz",
+    "image": {
+      "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
+      "license": "Public domain",
+      "sourceName": "Wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cannabis_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-026.jpg",
+      "url": "/organism_image/Cannabis_sativa_1024x1024.jpg"
+    },
+    "isRef": "No",
+    "length": 875732047,
+    "level": "Chromosome",
+    "lineageTaxonomyIds": [
+      "1",
+      "131567",
+      "2759",
+      "33090",
+      "35493",
+      "131221",
+      "3193",
+      "58023",
+      "78536",
+      "58024",
+      "3398",
+      "1437183",
+      "71240",
+      "91827",
+      "1437201",
+      "71275",
+      "91835",
+      "3744",
+      "3481",
+      "3482",
+      "3483"
+    ],
+    "ncbiTaxonomyId": "3483",
+    "ploidy": [
+      "DIPLOID"
+    ],
+    "releaseDate": "2019-02-14",
+    "scaffoldCount": 220,
+    "scaffoldL50": 5,
+    "scaffoldN50": 91912889,
+    "speciesTaxonomyId": "3483",
+    "strainName": null,
+    "taxonomicGroup": [
+      "Cannabaceae"
+    ],
+    "taxonomicLevelClass": "Magnoliopsida",
+    "taxonomicLevelDomain": "Eukaryota",
+    "taxonomicLevelFamily": "Cannabaceae",
+    "taxonomicLevelGenus": "Cannabis",
+    "taxonomicLevelKingdom": "Viridiplantae",
+    "taxonomicLevelOrder": "Rosales",
+    "taxonomicLevelPhylum": "Streptophyta",
+    "taxonomicLevelSpecies": "Cannabis sativa",
+    "taxonomicLevelStrain": "None",
+    "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
+    "tolId": "d",
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900626175.2"
   }
 ]

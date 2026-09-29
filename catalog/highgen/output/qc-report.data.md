@@ -86,7 +86,7 @@ None
 
 ## Suppressed or retired genomes
 
-None
+- GCF_900626175.2 (status: suppressed)
 
 ## GenBank assemblies with paired RefSeq accessions
 
