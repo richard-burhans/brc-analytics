@@ -8,6 +8,7 @@ import { DIFFERENTIAL_EXPRESSION_ANALYSIS } from "@repo/shared/workflow/differen
 import type { WorkflowGates } from "@repo/shared/workflow/gates";
 import {
   workflowPloidyMatchesOrganismPloidy,
+  workflowRequiresAssemblyFastaUrl,
   workflowRequiresAssemblyId,
 } from "@repo/shared/workflow/utils";
 
@@ -101,6 +102,14 @@ export function workflowIsCompatibleWithAssembly(
   // Filter out workflows requiring ASSEMBLY_ID when assembly lacks Galaxy datacache URL.
   // ASSEMBLY_ID workflows need pre-built indexes (Bowtie2, BWA, etc.) accessible via datacache.
   if (workflowRequiresAssemblyId(workflow) && !assembly.galaxyDatacacheUrl) {
+    return false;
+  }
+  // Filter out workflows requiring ASSEMBLY_FASTA_URL when the catalog records
+  // that no FASTA exists for the assembly (fastaUrl null; absent = untracked).
+  if (
+    workflowRequiresAssemblyFastaUrl(workflow) &&
+    assembly.fastaUrl === null
+  ) {
     return false;
   }
   return true;

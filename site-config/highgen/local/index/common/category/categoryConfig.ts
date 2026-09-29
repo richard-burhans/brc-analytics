@@ -34,6 +34,11 @@ export const LEVEL: CategoryConfig = {
   label: HG_CATEGORY_LABEL.LEVEL,
 };
 
+export const SOURCE: CategoryConfig = {
+  key: HG_CATEGORY_KEY.SOURCE,
+  label: HG_CATEGORY_LABEL.SOURCE,
+};
+
 export const TAXONOMIC_GROUP: CategoryConfig = {
   key: HG_CATEGORY_KEY.TAXONOMIC_GROUP,
   label: HG_CATEGORY_LABEL.TAXONOMIC_GROUP,

@@ -12,6 +12,7 @@ import { workflowMeetsAssemblyMinimum } from "@repo/shared/workflow/utils";
 // Type constraint: both BRC and GA2 assemblies have these fields
 type AssemblyForCompatibility = {
   accession: string;
+  fastaUrl?: string | null;
   galaxyDatacacheUrl: string | null;
   lineageTaxonomyIds: string[];
   ploidy: ORGANISM_PLOIDY[];
@@ -19,7 +20,7 @@ type AssemblyForCompatibility = {
 
 /**
  * NOTE: This workflow/assembly compatibility rule (taxonomy lineage + ploidy +
- * assembly-id requirement) is duplicated in four places that drift out of sync:
+ * assembly-id requirement + assembly-FASTA requirement) is duplicated in four places that drift out of sync:
  * - this file (build time)
  * - app/views/AnalyzeWorkflowsView/components/Main/utils.ts (frontend runtime;
  *   shares only workflowPloidyMatchesOrganismPloidy from common/utils.ts)
@@ -39,6 +40,15 @@ function workflowRequiresAssemblyId(workflow: {
 }): boolean {
   return workflow.parameters.some(
     (param) => param.variable === WORKFLOW_PARAMETER_VARIABLE.ASSEMBLY_ID
+  );
+}
+
+// Helper function to check if workflow requires ASSEMBLY_FASTA_URL parameter
+function workflowRequiresAssemblyFastaUrl(workflow: {
+  parameters: Array<{ variable?: string }>;
+}): boolean {
+  return workflow.parameters.some(
+    (param) => param.variable === WORKFLOW_PARAMETER_VARIABLE.ASSEMBLY_FASTA_URL
   );
 }
 
@@ -84,6 +94,14 @@ function workflowIsCompatibleWithAssembly<T extends AssemblyForCompatibility>(
   // Filter out workflows requiring ASSEMBLY_ID when assembly lacks Galaxy datacache URL.
   // ASSEMBLY_ID workflows need pre-built indexes (Bowtie2, BWA, etc.) accessible via datacache.
   if (workflowRequiresAssemblyId(workflow) && !assembly.galaxyDatacacheUrl) {
+    return false;
+  }
+  // Filter out workflows requiring ASSEMBLY_FASTA_URL when the catalog records
+  // that no FASTA exists for the assembly (fastaUrl null; absent = untracked).
+  if (
+    workflowRequiresAssemblyFastaUrl(workflow) &&
+    assembly.fastaUrl === null
+  ) {
     return false;
   }
   return true;

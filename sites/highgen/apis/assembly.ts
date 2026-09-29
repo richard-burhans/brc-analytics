@@ -4,7 +4,10 @@ export interface HGAssemblyEntity {
   accession: string;
   annotationStatus: string | null;
   chromosomes: number | null;
+  citation: string | null;
   coverage: string | null;
+  doi: string | null;
+  fastaUrl: string | null;
   galaxyDatacacheUrl: string | null;
   gcPercent: number | null;
   geneModelUrl: string | null;
@@ -12,6 +15,8 @@ export interface HGAssemblyEntity {
   isRef: "No" | "Yes";
   length: number;
   level: string;
+  license: string | null;
+  licenseUrl: string | null;
   lineageTaxonomyIds: string[];
   ncbiTaxonomyId: string;
   ploidy: ORGANISM_PLOIDY[];
@@ -19,6 +24,9 @@ export interface HGAssemblyEntity {
   scaffoldCount: number | null;
   scaffoldL50: number | null;
   scaffoldN50: number | null;
+  // Where the assembly is published: "NCBI" or an external repository.
+  source: string;
+  sourceUrl: string | null;
   speciesTaxonomyId: string;
   strainName: string | null;
   taxonomicGroup: string[];

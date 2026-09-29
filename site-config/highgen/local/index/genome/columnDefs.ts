@@ -14,7 +14,6 @@ import { SpeciesCell } from "@repo/shared/components/Table/components/TableCell/
 import { Tooltip } from "@repo/shared/components/Tooltip/tooltip";
 import {
   buildAccession,
-  buildAnalyzeGenome,
   buildAnnotationStatus,
   buildAssemblyTaxonomicGroup,
   buildChromosomes,
@@ -56,7 +55,7 @@ export const ACCESSION: ColumnConfig<HGAssemblyEntity> = {
 export const ANALYZE_GENOME: ColumnConfig<HGAssemblyEntity> = {
   componentConfig: {
     component: AnalyzeGenome,
-    viewBuilder: buildAnalyzeGenome,
+    viewBuilder: V.buildHgAnalyzeGenome,
   } as ComponentConfig<typeof AnalyzeGenome, HGAssemblyEntity>,
   enableSorting: false,
   enableTableDownload: false,
@@ -183,6 +182,16 @@ export const SCAFFOLD_N50: ColumnConfig<HGAssemblyEntity> = {
   header: HG_CATEGORY_LABEL.SCAFFOLD_N50,
   id: HG_CATEGORY_KEY.SCAFFOLD_N50,
   width: { max: "0.5fr", min: "120px" },
+};
+
+export const SOURCE: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildSource,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.SOURCE,
+  id: HG_CATEGORY_KEY.SOURCE,
+  width: { max: "1fr", min: "180px" },
 };
 
 export const TAXONOMIC_LEVEL_DOMAIN: ColumnConfig<HGAssemblyEntity> = {

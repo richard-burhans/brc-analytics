@@ -178,7 +178,7 @@ function buildOrganismGenomesTableColumns(): ColumnDef<HGAssemblyEntity>[] {
     {
       accessorKey: HG_CATEGORY_KEY.ANALYZE_GENOME,
       cell: ({ row }) => (
-        <AnalyzeGenome {...buildAnalyzeGenome(row.original)} />
+        <AnalyzeGenome {...buildHgAnalyzeGenome(row.original)} />
       ),
       enableSorting: false,
       header: HG_CATEGORY_LABEL.ANALYZE_GENOME,
@@ -363,4 +363,39 @@ export const buildOrganismAssemblySpecies = (
       ({ label }) => !ORGANISM_SCOPED_TAG_LABELS.includes(label)
     ),
   };
+};
+
+/**
+ * Build props for the genome analysis cell. NCBI assemblies use the shared
+ * builder; an assembly published elsewhere is catalogued without a Galaxy
+ * launch, so Analyze is disabled and View links to its source and paper.
+ * @param entity - Assembly entity.
+ * @returns Props to be used for the AnalyzeGenome component.
+ */
+export const buildHgAnalyzeGenome = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof AnalyzeGenome> => {
+  if (entity.source === "NCBI") return buildAnalyzeGenome(entity);
+  return {
+    analyze: { label: "Analyze", url: "" },
+    views: [
+      ...(entity.sourceUrl
+        ? [{ label: entity.source, url: entity.sourceUrl }]
+        : []),
+      ...(entity.doi
+        ? [{ label: "Publication", url: `https://doi.org/${entity.doi}` }]
+        : []),
+    ],
+  };
+};
+
+/**
+ * Build props for the source cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildSource = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: entity.source };
 };

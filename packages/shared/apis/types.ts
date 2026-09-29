@@ -13,6 +13,10 @@ export interface AssemblyContract {
   annotationStatus: string | null;
   chromosomes: number | null;
   coverage: string | null;
+  // Optional (absent = not tracked, as on BRC and GA2). The FASTA the workflow
+  // launch hands to Galaxy; null means none exists, so workflows needing
+  // ASSEMBLY_FASTA_URL are not offered.
+  fastaUrl?: string | null;
   galaxyDatacacheUrl: string | null;
   gcPercent: number | null;
   isRef: string;

@@ -23,6 +23,7 @@ export const CATEGORY_GROUPS: CategoryGroup[] = [
   },
   {
     categoryConfigs: [
+      CATEGORY_REGISTRY.SOURCE,
       CATEGORY_REGISTRY.ACCESSION,
       CATEGORY_REGISTRY.IS_REF,
       CATEGORY_REGISTRY.LEVEL,

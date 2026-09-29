@@ -77,3 +77,14 @@ export function workflowRequiresAssemblyId(workflow: Workflow): boolean {
     (param) => param.variable === WORKFLOW_PARAMETER_VARIABLE.ASSEMBLY_ID
   );
 }
+
+/**
+ * Check if a workflow requires the ASSEMBLY_FASTA_URL parameter.
+ * @param workflow - Workflow.
+ * @returns true if the workflow takes the assembly FASTA.
+ */
+export function workflowRequiresAssemblyFastaUrl(workflow: Workflow): boolean {
+  return workflow.parameters.some(
+    (param) => param.variable === WORKFLOW_PARAMETER_VARIABLE.ASSEMBLY_FASTA_URL
+  );
+}

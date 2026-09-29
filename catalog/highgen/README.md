@@ -17,6 +17,20 @@ npm run build-highgen-db
 - `source/organisms.yml` — one entry per species taxonomy ID with its ploidy.
 - `source/organism_image_data.json` — credit and licence for each organism image.
 
+## External assemblies
+
+`source/external_assemblies.yml` lists the assemblies with no NCBI record (the Salk pangenome on figshare, NGDC Genome Warehouse, CoGe and GigaDB). It is generated from the cannabis-genome survey's `data/processed/genome_inventory.json`; regenerate it with:
+
+```
+npm run build-highgen-external -- --inventory <path to genome_inventory.json>
+```
+
+Only the inventory's canonical assemblies are included, so its duplicate records of NCBI assemblies (Zenodo, Ensembl Plants) are left out. External assemblies are catalogued without a Galaxy launch: their `fastaUrl` is null, so workflows that take the assembly FASTA are not offered, and the Analyze button is disabled.
+
+## Assembly FASTA
+
+The workflow launch hands Galaxy the UCSC GenArk FASTA for an accession. `build-catalog.ts` sets `fastaUrl` only when GenArk holds the assembly under that exact accession; for other assemblies FASTA workflows are not offered.
+
 ## Organism images
 
 Unlike GA2, HighGen commits its organism images (`sites/highgen/public/organism_image/<Species>_1024x1024.jpg` and `_300x300.jpg`) rather than fetching them from a bucket. The build falls back to `missing_image.png` for a species with no image.

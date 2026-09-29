@@ -26,13 +26,17 @@ import {
   parseNumberOrNull,
   parseStringOrNull,
   readValuesFile,
+  readYamlFile,
   saveJson,
   verifyUniqueIds,
 } from "../../../build/ts/utils";
 import { SOURCE_GENOME_KEYS } from "./constants";
-import { SourceGenome } from "./entities";
+import { SourceExternalAssembly, SourceGenome } from "./entities";
 
 const SOURCE_PATH_ORGANISMS = "catalog/highgen/source/organisms.yml";
+
+const SOURCE_PATH_EXTERNAL_ASSEMBLIES =
+  "catalog/highgen/source/external_assemblies.yml";
 
 const SOURCE_PATH_GENOMES =
   "catalog/highgen/build/intermediate/genomes-from-ncbi.tsv";
@@ -70,6 +74,26 @@ function resolveOrganismImageUrl(path: string): string | null {
   const basename = path.split("/").pop() ?? "";
   if (!path || basename.startsWith(MISSING_IMAGE_MARKER)) return null;
   return path.replace("sites/highgen/public/", "/");
+}
+
+/**
+ * Returns the UCSC GenArk FASTA URL for an assembly, or null when GenArk does
+ * not hold it under this accession. The workflow launch builds the same URL
+ * from the accession, so an assembly without one cannot run FASTA workflows.
+ * UCSC may list a GenBank row under its RefSeq twin; that twin's directory
+ * does not serve the GenBank accession, so only an exact match counts.
+ * @param accession - Assembly accession.
+ * @param ucscBrowserUrl - UCSC browser URL from the GenArk assembly list.
+ * @returns FASTA URL, or null.
+ */
+function getGenArkFastaUrl(
+  accession: string,
+  ucscBrowserUrl: string
+): string | null {
+  if (!ucscBrowserUrl.endsWith(`/${accession}`)) return null;
+  const [prefix, digits] = accession.split("_");
+  const dir = `${digits.slice(0, 3)}/${digits.slice(3, 6)}/${digits.slice(6, 9)}`;
+  return `https://hgdownload.soe.ucsc.edu/hubs/${prefix}/${dir}/${accession}/${accession}.fa.gz`;
 }
 
 async function buildCatalog(): Promise<void> {
@@ -145,7 +169,10 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
       accession: row.accession,
       annotationStatus: parseStringOrNull(row.annotationStatus),
       chromosomes: parseNumberOrNull(row.chromosomeCount),
+      citation: null,
       coverage: parseStringOrNull(row.coverage),
+      doi: null,
+      fastaUrl: getGenArkFastaUrl(row.accession, row.ucscBrowser),
       galaxyDatacacheUrl: parseStringOrNull(row.galaxyDatacacheUrl),
       gcPercent: parseNumberOrNull(row.gcPercent),
       geneModelUrl: parseStringOrNull(row.geneModelUrl),
@@ -153,6 +180,8 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
       isRef: parseBoolean(row.isRef),
       length: parseNumber(row.length),
       level: row.level,
+      license: null,
+      licenseUrl: null,
       lineageTaxonomyIds: parseList(row.lineageTaxonomyIds),
       ncbiTaxonomyId: row.taxonomyId,
       ploidy,
@@ -160,6 +189,8 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
       scaffoldCount: parseNumberOrNull(row.scaffoldCount),
       scaffoldL50: parseNumberOrNull(row.scaffoldL50),
       scaffoldN50: parseNumberOrNull(row.scaffoldN50),
+      source: "NCBI",
+      sourceUrl: `https://www.ncbi.nlm.nih.gov/datasets/genome/${row.accession}/`,
       speciesTaxonomyId: row.speciesTaxonomyId,
       strainName: parseStringOrNull(row.strain),
       taxonomicGroup: parseList(row.taxonomicGroup),
@@ -182,11 +213,60 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
     });
   }
 
+  mappedRows.push(...(await buildExternalAssemblies(mappedRows)));
+
   const sortedRows = mappedRows.sort((a, b) =>
     a.accession.localeCompare(b.accession)
   );
   verifyUniqueIds("assembly", sortedRows, getAssemblyId);
   return sortedRows;
+}
+
+/**
+ * Builds entities for assemblies with no NCBI record. They take their
+ * taxonomy from a Cannabis sativa NCBI assembly, have no FASTA the workflow
+ * launch can reach (fastaUrl null, so FASTA workflows are not offered), and
+ * link to the repository that publishes them.
+ * @param ncbiRows - Entities built from NCBI records.
+ * @returns external assembly entities.
+ */
+async function buildExternalAssemblies(
+  ncbiRows: HGAssemblyEntity[]
+): Promise<HGAssemblyEntity[]> {
+  const { assemblies } = await readYamlFile<{
+    assemblies: SourceExternalAssembly[];
+  }>(SOURCE_PATH_EXTERNAL_ASSEMBLIES);
+  const species = ncbiRows.find(
+    (row) => row.ncbiTaxonomyId === row.speciesTaxonomyId
+  );
+  if (!species) throw new Error("No species-level NCBI assembly to copy");
+  return assemblies.map((row) => ({
+    ...species,
+    accession: row.id,
+    annotationStatus: null,
+    chromosomes: null,
+    citation: row.citation,
+    coverage: null,
+    doi: row.doi,
+    fastaUrl: null,
+    galaxyDatacacheUrl: null,
+    gcPercent: null,
+    geneModelUrl: null,
+    isRef: "No",
+    length: row.length,
+    level: row.level,
+    license: row.license,
+    licenseUrl: row.license_url,
+    releaseDate: "",
+    scaffoldCount: row.sequence_count,
+    scaffoldL50: null,
+    scaffoldN50: row.scaffold_n50,
+    source: row.source,
+    sourceUrl: row.landing_url,
+    strainName: row.name,
+    taxonomicLevelStrain: `${species.taxonomicLevelSpecies} ${row.name}`,
+    ucscBrowserUrl: null,
+  }));
 }
 
 function buildOrganisms(genomes: HGAssemblyEntity[]): HGOrganismEntity[] {
