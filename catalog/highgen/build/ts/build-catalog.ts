@@ -38,6 +38,12 @@ const SOURCE_PATH_ORGANISMS = "catalog/highgen/source/organisms.yml";
 const SOURCE_PATH_EXTERNAL_ASSEMBLIES =
   "catalog/highgen/source/external_assemblies.yml";
 
+// Contiguity derived from NCBI's per-sequence reports (primary assembly only),
+// copied from the cannabis-genome survey's data/processed/ncbi_contiguity.csv.
+// NCBI's own scaffold fields are wrong for some cannabis records.
+const SOURCE_PATH_NCBI_CONTIGUITY =
+  "catalog/highgen/source/ncbi_contiguity.csv";
+
 const SOURCE_PATH_GENOMES =
   "catalog/highgen/build/intermediate/genomes-from-ncbi.tsv";
 
@@ -141,6 +147,32 @@ async function buildCatalog(): Promise<void> {
   console.log("Done");
 }
 
+/**
+ * Reads contiguity derived from NCBI's full per-sequence reports, keyed by
+ * accession. These replace NCBI's assembly-level scaffold fields, which for
+ * Purple Kush and Finola carry contig values (N50 455x and 208x too small).
+ * @returns derived sequence count, N50 and L50 per accession.
+ */
+async function readNcbiContiguity(): Promise<
+  Map<string, { l50: number; n50: number; sequences: number }>
+> {
+  const rows = await readValuesFile<Record<string, string>>(
+    SOURCE_PATH_NCBI_CONTIGUITY,
+    ",",
+    ["accession", "sequences", "n50", "l50"]
+  );
+  return new Map(
+    rows.map((row) => [
+      row.accession,
+      {
+        l50: parseNumber(row.l50),
+        n50: parseNumber(row.n50),
+        sequences: parseNumber(row.sequences),
+      },
+    ])
+  );
+}
+
 async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
   const sourceRows = await readValuesFile<SourceGenome>(
     SOURCE_PATH_GENOMES,
@@ -150,9 +182,15 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
   const sourceOrganismsByTaxonomyId = await getSourceOrganismsByTaxonomyId(
     SOURCE_PATH_ORGANISMS
   );
+  const contiguityByAccession = await readNcbiContiguity();
 
   const mappedRows: HGAssemblyEntity[] = [];
   for (const row of sourceRows) {
+    const contiguity = contiguityByAccession.get(row.accession);
+    if (!contiguity)
+      throw new Error(
+        `No derived contiguity for ${row.accession} in ${SOURCE_PATH_NCBI_CONTIGUITY}`
+      );
     const ploidy = getPloidyForAssembly(
       sourceOrganismsByTaxonomyId,
       row.speciesTaxonomyId,
@@ -186,9 +224,9 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
       ncbiTaxonomyId: row.taxonomyId,
       ploidy,
       releaseDate: row.releaseDate,
-      scaffoldCount: parseNumberOrNull(row.scaffoldCount),
-      scaffoldL50: parseNumberOrNull(row.scaffoldL50),
-      scaffoldN50: parseNumberOrNull(row.scaffoldN50),
+      scaffoldCount: contiguity.sequences,
+      scaffoldL50: contiguity.l50,
+      scaffoldN50: contiguity.n50,
       source: "NCBI",
       sourceUrl: `https://www.ncbi.nlm.nih.gov/datasets/genome/${row.accession}/`,
       speciesTaxonomyId: row.speciesTaxonomyId,

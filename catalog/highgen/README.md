@@ -17,6 +17,10 @@ npm run build-highgen-db
 - `source/organisms.yml` — one entry per species taxonomy ID with its ploidy.
 - `source/organism_image_data.json` — credit and licence for each organism image.
 
+## NCBI contiguity
+
+`source/ncbi_contiguity.csv` is copied from the cannabis-genome survey's `data/processed/ncbi_contiguity.csv` (produced by its `scripts/ncbi_contiguity.py` from NCBI's full per-sequence reports, primary assembly only). `build-catalog.ts` takes scaffold N50, L50 and count for every NCBI assembly from it instead of from NCBI's assembly-level fields, which carry contig values in the scaffold slots for Purple Kush (GCA_000230575.5) and Finola (GCA_003417725.2). The build fails if an NCBI accession is missing from the table; copy a fresh one after adding assemblies.
+
 ## External assemblies
 
 `source/external_assemblies.yml` lists the assemblies with no NCBI record (the Salk pangenome on figshare, NGDC Genome Warehouse, CoGe and GigaDB). It is generated from the cannabis-genome survey's `data/processed/genome_inventory.json`; regenerate it with:
