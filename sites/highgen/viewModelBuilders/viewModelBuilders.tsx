@@ -427,10 +427,36 @@ export const buildCalcContigN50 = (
  * @param entity - Assembly entity.
  * @returns Props for the BasicCell component.
  */
+/**
+ * Returns a calculated value for display, or an empty string when the source
+ * reported the same field and the two agree, so only differences stand out.
+ * @param entity - Assembly entity.
+ * @param field - Reported field the calculated value is compared with.
+ * @param reported - The reported value (null when the source reports none).
+ * @param value - Calculated value, formatted for display.
+ * @returns the value, or "" when it matches the reported one.
+ */
+function showIfDiffers(
+  entity: HGAssemblyEntity,
+  field: string,
+  reported: number | null,
+  value: string | number | null
+): string | number | null {
+  if (reported !== null && !entity.reportedDiffers.includes(field)) return "";
+  return value;
+}
+
 export const buildCalcGcPercent = (
   entity: HGAssemblyEntity
 ): ComponentProps<typeof BasicCell> => {
-  return { value: entity.calcGcPercent };
+  return {
+    value: showIfDiffers(
+      entity,
+      "gcPercent",
+      entity.gcPercent,
+      entity.calcGcPercent
+    ),
+  };
 };
 
 /**
@@ -441,7 +467,14 @@ export const buildCalcGcPercent = (
 export const buildCalcLength = (
   entity: HGAssemblyEntity
 ): ComponentProps<typeof BasicCell> => {
-  return { value: formatNumber(entity.calcLength) };
+  return {
+    value: showIfDiffers(
+      entity,
+      "length",
+      entity.length,
+      formatNumber(entity.calcLength)
+    ),
+  };
 };
 
 /**
@@ -452,7 +485,14 @@ export const buildCalcLength = (
 export const buildCalcScaffoldL50 = (
   entity: HGAssemblyEntity
 ): ComponentProps<typeof BasicCell> => {
-  return { value: formatNumber(entity.calcScaffoldL50) };
+  return {
+    value: showIfDiffers(
+      entity,
+      "scaffoldL50",
+      entity.scaffoldL50,
+      formatNumber(entity.calcScaffoldL50)
+    ),
+  };
 };
 
 /**
@@ -463,7 +503,14 @@ export const buildCalcScaffoldL50 = (
 export const buildCalcScaffoldN50 = (
   entity: HGAssemblyEntity
 ): ComponentProps<typeof BasicCell> => {
-  return { value: formatNumber(entity.calcScaffoldN50) };
+  return {
+    value: showIfDiffers(
+      entity,
+      "scaffoldN50",
+      entity.scaffoldN50,
+      formatNumber(entity.calcScaffoldN50)
+    ),
+  };
 };
 
 /**
@@ -474,7 +521,14 @@ export const buildCalcScaffoldN50 = (
 export const buildCalcSequences = (
   entity: HGAssemblyEntity
 ): ComponentProps<typeof BasicCell> => {
-  return { value: formatNumber(entity.calcSequences) };
+  return {
+    value: showIfDiffers(
+      entity,
+      "scaffoldCount",
+      entity.scaffoldCount,
+      formatNumber(entity.calcSequences)
+    ),
+  };
 };
 
 /**

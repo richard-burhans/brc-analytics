@@ -34,7 +34,7 @@ python3 -m catalog.highgen.build.py.measure_assemblies --self-test
 
 NCBI assemblies are measured over the Primary Assembly unit only; organelles and alternate haplotypes are counted as excluded. Contigs are split at runs of 10 or more N. An interrupted run resumes from `build/temp/`. The build fails if any assembly has no measurement.
 
-`build-catalog.ts` compares the two: N50, sequence count and length must match exactly (a truncated Salk N50 agrees when the calculated N50 is within the following megabase), and GC% within 0.25 points (NCBI rounds to the nearest 0.5). The result is shown as "Reported vs Calculated" (Agrees, Differs or Not reported) with the differences spelled out.
+`build-catalog.ts` compares the two: N50, L50, sequence count and length must match exactly (a truncated Salk N50 agrees when the calculated N50 is within the following megabase), and GC% within 0.25 points (NCBI rounds to the nearest 0.5). The result is shown as "Reported vs Calculated" (Agrees, Differs or Not reported) with the differences spelled out, and the differing fields are listed in `reportedDiffers`. A calculated cell is left blank when its reported value exists and agrees, so only differences, and values nobody reported, are shown.
 
 ## Declared and measured level
 

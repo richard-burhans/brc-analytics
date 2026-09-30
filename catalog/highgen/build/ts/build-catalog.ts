@@ -227,44 +227,66 @@ function describeN50(measured: number, reported: number): string {
 /**
  * Compares reported values with measured ones. An N50 the source truncated to
  * whole megabases (Salk's BUSCO figures) agrees when the measured N50 is in
- * [reported, reported + 1 Mb); every other value must match exactly, except GC.
+ * [reported, reported + 1 Mb); GC agrees within NCBI's rounding; every other
+ * value must match exactly. Fields with no reported value are not compared.
  * @param reported - Assembly with its reported values.
  * @param measured - Values measured from its FASTA.
  * @param n50Truncated - Whether the reported N50 is truncated to whole Mb.
- * @returns comparison status and a description of any differences.
+ * @returns status, a description of the differences, and the differing fields.
  */
 function compareReported(
   reported: ReportedAssembly,
   measured: Measured,
   n50Truncated: boolean
-): { detail: string; status: string } {
+): { detail: string; fields: string[]; status: string } {
   const parts: string[] = [];
+  const fields: string[] = [];
+  const differ = (field: string, text: string): void => {
+    fields.push(field);
+    parts.push(text);
+  };
   const rep = reported.scaffoldN50;
   if (rep !== null) {
     const agrees = n50Truncated
       ? measured.scaffoldN50 >= rep && measured.scaffoldN50 < rep + 1_000_000
       : measured.scaffoldN50 === rep;
-    if (!agrees) parts.push(describeN50(measured.scaffoldN50, rep));
+    if (!agrees) differ("scaffoldN50", describeN50(measured.scaffoldN50, rep));
   }
+  if (
+    reported.scaffoldL50 !== null &&
+    reported.scaffoldL50 !== measured.scaffoldL50
+  )
+    differ(
+      "scaffoldL50",
+      `L50 ${formatCount(measured.scaffoldL50)}, reported ${formatCount(reported.scaffoldL50)}`
+    );
   if (
     reported.scaffoldCount !== null &&
     reported.scaffoldCount !== measured.sequences
   )
-    parts.push(
+    differ(
+      "scaffoldCount",
       `${formatCount(measured.sequences)} sequences, reported ${formatCount(reported.scaffoldCount)}`
     );
   if (reported.length !== measured.length)
-    parts.push(`length ${formatCount(measured.length - reported.length)} bp`);
+    differ(
+      "length",
+      `length ${formatCount(measured.length - reported.length)} bp`
+    );
   if (
     reported.gcPercent !== null &&
     measured.gcPercent !== null &&
     Math.abs(reported.gcPercent - measured.gcPercent) > GC_TOLERANCE
   )
-    parts.push(`GC ${measured.gcPercent}%, reported ${reported.gcPercent}%`);
-  if (parts.length) return { detail: parts.join("; "), status: "Differs" };
+    differ(
+      "gcPercent",
+      `GC ${measured.gcPercent}%, reported ${reported.gcPercent}%`
+    );
+  if (parts.length)
+    return { detail: parts.join("; "), fields, status: "Differs" };
   if (rep === null)
-    return { detail: "no N50 reported", status: "Not reported" };
-  return { detail: "", status: "Agrees" };
+    return { detail: "no N50 reported", fields, status: "Not reported" };
+  return { detail: "", fields, status: "Agrees" };
 }
 
 /**
@@ -284,7 +306,7 @@ async function attachMeasurements(
       throw new Error(
         `No measurement for ${row.accession} in ${SOURCE_PATH_MEASURED}`
       );
-    const { detail, status } = compareReported(
+    const { detail, fields, status } = compareReported(
       row,
       measured,
       n50TruncatedIds.has(row.accession)
@@ -299,6 +321,7 @@ async function attachMeasurements(
       calcSequences: measured.sequences,
       calcTop10Frac: measured.top10Frac,
       measuredLevel: getMeasuredLevel(measured.scaffoldN50),
+      reportedDiffers: fields,
       reportedVsCalculated: status,
       reportedVsCalculatedDetail: detail,
     };

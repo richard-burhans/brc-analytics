@@ -14,6 +14,8 @@ export interface HGMeasuredFields {
   calcTop10Frac: number;
   // Contiguity class from the calculated scaffold N50.
   measuredLevel: string;
+  // Reported fields whose calculated value differs (e.g. "scaffoldN50").
+  reportedDiffers: string[];
   // "Agrees", "Differs" or "Not reported".
   reportedVsCalculated: string;
   reportedVsCalculatedDetail: string;

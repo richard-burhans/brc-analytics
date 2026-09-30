@@ -87,6 +87,7 @@
         "calcSequences": 134,
         "calcTop10Frac": 0.9535,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -171,6 +172,7 @@
         "calcSequences": 94,
         "calcTop10Frac": 0.9642,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -255,6 +257,7 @@
         "calcSequences": 491,
         "calcTop10Frac": 0.906,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -339,6 +342,7 @@
         "calcSequences": 18,
         "calcTop10Frac": 0.9887,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -423,8 +427,13 @@
         "calcSequences": 6653,
         "calcTop10Frac": 0.7172,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [
+          "scaffoldN50",
+          "scaffoldL50",
+          "scaffoldCount"
+        ],
         "reportedVsCalculated": "Differs",
-        "reportedVsCalculatedDetail": "N50 455x higher than reported; 6,653 sequences, reported 12,836"
+        "reportedVsCalculatedDetail": "N50 455x higher than reported; L50 7, reported 1,924; 6,653 sequences, reported 12,836"
       },
       {
         "accession": "GCA_001509995.1",
@@ -507,8 +516,11 @@
         "calcSequences": 175088,
         "calcTop10Frac": 0.0016,
         "measuredLevel": "Kilobase-scale",
-        "reportedVsCalculated": "Agrees",
-        "reportedVsCalculatedDetail": ""
+        "reportedDiffers": [
+          "scaffoldL50"
+        ],
+        "reportedVsCalculated": "Differs",
+        "reportedVsCalculatedDetail": "L50 33,716, reported 33,730"
       },
       {
         "accession": "GCA_001510005.1",
@@ -592,8 +604,11 @@
         "calcSequences": 311039,
         "calcTop10Frac": 0.0007,
         "measuredLevel": "Kilobase-scale",
-        "reportedVsCalculated": "Agrees",
-        "reportedVsCalculatedDetail": ""
+        "reportedDiffers": [
+          "scaffoldL50"
+        ],
+        "reportedVsCalculated": "Differs",
+        "reportedVsCalculatedDetail": "L50 55,039, reported 55,059"
       },
       {
         "accession": "GCA_001865755.1",
@@ -676,6 +691,7 @@
         "calcSequences": 11110,
         "calcTop10Frac": 0.0128,
         "measuredLevel": "Kilobase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -760,6 +776,7 @@
         "calcSequences": 18355,
         "calcTop10Frac": 0.0068,
         "measuredLevel": "Kilobase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -844,8 +861,13 @@
         "calcSequences": 2362,
         "calcTop10Frac": 0.7772,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [
+          "scaffoldN50",
+          "scaffoldL50",
+          "scaffoldCount"
+        ],
         "reportedVsCalculated": "Differs",
-        "reportedVsCalculatedDetail": "N50 208x higher than reported; 2,362 sequences, reported 5,303"
+        "reportedVsCalculatedDetail": "N50 208x higher than reported; L50 6, reported 784; 2,362 sequences, reported 5,303"
       },
       {
         "accession": "GCA_003660325.2",
@@ -928,6 +950,7 @@
         "calcSequences": 556,
         "calcTop10Frac": 0.1906,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1012,6 +1035,7 @@
         "calcSequences": 1444,
         "calcTop10Frac": 0.1063,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1096,6 +1120,7 @@
         "calcSequences": 1263,
         "calcTop10Frac": 0.1368,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1180,6 +1205,7 @@
         "calcSequences": 483,
         "calcTop10Frac": 0.9821,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1264,6 +1290,7 @@
         "calcSequences": 147,
         "calcTop10Frac": 0.9887,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1348,6 +1375,7 @@
         "calcSequences": 658,
         "calcTop10Frac": 0.1824,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1432,6 +1460,7 @@
         "calcSequences": 160,
         "calcTop10Frac": 0.9723,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1516,6 +1545,7 @@
         "calcSequences": 17,
         "calcTop10Frac": 0.9684,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1600,6 +1630,7 @@
         "calcSequences": 721,
         "calcTop10Frac": 0.9643,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1684,6 +1715,7 @@
         "calcSequences": 469,
         "calcTop10Frac": 0.9777,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1768,6 +1800,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1852,6 +1885,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -1936,6 +1970,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2020,6 +2055,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2104,6 +2140,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2188,6 +2225,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2272,6 +2310,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2356,6 +2395,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2440,6 +2480,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2524,6 +2565,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2608,6 +2650,9 @@
         "calcSequences": 220,
         "calcTop10Frac": 0.9753,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [
+          "scaffoldN50"
+        ],
         "reportedVsCalculated": "Differs",
         "reportedVsCalculatedDetail": "N50 +990 bp"
       },
@@ -2692,6 +2737,7 @@
         "calcSequences": 17,
         "calcTop10Frac": 0.9684,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2776,6 +2822,9 @@
         "calcSequences": 220,
         "calcTop10Frac": 0.9753,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [
+          "scaffoldN50"
+        ],
         "reportedVsCalculated": "Differs",
         "reportedVsCalculatedDetail": "N50 +990 bp"
       },
@@ -2860,6 +2909,7 @@
         "calcSequences": 8477,
         "calcTop10Frac": 0.016,
         "measuredLevel": "Kilobase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -2944,6 +2994,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3028,6 +3079,7 @@
         "calcSequences": 23,
         "calcTop10Frac": 0.9827,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3112,6 +3164,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3196,6 +3249,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3280,6 +3334,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3364,6 +3419,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3448,6 +3504,7 @@
         "calcSequences": 3908,
         "calcTop10Frac": 0.4887,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3532,6 +3589,7 @@
         "calcSequences": 4055,
         "calcTop10Frac": 0.4154,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3616,6 +3674,7 @@
         "calcSequences": 2834,
         "calcTop10Frac": 0.3257,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3700,6 +3759,7 @@
         "calcSequences": 2877,
         "calcTop10Frac": 0.2019,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3784,6 +3844,7 @@
         "calcSequences": 861,
         "calcTop10Frac": 0.9416,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3868,6 +3929,7 @@
         "calcSequences": 395,
         "calcTop10Frac": 0.9688,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -3952,6 +4014,7 @@
         "calcSequences": 2216,
         "calcTop10Frac": 0.2792,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4036,6 +4099,7 @@
         "calcSequences": 807,
         "calcTop10Frac": 0.9453,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4120,6 +4184,7 @@
         "calcSequences": 478,
         "calcTop10Frac": 0.9666,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4204,6 +4269,7 @@
         "calcSequences": 6448,
         "calcTop10Frac": 0.1051,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4288,6 +4354,7 @@
         "calcSequences": 381,
         "calcTop10Frac": 0.329,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4372,6 +4439,7 @@
         "calcSequences": 7352,
         "calcTop10Frac": 0.0617,
         "measuredLevel": "Kilobase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Not reported",
         "reportedVsCalculatedDetail": "no N50 reported"
       },
@@ -4456,6 +4524,7 @@
         "calcSequences": 1561,
         "calcTop10Frac": 0.1676,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4540,6 +4609,7 @@
         "calcSequences": 952,
         "calcTop10Frac": 0.1729,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4624,6 +4694,7 @@
         "calcSequences": 3942,
         "calcTop10Frac": 0.3436,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4708,6 +4779,7 @@
         "calcSequences": 1250,
         "calcTop10Frac": 0.9234,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4792,6 +4864,7 @@
         "calcSequences": 616,
         "calcTop10Frac": 0.949,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4876,6 +4949,7 @@
         "calcSequences": 2483,
         "calcTop10Frac": 0.2226,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -4960,6 +5034,7 @@
         "calcSequences": 4887,
         "calcTop10Frac": 0.4248,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5044,6 +5119,7 @@
         "calcSequences": 2261,
         "calcTop10Frac": 0.4905,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5128,6 +5204,7 @@
         "calcSequences": 1481,
         "calcTop10Frac": 0.3231,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5212,6 +5289,7 @@
         "calcSequences": 1601,
         "calcTop10Frac": 0.0948,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5296,6 +5374,7 @@
         "calcSequences": 1075,
         "calcTop10Frac": 0.0925,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5380,6 +5459,7 @@
         "calcSequences": 607,
         "calcTop10Frac": 0.9507,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5464,6 +5544,7 @@
         "calcSequences": 447,
         "calcTop10Frac": 0.954,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5548,6 +5629,7 @@
         "calcSequences": 198,
         "calcTop10Frac": 0.9857,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5632,6 +5714,7 @@
         "calcSequences": 238,
         "calcTop10Frac": 0.9812,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5716,6 +5799,7 @@
         "calcSequences": 6700,
         "calcTop10Frac": 0.0746,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5800,6 +5884,7 @@
         "calcSequences": 1571,
         "calcTop10Frac": 0.2309,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5884,6 +5969,7 @@
         "calcSequences": 3366,
         "calcTop10Frac": 0.1618,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -5968,6 +6054,7 @@
         "calcSequences": 531,
         "calcTop10Frac": 0.9532,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6052,6 +6139,7 @@
         "calcSequences": 507,
         "calcTop10Frac": 0.9526,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6136,6 +6224,7 @@
         "calcSequences": 169,
         "calcTop10Frac": 0.9884,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6220,6 +6309,7 @@
         "calcSequences": 188,
         "calcTop10Frac": 0.979,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6304,6 +6394,7 @@
         "calcSequences": 2868,
         "calcTop10Frac": 0.1121,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6388,6 +6479,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6472,6 +6564,7 @@
         "calcSequences": 10,
         "calcTop10Frac": 1,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6556,6 +6649,7 @@
         "calcSequences": 281,
         "calcTop10Frac": 0.3886,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6640,6 +6734,7 @@
         "calcSequences": 5415,
         "calcTop10Frac": 0.1449,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6724,6 +6819,7 @@
         "calcSequences": 319,
         "calcTop10Frac": 0.3057,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6808,6 +6904,7 @@
         "calcSequences": 5047,
         "calcTop10Frac": 0.0357,
         "measuredLevel": "Kilobase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Not reported",
         "reportedVsCalculatedDetail": "no N50 reported"
       },
@@ -6892,6 +6989,7 @@
         "calcSequences": 1898,
         "calcTop10Frac": 0.9005,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -6976,6 +7074,7 @@
         "calcSequences": 845,
         "calcTop10Frac": 0.9328,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7060,6 +7159,7 @@
         "calcSequences": 1148,
         "calcTop10Frac": 0.1999,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7144,6 +7244,7 @@
         "calcSequences": 759,
         "calcTop10Frac": 0.2062,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7228,6 +7329,7 @@
         "calcSequences": 1465,
         "calcTop10Frac": 0.157,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7312,6 +7414,7 @@
         "calcSequences": 1013,
         "calcTop10Frac": 0.1592,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7396,6 +7499,7 @@
         "calcSequences": 4476,
         "calcTop10Frac": 0.333,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7480,6 +7584,7 @@
         "calcSequences": 479,
         "calcTop10Frac": 0.9774,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7564,6 +7669,7 @@
         "calcSequences": 175,
         "calcTop10Frac": 0.9831,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7648,6 +7754,7 @@
         "calcSequences": 2626,
         "calcTop10Frac": 0.236,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7732,6 +7839,7 @@
         "calcSequences": 1245,
         "calcTop10Frac": 0.9182,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7816,6 +7924,7 @@
         "calcSequences": 556,
         "calcTop10Frac": 0.9641,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7900,6 +8009,7 @@
         "calcSequences": 2695,
         "calcTop10Frac": 0.1892,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -7984,6 +8094,7 @@
         "calcSequences": 1216,
         "calcTop10Frac": 0.923,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8068,6 +8179,7 @@
         "calcSequences": 653,
         "calcTop10Frac": 0.9439,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8152,6 +8264,7 @@
         "calcSequences": 1056,
         "calcTop10Frac": 0.9356,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8236,6 +8349,7 @@
         "calcSequences": 523,
         "calcTop10Frac": 0.9547,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8320,6 +8434,7 @@
         "calcSequences": 517,
         "calcTop10Frac": 0.1978,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8404,6 +8519,7 @@
         "calcSequences": 577,
         "calcTop10Frac": 0.1713,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8488,6 +8604,7 @@
         "calcSequences": 247,
         "calcTop10Frac": 0.3796,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8572,6 +8689,7 @@
         "calcSequences": 400,
         "calcTop10Frac": 0.2501,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8656,6 +8774,7 @@
         "calcSequences": 333,
         "calcTop10Frac": 0.3204,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8740,6 +8859,7 @@
         "calcSequences": 461,
         "calcTop10Frac": 0.2603,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8824,6 +8944,7 @@
         "calcSequences": 439,
         "calcTop10Frac": 0.1489,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8908,6 +9029,7 @@
         "calcSequences": 295,
         "calcTop10Frac": 0.2925,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -8992,6 +9114,7 @@
         "calcSequences": 360,
         "calcTop10Frac": 0.2491,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9076,6 +9199,7 @@
         "calcSequences": 1437,
         "calcTop10Frac": 0.1456,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9160,6 +9284,7 @@
         "calcSequences": 1101,
         "calcTop10Frac": 0.1247,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9244,6 +9369,7 @@
         "calcSequences": 1142,
         "calcTop10Frac": 0.9283,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9328,6 +9454,7 @@
         "calcSequences": 404,
         "calcTop10Frac": 0.9521,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9412,6 +9539,7 @@
         "calcSequences": 915,
         "calcTop10Frac": 0.9441,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9496,6 +9624,7 @@
         "calcSequences": 526,
         "calcTop10Frac": 0.9669,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9580,6 +9709,7 @@
         "calcSequences": 2726,
         "calcTop10Frac": 0.1566,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9664,6 +9794,7 @@
         "calcSequences": 1843,
         "calcTop10Frac": 0.231,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9748,6 +9879,7 @@
         "calcSequences": 766,
         "calcTop10Frac": 0.9406,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9832,6 +9964,7 @@
         "calcSequences": 455,
         "calcTop10Frac": 0.9621,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -9916,6 +10049,7 @@
         "calcSequences": 226,
         "calcTop10Frac": 0.984,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10000,6 +10134,7 @@
         "calcSequences": 212,
         "calcTop10Frac": 0.9744,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10084,6 +10219,7 @@
         "calcSequences": 940,
         "calcTop10Frac": 0.9302,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10168,6 +10304,7 @@
         "calcSequences": 572,
         "calcTop10Frac": 0.9333,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10252,6 +10389,7 @@
         "calcSequences": 4385,
         "calcTop10Frac": 0.196,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10336,6 +10474,7 @@
         "calcSequences": 1080,
         "calcTop10Frac": 0.9269,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10420,6 +10559,7 @@
         "calcSequences": 493,
         "calcTop10Frac": 0.9522,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10504,6 +10644,7 @@
         "calcSequences": 489,
         "calcTop10Frac": 0.9555,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10588,6 +10729,7 @@
         "calcSequences": 429,
         "calcTop10Frac": 0.9393,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10672,6 +10814,7 @@
         "calcSequences": 4621,
         "calcTop10Frac": 0.0417,
         "measuredLevel": "Kilobase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Not reported",
         "reportedVsCalculatedDetail": "no N50 reported"
       },
@@ -10756,6 +10899,7 @@
         "calcSequences": 2559,
         "calcTop10Frac": 0.1492,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10840,6 +10984,7 @@
         "calcSequences": 4326,
         "calcTop10Frac": 0.0711,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -10924,6 +11069,7 @@
         "calcSequences": 411,
         "calcTop10Frac": 0.9572,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11008,6 +11154,7 @@
         "calcSequences": 290,
         "calcTop10Frac": 0.9648,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11092,6 +11239,7 @@
         "calcSequences": 3067,
         "calcTop10Frac": 0.5914,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11176,6 +11324,7 @@
         "calcSequences": 6219,
         "calcTop10Frac": 0.2066,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11260,6 +11409,7 @@
         "calcSequences": 7206,
         "calcTop10Frac": 0.0767,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11344,6 +11494,7 @@
         "calcSequences": 696,
         "calcTop10Frac": 0.0892,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11428,6 +11579,7 @@
         "calcSequences": 498,
         "calcTop10Frac": 0.9472,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11512,6 +11664,7 @@
         "calcSequences": 288,
         "calcTop10Frac": 0.9603,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11596,6 +11749,7 @@
         "calcSequences": 422,
         "calcTop10Frac": 0.2276,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11680,6 +11834,7 @@
         "calcSequences": 2405,
         "calcTop10Frac": 0.8947,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11764,6 +11919,7 @@
         "calcSequences": 686,
         "calcTop10Frac": 0.9393,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11848,6 +12004,7 @@
         "calcSequences": 8337,
         "calcTop10Frac": 0.0624,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -11932,6 +12089,7 @@
         "calcSequences": 728,
         "calcTop10Frac": 0.9398,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12016,6 +12174,7 @@
         "calcSequences": 478,
         "calcTop10Frac": 0.9585,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12100,6 +12259,7 @@
         "calcSequences": 4067,
         "calcTop10Frac": 0.2703,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12184,6 +12344,7 @@
         "calcSequences": 374,
         "calcTop10Frac": 0.3343,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12268,6 +12429,7 @@
         "calcSequences": 4291,
         "calcTop10Frac": 0.2325,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12352,6 +12514,7 @@
         "calcSequences": 2557,
         "calcTop10Frac": 0.134,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12436,6 +12599,7 @@
         "calcSequences": 3992,
         "calcTop10Frac": 0.1113,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12520,6 +12684,7 @@
         "calcSequences": 456,
         "calcTop10Frac": 0.948,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12604,6 +12769,7 @@
         "calcSequences": 176,
         "calcTop10Frac": 0.9677,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12688,6 +12854,7 @@
         "calcSequences": 443,
         "calcTop10Frac": 0.2085,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12772,6 +12939,7 @@
         "calcSequences": 6028,
         "calcTop10Frac": 0.0825,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12856,6 +13024,7 @@
         "calcSequences": 609,
         "calcTop10Frac": 0.9397,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -12940,6 +13109,7 @@
         "calcSequences": 438,
         "calcTop10Frac": 0.9385,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13024,6 +13194,7 @@
         "calcSequences": 16850,
         "calcTop10Frac": 0.0998,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13108,6 +13279,7 @@
         "calcSequences": 4911,
         "calcTop10Frac": 0.1364,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13192,6 +13364,7 @@
         "calcSequences": 8525,
         "calcTop10Frac": 0.1125,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13276,6 +13449,7 @@
         "calcSequences": 2216,
         "calcTop10Frac": 0.8831,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13360,6 +13534,7 @@
         "calcSequences": 483,
         "calcTop10Frac": 0.9371,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13444,6 +13619,7 @@
         "calcSequences": 888,
         "calcTop10Frac": 0.9353,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13528,6 +13704,7 @@
         "calcSequences": 454,
         "calcTop10Frac": 0.9637,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13612,6 +13789,7 @@
         "calcSequences": 1970,
         "calcTop10Frac": 0.1289,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13696,6 +13874,7 @@
         "calcSequences": 2165,
         "calcTop10Frac": 0.1267,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13780,6 +13959,7 @@
         "calcSequences": 933,
         "calcTop10Frac": 0.064,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13864,6 +14044,7 @@
         "calcSequences": 4721,
         "calcTop10Frac": 0.0988,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -13948,6 +14129,7 @@
         "calcSequences": 439,
         "calcTop10Frac": 0.2281,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14032,6 +14214,7 @@
         "calcSequences": 4907,
         "calcTop10Frac": 0.1289,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14116,6 +14299,7 @@
         "calcSequences": 777,
         "calcTop10Frac": 0.943,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14200,6 +14384,7 @@
         "calcSequences": 463,
         "calcTop10Frac": 0.9556,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14284,6 +14469,7 @@
         "calcSequences": 695,
         "calcTop10Frac": 0.1714,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14368,6 +14554,7 @@
         "calcSequences": 3157,
         "calcTop10Frac": 0.162,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14452,6 +14639,7 @@
         "calcSequences": 6619,
         "calcTop10Frac": 0.094,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14536,6 +14724,7 @@
         "calcSequences": 7116,
         "calcTop10Frac": 0.0848,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14620,6 +14809,7 @@
         "calcSequences": 587,
         "calcTop10Frac": 0.9355,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14704,6 +14894,7 @@
         "calcSequences": 197,
         "calcTop10Frac": 0.9735,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14788,6 +14979,7 @@
         "calcSequences": 594,
         "calcTop10Frac": 0.9491,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14872,6 +15064,7 @@
         "calcSequences": 297,
         "calcTop10Frac": 0.9547,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -14956,6 +15149,7 @@
         "calcSequences": 745,
         "calcTop10Frac": 0.9504,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15040,6 +15234,7 @@
         "calcSequences": 319,
         "calcTop10Frac": 0.9761,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15124,6 +15319,7 @@
         "calcSequences": 1529,
         "calcTop10Frac": 0.1142,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15208,6 +15404,7 @@
         "calcSequences": 1015,
         "calcTop10Frac": 0.1144,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15292,6 +15489,7 @@
         "calcSequences": 1504,
         "calcTop10Frac": 0.2324,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15376,6 +15574,7 @@
         "calcSequences": 5473,
         "calcTop10Frac": 0.125,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15460,6 +15659,7 @@
         "calcSequences": 673,
         "calcTop10Frac": 0.9478,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15544,6 +15744,7 @@
         "calcSequences": 489,
         "calcTop10Frac": 0.955,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15628,6 +15829,7 @@
         "calcSequences": 5679,
         "calcTop10Frac": 0.1663,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15712,6 +15914,7 @@
         "calcSequences": 870,
         "calcTop10Frac": 0.1741,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15796,6 +15999,7 @@
         "calcSequences": 3283,
         "calcTop10Frac": 0.093,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15880,6 +16084,7 @@
         "calcSequences": 5572,
         "calcTop10Frac": 0.1758,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -15964,6 +16169,7 @@
         "calcSequences": 1593,
         "calcTop10Frac": 0.1286,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16048,6 +16254,7 @@
         "calcSequences": 1165,
         "calcTop10Frac": 0.0992,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16132,6 +16339,7 @@
         "calcSequences": 526,
         "calcTop10Frac": 0.953,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16216,6 +16424,7 @@
         "calcSequences": 445,
         "calcTop10Frac": 0.9494,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16300,6 +16509,7 @@
         "calcSequences": 221,
         "calcTop10Frac": 0.9823,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16384,6 +16594,7 @@
         "calcSequences": 210,
         "calcTop10Frac": 0.9794,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16468,6 +16679,7 @@
         "calcSequences": 601,
         "calcTop10Frac": 0.9427,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16552,6 +16764,7 @@
         "calcSequences": 297,
         "calcTop10Frac": 0.9597,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16636,6 +16849,7 @@
         "calcSequences": 2536,
         "calcTop10Frac": 0.1614,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16720,6 +16934,7 @@
         "calcSequences": 3397,
         "calcTop10Frac": 0.1299,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16804,6 +17019,7 @@
         "calcSequences": 2057,
         "calcTop10Frac": 0.1876,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16888,6 +17104,7 @@
         "calcSequences": 432,
         "calcTop10Frac": 0.2348,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -16972,6 +17189,7 @@
         "calcSequences": 7750,
         "calcTop10Frac": 0.0883,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17056,6 +17274,7 @@
         "calcSequences": 659,
         "calcTop10Frac": 0.9415,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17140,6 +17359,7 @@
         "calcSequences": 331,
         "calcTop10Frac": 0.9626,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17224,6 +17444,7 @@
         "calcSequences": 4217,
         "calcTop10Frac": 0.0303,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17308,6 +17529,7 @@
         "calcSequences": 1775,
         "calcTop10Frac": 0.2047,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17392,6 +17614,7 @@
         "calcSequences": 905,
         "calcTop10Frac": 0.2123,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17476,6 +17699,7 @@
         "calcSequences": 5906,
         "calcTop10Frac": 0.1561,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17560,6 +17784,7 @@
         "calcSequences": 7068,
         "calcTop10Frac": 0.1585,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17644,6 +17869,7 @@
         "calcSequences": 3946,
         "calcTop10Frac": 0.0974,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17728,6 +17954,7 @@
         "calcSequences": 6430,
         "calcTop10Frac": 0.1404,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17812,6 +18039,7 @@
         "calcSequences": 796,
         "calcTop10Frac": 0.0922,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17896,6 +18124,7 @@
         "calcSequences": 769,
         "calcTop10Frac": 0.9493,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -17980,6 +18209,7 @@
         "calcSequences": 501,
         "calcTop10Frac": 0.9677,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -18064,6 +18294,7 @@
         "calcSequences": 2363,
         "calcTop10Frac": 0.0814,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -18148,6 +18379,7 @@
         "calcSequences": 1500,
         "calcTop10Frac": 0.0963,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -18232,6 +18464,7 @@
         "calcSequences": 369,
         "calcTop10Frac": 0.2665,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -18316,6 +18549,7 @@
         "calcSequences": 945,
         "calcTop10Frac": 0.2022,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -18400,6 +18634,7 @@
         "calcSequences": 485,
         "calcTop10Frac": 0.1759,
         "measuredLevel": "Megabase-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -18484,6 +18719,7 @@
         "calcSequences": 836,
         "calcTop10Frac": 0.9426,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       },
@@ -18568,6 +18804,7 @@
         "calcSequences": 336,
         "calcTop10Frac": 0.9625,
         "measuredLevel": "Chromosome-scale",
+        "reportedDiffers": [],
         "reportedVsCalculated": "Agrees",
         "reportedVsCalculatedDetail": ""
       }
