@@ -399,3 +399,14 @@ export const buildSource = (
 ): ComponentProps<typeof BasicCell> => {
   return { value: entity.source };
 };
+
+/**
+ * Build props for the measured level cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildMeasuredLevel = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: entity.measuredLevel };
+};

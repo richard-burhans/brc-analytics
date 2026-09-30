@@ -147,6 +147,25 @@ async function buildCatalog(): Promise<void> {
   console.log("Done");
 }
 
+// Cannabis chromosomes in cs10 run from 61.6 to 105 Mb, so an N50 of 50 Mb
+// means at least half the assembly is in near-chromosome-length pieces.
+const CHROMOSOME_SCALE_N50 = 50_000_000;
+const MEGABASE_SCALE_N50 = 1_000_000;
+
+/**
+ * Classifies an assembly's contiguity from its scaffold N50, for comparison
+ * with the level its submitter declared. Salk N50s are BUSCO's whole-megabase
+ * figures, far from either threshold.
+ * @param n50 - Scaffold N50 in bp, or null when none was recorded.
+ * @returns measured level label.
+ */
+function getMeasuredLevel(n50: number | null): string {
+  if (n50 === null) return "Not measured";
+  if (n50 >= CHROMOSOME_SCALE_N50) return "Chromosome-scale";
+  if (n50 >= MEGABASE_SCALE_N50) return "Megabase-scale";
+  return "Kilobase-scale";
+}
+
 /**
  * Reads contiguity derived from NCBI's full per-sequence reports, keyed by
  * accession. These replace NCBI's assembly-level scaffold fields, which for
@@ -221,6 +240,7 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
       license: null,
       licenseUrl: null,
       lineageTaxonomyIds: parseList(row.lineageTaxonomyIds),
+      measuredLevel: getMeasuredLevel(contiguity.n50),
       ncbiTaxonomyId: row.taxonomyId,
       ploidy,
       releaseDate: row.releaseDate,
@@ -295,6 +315,7 @@ async function buildExternalAssemblies(
     level: row.level,
     license: row.license,
     licenseUrl: row.license_url,
+    measuredLevel: getMeasuredLevel(row.scaffold_n50),
     releaseDate: "",
     scaffoldCount: row.sequence_count,
     scaffoldL50: null,

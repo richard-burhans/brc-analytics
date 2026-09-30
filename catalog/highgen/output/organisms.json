@@ -52,6 +52,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -126,6 +127,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -200,6 +202,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -274,6 +277,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -348,6 +352,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -422,6 +427,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Kilobase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -497,6 +503,7 @@
           "3483",
           "1302822"
         ],
+        "measuredLevel": "Kilobase-scale",
         "ncbiTaxonomyId": "1302822",
         "ploidy": [
           "DIPLOID"
@@ -571,6 +578,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Kilobase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -645,6 +653,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Kilobase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -719,6 +728,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -793,6 +803,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -867,6 +878,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -941,6 +953,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1015,6 +1028,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1089,6 +1103,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1163,6 +1178,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1237,6 +1253,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1311,6 +1328,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1385,6 +1403,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1459,6 +1478,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1533,6 +1553,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1607,6 +1628,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1681,6 +1703,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1755,6 +1778,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1829,6 +1853,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1903,6 +1928,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -1977,6 +2003,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2051,6 +2078,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2125,6 +2153,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2199,6 +2228,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2273,6 +2303,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2347,6 +2378,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2421,6 +2453,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2495,6 +2528,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Kilobase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2569,6 +2603,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2643,6 +2678,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2717,6 +2753,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2791,6 +2828,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2865,6 +2903,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -2939,6 +2978,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3013,6 +3053,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3087,6 +3128,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3161,6 +3203,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3235,6 +3278,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3309,6 +3353,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3383,6 +3428,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3457,6 +3503,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3531,6 +3578,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3605,6 +3653,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3679,6 +3728,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3753,6 +3803,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3827,6 +3878,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Not measured",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3901,6 +3953,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -3975,6 +4028,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4049,6 +4103,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4123,6 +4178,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4197,6 +4253,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4271,6 +4328,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4345,6 +4403,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4419,6 +4478,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4493,6 +4553,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4567,6 +4628,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4641,6 +4703,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4715,6 +4778,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4789,6 +4853,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4863,6 +4928,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -4937,6 +5003,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5011,6 +5078,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5085,6 +5153,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5159,6 +5228,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5233,6 +5303,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5307,6 +5378,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5381,6 +5453,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5455,6 +5528,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5529,6 +5603,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5603,6 +5678,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5677,6 +5753,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5751,6 +5828,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5825,6 +5903,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5899,6 +5978,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -5973,6 +6053,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Not measured",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6047,6 +6128,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6121,6 +6203,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6195,6 +6278,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6269,6 +6353,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6343,6 +6428,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6417,6 +6503,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6491,6 +6578,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6565,6 +6653,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6639,6 +6728,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6713,6 +6803,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6787,6 +6878,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6861,6 +6953,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -6935,6 +7028,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7009,6 +7103,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7083,6 +7178,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7157,6 +7253,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7231,6 +7328,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7305,6 +7403,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7379,6 +7478,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7453,6 +7553,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7527,6 +7628,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7601,6 +7703,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7675,6 +7778,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7749,6 +7853,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7823,6 +7928,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7897,6 +8003,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -7971,6 +8078,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8045,6 +8153,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8119,6 +8228,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8193,6 +8303,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8267,6 +8378,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8341,6 +8453,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8415,6 +8528,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8489,6 +8603,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8563,6 +8678,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8637,6 +8753,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8711,6 +8828,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8785,6 +8903,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8859,6 +8978,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -8933,6 +9053,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9007,6 +9128,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9081,6 +9203,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9155,6 +9278,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9229,6 +9353,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9303,6 +9428,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9377,6 +9503,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Not measured",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9451,6 +9578,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9525,6 +9653,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9599,6 +9728,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9673,6 +9803,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9747,6 +9878,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9821,6 +9953,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9895,6 +10028,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -9969,6 +10103,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10043,6 +10178,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10117,6 +10253,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10191,6 +10328,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10265,6 +10403,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10339,6 +10478,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10413,6 +10553,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10487,6 +10628,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10561,6 +10703,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10635,6 +10778,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10709,6 +10853,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10783,6 +10928,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10857,6 +11003,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -10931,6 +11078,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11005,6 +11153,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11079,6 +11228,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11153,6 +11303,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11227,6 +11378,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11301,6 +11453,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11375,6 +11528,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11449,6 +11603,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11523,6 +11678,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11597,6 +11753,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11671,6 +11828,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11745,6 +11903,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11819,6 +11978,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11893,6 +12053,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -11967,6 +12128,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12041,6 +12203,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12115,6 +12278,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12189,6 +12353,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12263,6 +12428,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12337,6 +12503,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12411,6 +12578,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12485,6 +12653,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12559,6 +12728,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12633,6 +12803,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12707,6 +12878,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12781,6 +12953,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12855,6 +13028,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -12929,6 +13103,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13003,6 +13178,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13077,6 +13253,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13151,6 +13328,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13225,6 +13403,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13299,6 +13478,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13373,6 +13553,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13447,6 +13628,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13521,6 +13703,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13595,6 +13778,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13669,6 +13853,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13743,6 +13928,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13817,6 +14003,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13891,6 +14078,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -13965,6 +14153,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14039,6 +14228,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14113,6 +14303,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14187,6 +14378,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14261,6 +14453,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14335,6 +14528,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14409,6 +14603,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14483,6 +14678,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14557,6 +14753,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14631,6 +14828,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14705,6 +14903,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14779,6 +14978,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14853,6 +15053,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -14927,6 +15128,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15001,6 +15203,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15075,6 +15278,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15149,6 +15353,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15223,6 +15428,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15297,6 +15503,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15371,6 +15578,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15445,6 +15653,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15519,6 +15728,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15593,6 +15803,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15667,6 +15878,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15741,6 +15953,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15815,6 +16028,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15889,6 +16103,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -15963,6 +16178,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -16037,6 +16253,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -16111,6 +16328,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -16185,6 +16403,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Megabase-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -16259,6 +16478,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"
@@ -16333,6 +16553,7 @@
           "3482",
           "3483"
         ],
+        "measuredLevel": "Chromosome-scale",
         "ncbiTaxonomyId": "3483",
         "ploidy": [
           "DIPLOID"

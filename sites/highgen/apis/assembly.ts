@@ -18,6 +18,8 @@ export interface HGAssemblyEntity {
   license: string | null;
   licenseUrl: string | null;
   lineageTaxonomyIds: string[];
+  // Contiguity class from scaffold N50 (see getMeasuredLevel in build-catalog.ts).
+  measuredLevel: string;
   ncbiTaxonomyId: string;
   ploidy: ORGANISM_PLOIDY[];
   releaseDate: string;

@@ -21,6 +21,10 @@ npm run build-highgen-db
 
 `source/ncbi_contiguity.csv` is copied from the cannabis-genome survey's `data/processed/ncbi_contiguity.csv` (produced by its `scripts/ncbi_contiguity.py` from NCBI's full per-sequence reports, primary assembly only). `build-catalog.ts` takes scaffold N50, L50 and count for every NCBI assembly from it instead of from NCBI's assembly-level fields, which carry contig values in the scaffold slots for Purple Kush (GCA_000230575.5) and Finola (GCA_003417725.2). The build fails if an NCBI accession is missing from the table; copy a fresh one after adding assemblies.
 
+## Declared and measured level
+
+`level` (shown as "Declared Level") is the level the submitter declared: NCBI's `assembly_level` for NCBI assemblies, and the survey inventory's recorded level for external ones. `measuredLevel` is computed in `build-catalog.ts` from scaffold N50: Chromosome-scale at 50 Mb or more (cannabis chromosomes in cs10 are 61.6 to 105 Mb), Megabase-scale from 1 Mb, Kilobase-scale below that, and Not measured when no N50 is recorded. The two are shown side by side to decide how Level should be defined.
+
 ## External assemblies
 
 `source/external_assemblies.yml` lists the assemblies with no NCBI record (the Salk pangenome on figshare, NGDC Genome Warehouse, CoGe and GigaDB). It is generated from the cannabis-genome survey's `data/processed/genome_inventory.json`; regenerate it with:

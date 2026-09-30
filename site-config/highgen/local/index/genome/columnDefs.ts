@@ -134,6 +134,16 @@ export const LEVEL: ColumnConfig<HGAssemblyEntity> = {
   width: { max: "0.5fr", min: "142px" },
 };
 
+export const MEASURED_LEVEL: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildMeasuredLevel,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.MEASURED_LEVEL,
+  id: HG_CATEGORY_KEY.MEASURED_LEVEL,
+  width: { max: "0.5fr", min: "160px" },
+};
+
 export const RELEASE_DATE: ColumnConfig<HGAssemblyEntity> = {
   componentConfig: {
     children: [
