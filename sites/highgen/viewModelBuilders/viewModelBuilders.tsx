@@ -442,7 +442,11 @@ function showIfDiffers(
   reported: number | null,
   value: string | number | null
 ): string | number | null {
-  if (reported !== null && !entity.reportedDiffers.includes(field)) return "";
+  // A browser can pair this code with a cached catalog from before the field
+  // existed; show the value rather than fail.
+  const differs: string[] | undefined = entity.reportedDiffers;
+  if (!differs) return value;
+  if (reported !== null && !differs.includes(field)) return "";
   return value;
 }
 
