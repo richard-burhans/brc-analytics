@@ -1,0 +1,336 @@
+# The paper that describes each assembly, with the evidence it is that paper and not
+# one that only uses the assembly. Curated 2026-09-30; every DOI checked on Crossref.
+# Assemblies with no describing paper are absent (company deposits, CoGe FL02, and
+# Jamaican Lion DASH, whose likely paper never names its accession).
+papers:
+  - doi: 10.1101/gr.242594.118
+    citation:
+      Laverty KU et al. (2019). A physical and genetic map of Cannabis sativa identifies extensive
+      rearrangements at the THC/CBD acid synthase loci. Genome Research 29(1):146-156.
+    evidence:
+      "record-names-paper: NCBI BioProject PRJNA73819 lists Publication PMID 30409771 (this paper)
+      and PMID 22014239 (van Bakel 2011). The paper's Data access section also says: 'the PK and FN genome
+      assemblies from this study have been submitted to the NCBI BioProject database ... under accession
+      number PRJNA73819.'"
+    accessions:
+      - GCA_000230575.5
+      - GCA_003417725.2
+  - doi: 10.1101/2020.01.03.894428
+    citation:
+      McKernan KJ et al. (2020). Sequence and annotation of 42 cannabis genomes reveals extensive
+      copy number variation in cannabinoid synthesis and pathogen resistance genes. bioRxiv.
+    evidence:
+      "paper-names-accession: Data availability: 'Data is available at NCBI under Project ID PRJNA575581
+      and SUB6635057.' It describes the PacBio FALCON-Unzip assemblies of the Jamaican Lion trio (mother,
+      father, offspring)."
+    accessions:
+      - GCA_012923435.1
+      - GCA_013030025.1
+      - GCA_016415525.1
+  - doi: 10.1038/s41438-020-0295-3
+    citation:
+      Gao S et al. (2020). A high-quality reference genome of wild Cannabis sativa. Horticulture
+      Research.
+    evidence:
+      "record-names-paper: BioProject PRJNA562042 lists Publication PMID 32377363 ('A high-quality
+      reference genome of wild Cannabis sativa'). The paper's own statement: 'deposited at NCBI under
+      BioProject number PRJNA562042 and BioSamples SAMN12606152' (the assembly's BioSample)."
+    accessions:
+      - GCA_013030365.1
+  - doi: 10.46471/gigabyte.10
+    citation: Braich S et al. (2020). A new and improved genome sequence of Cannabis sativa. Gigabyte.
+    evidence:
+      "paper-names-accession: 'Sequence data has been deposited at DDBJ/EMBL/GenBank under the
+      BioProject ID PRJNA667278 ... genome assembly (draft genome assembly sequence and cs10 guided genome
+      assembly sequence) ... deposited in the GigaScience GigaDB repository' (ref 29 = 10.5524/100821).
+      DataCite record 10.5524/100821 has 'IsCitedBy 10.46471/gigabyte.10' and references GCA_016165845."
+    accessions:
+      - GCA_016165845.1
+      - gigadb-Cannbio-2_draft
+      - gigadb-Cb2_Genome_assembly
+  - doi: 10.1038/s41597-024-04288-8
+    citation:
+      Ryu BR et al. (2024). Chromosome-level haploid assembly of Cannabis sativa L. cv. Pink Pepper.
+      Scientific Data.
+    evidence:
+      "paper-names-accession: 'Pink Pepper, the assembly data from this study (GCA_029168945.1)'.
+      Crossref's relation metadata also references insdc:JAQSJK000000000, the assembly's WGS project."
+    accessions:
+      - GCA_029168945.1
+      - GCF_029168945.1
+  - doi: 10.1093/g3journal/jkaf286
+    citation:
+      "Pike B, Kozik A, Teran W (2025). A trio-binning approach for genome assembly reveals extensive
+      structural variation between two Cannabis cultivars: Punto Rojo and Cherry Pie. G3: Genes|Genomes|Genetics
+      16(2):jkaf286."
+    evidence:
+      "paper-names-accession: 'The genomes are available from NCBI under accession codes JBDLLE000000000
+      (Punto Rojo) and JBDLLD000000000 (Cherry Pie), as part of BioProject PRJNA1090025.' NCBI Datasets
+      gives JBDLLE01 for GCA_049725155.1 and JBDLLD01 for GCA_049724855.1."
+    accessions:
+      - GCA_049724855.1
+      - GCA_049725155.1
+  - doi: 10.1038/s41597-026-07806-y
+    citation:
+      Pike B et al. (2026). Four haplotype-resolved genome assemblies and a reference-free 66-haplotype
+      pangenome graph for Cannabis sativa. Scientific Data.
+    evidence:
+      "paper-names-accession: Data Records: 'The two haplotypes of each Lighthouse assembly have
+      been deposited ... under accessions GCA_051911675.1 and GCA_051911655.1 (ANC), GCA_051911645.1 and
+      GCA_051911705.1 (HAW), GCA_051911735.1 and GCA_051911715.1 (SRI), and GCA_051911785.1 and GCA_051911765.1
+      (TRC).'"
+    accessions:
+      - GCA_051911645.1
+      - GCA_051911655.1
+      - GCA_051911675.1
+      - GCA_051911705.1
+      - GCA_051911715.1
+      - GCA_051911735.1
+      - GCA_051911765.1
+      - GCA_051911785.1
+  - doi: 10.1016/j.xplc.2026.101913
+    citation:
+      Ni et al. (2026). A near-complete, haplotype-resolved telomere-to-telomere genome assembly
+      of Cannabis sativa reveals complex higher-order repetitive structures. Plant Communications.
+    evidence:
+      "paper-names-accession: 'The haplotype-resolved genome assemblies cst2t01hapA and cst2t01hapB
+      have been deposited in the NCBI Genome database under accession numbers JBTJKB000000000 and JBTJKC000000000.'
+      NCBI Datasets gives JBTJKB01 for GCA_054642775.1 and JBTJKC01 for GCA_054642815.1. The authors include
+      the Institute of Medicinal Plant Development, the submitter."
+    accessions:
+      - GCA_054642775.1
+      - GCA_054642815.1
+  - doi: 10.1111/nph.17243
+    citation:
+      Grassa CJ et al. (2021). A new Cannabis genome assembly associates elevated cannabidiol (CBD)
+      with hemp introgressed into marijuana. New Phytologist 230(4):1665-1679.
+    evidence:
+      "paper-names-accession: Data availability: 'deposited in ENA under project PRJEB29284, GenBank
+      assembly accession GCA_900626175.2 ... Chromosome assemblies of three First Light cultivars have been
+      deposited at CoGe ... under Genome ID FL18 60292, FL48 60293 and FL49 60294.'"
+    accessions:
+      - GCA_900626175.2
+      - GCF_900626175.2
+      - coge_first_light-FL18_coge60292
+      - coge_first_light-FL48_coge60293
+      - coge_first_light-FL49_coge60294
+  - doi: 10.1016/j.xplc.2023.100718
+    citation:
+      Wei H et al. (2024). The reference genome of seed hemp (Cannabis sativa) provides new insights
+      into fatty acid and vitamin E synthesis. Plant Communications.
+    evidence:
+      "paper-names-accession: 'The whole-genome sequence data reported in this paper have been
+      deposited in the Genome Warehouse ... under accession number GWHCAYE00000000.'"
+    accessions:
+      - ngdc-GWHCAYE00000000
+  - doi: 10.1093/hr/uhag159
+    citation:
+      Cai et al. (2026). Haplotype-resolved regulation of secondary metabolism in cannabis. Horticulture
+      Research.
+    evidence:
+      "paper-names-accession: 'The haplotype-resolved CSLZ genome assemblies have been deposited
+      in the CNCB Genome Warehouse (GWH) under the accession numbers GWHGZJI00000000.1 (HapA) and GWHGZJJ00000000.1
+      (HapB) ... NCBI GenBank ... JBVFIV000000000 (HapA) and JBVFIW000000000 (HapB).'"
+    accessions:
+      - ngdc-GWHGZJI00000000.1
+      - ngdc-GWHGZJJ00000000.1
+  - doi: 10.1016/j.jgg.2026.04.020
+    citation:
+      Zhang et al. (2026). Haplotype-resolved T2T genome assembly of wild Cannabis provides molecular
+      insights into drought tolerance. Journal of Genetics and Genomics.
+    evidence:
+      "paper-names-accession: Data availability: 'whole genome sequence data (GWHISUO00000000.1,
+      GWHISUP00000000.1) reported in this paper have been deposited in National Genomics Data Center (NGDC)'."
+    accessions:
+      - ngdc-GWHISUO00000000.1
+      - ngdc-GWHISUP00000000.1
+  - doi: 10.1038/s41586-025-09065-0
+    citation:
+      Lynch RC et al. (2025). Domesticated cannabinoid synthases amid a wild mosaic cannabis pangenome.
+      Nature.
+    evidence:
+      "paper-names-accession: '181 new and 12 previously released genomes'. Data availability:
+      'The NCBI BioProject ID for the cannabis pangenome is PRJNA1140642 ... Links to specific genome datasets
+      are provided in Supplementary Table 1 (https://doi.org/10.6084/m9.figshare.25869319.v1)'."
+    accessions:
+      - salk-79X
+      - salk-ABC
+      - salk-ACBD
+      - salk-ACDC
+      - salk-AH3Ma
+      - salk-AH3Mb
+      - salk-BBKH
+      - salk-BCMa
+      - salk-BCMb
+      - salk-BH4
+      - salk-BH44
+      - salk-BH55
+      - salk-BLCv1a
+      - salk-BLCv1b
+      - salk-BLYS
+      - salk-BOAXa
+      - salk-BOAXb
+      - salk-CALO
+      - salk-CHM9
+      - salk-CHMD3
+      - salk-CHMD5
+      - salk-CNBv1a
+      - salk-CNBv1b
+      - salk-COFBa
+      - salk-COFBb
+      - salk-COSVa
+      - salk-COSVb
+      - salk-CST53
+      - salk-CST8
+      - salk-DCHCC
+      - salk-DPFBa
+      - salk-DPFBb
+      - salk-DPSVa
+      - salk-DPSVb
+      - salk-DRBP
+      - salk-EH23a
+      - salk-EH23b
+      - salk-ERB
+      - salk-FB191
+      - salk-FB30
+      - salk-FBHO
+      - salk-FCS1a
+      - salk-FCS1b
+      - salk-FIMv1a
+      - salk-FIMv1b
+      - salk-FMv1a
+      - salk-FMv1b
+      - salk-FOG
+      - salk-GERv1a
+      - salk-GERv1b
+      - salk-GMO
+      - salk-GRMa
+      - salk-GRMb
+      - salk-GSC
+      - salk-H3S1a
+      - salk-H3S1b
+      - salk-H3S7a
+      - salk-H3S7b
+      - salk-HO40
+      - salk-I3
+      - salk-I52
+      - salk-I53
+      - salk-I59
+      - salk-I61
+      - salk-I68
+      - salk-I75
+      - salk-I78
+      - salk-ITLv1a
+      - salk-ITLv1b
+      - salk-KCDv1a
+      - salk-KCDv1b
+      - salk-KOMPa
+      - salk-KOMPb
+      - salk-LP10
+      - salk-LP6
+      - salk-MBFBa
+      - salk-MBFBb
+      - salk-MBSVa
+      - salk-MBSVb
+      - salk-MM3v1a
+      - salk-MM3v1b
+      - salk-MNDB
+      - salk-NLv1a
+      - salk-NLv1b
+      - salk-OFBa
+      - salk-OFBb
+      - salk-OFP5
+      - salk-P20
+      - salk-P22
+      - salk-PPFBa
+      - salk-PPFBb
+      - salk-PTK32
+      - salk-PURD
+      - salk-PURP
+      - salk-S8H2LR
+      - salk-S8Ha
+      - salk-S8Hb
+      - salk-S8LR
+      - salk-SAN2a
+      - salk-SAN2b
+      - salk-SCFB
+      - salk-SDFBa
+      - salk-SDFBb
+      - salk-SDI
+      - salk-SG123
+      - salk-SGVA
+      - salk-SH50
+      - salk-SHH24
+      - salk-SHH5a
+      - salk-SHH5b
+      - salk-SHLR
+      - salk-SK88
+      - salk-SKFBa
+      - salk-SKFBb
+      - salk-SKSV
+      - salk-SKTZ
+      - salk-SMSQ
+      - salk-SN1v3a
+      - salk-SN1v3b
+      - salk-SODLa
+      - salk-SODLb
+      - salk-SSA1
+      - salk-SSA2
+      - salk-SSH
+      - salk-SSHS
+      - salk-SSLR
+      - salk-SSV
+      - salk-STHa
+      - salk-STHb
+      - salk-STLR
+      - salk-SUNDR
+      - salk-SUV8
+      - salk-SV2
+      - salk-SVA12a
+      - salk-SVA12b
+      - salk-SVA6a
+      - salk-SVA6b
+      - salk-SZFBa
+      - salk-SZFBb
+      - salk-TIBv1a
+      - salk-TIBv1b
+      - salk-TK10
+      - salk-TK7
+      - salk-TKFBa
+      - salk-TKFBb
+      - salk-TRWR
+      - salk-TS13
+      - salk-TST192
+      - salk-TST58
+      - salk-TURv1a
+      - salk-TURv1b
+      - salk-TWFBa
+      - salk-TWFBb
+      - salk-TWSVa
+      - salk-TWSVb
+      - salk-UFBa
+      - salk-UFBb
+      - salk-URKL
+      - salk-USV
+      - salk-W103
+      - salk-W19LR
+      - salk-WC
+      - salk-WCFBa
+      - salk-WCFBb
+      - salk-WCSV
+      - salk-WFv1a
+      - salk-WFv1b
+      - salk-WH106
+      - salk-WH72
+      - salk-WH94
+      - salk-WH96
+      - salk-WHLR
+      - salk-WHWa
+      - salk-WHWb
+      - salk-WIv1a
+      - salk-WIv1b
+      - salk-WLR
+      - salk-YMMv1a
+      - salk-YMMv1b
+      - salk-YMv2a
+      - salk-YMv2b

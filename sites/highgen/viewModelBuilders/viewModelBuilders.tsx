@@ -375,16 +375,20 @@ export const buildOrganismAssemblySpecies = (
 export const buildHgAnalyzeGenome = (
   entity: HGAssemblyEntity
 ): ComponentProps<typeof AnalyzeGenome> => {
-  if (entity.source === "NCBI") return buildAnalyzeGenome(entity);
+  const publication = entity.doi
+    ? [{ label: "Publication", url: `https://doi.org/${entity.doi}` }]
+    : [];
+  if (entity.source === "NCBI") {
+    const props = buildAnalyzeGenome(entity);
+    return { ...props, views: [...props.views, ...publication] };
+  }
   return {
     analyze: { label: "Analyze", url: "" },
     views: [
       ...(entity.sourceUrl
         ? [{ label: entity.source, url: entity.sourceUrl }]
         : []),
-      ...(entity.doi
-        ? [{ label: "Publication", url: `https://doi.org/${entity.doi}` }]
-        : []),
+      ...publication,
     ],
   };
 };

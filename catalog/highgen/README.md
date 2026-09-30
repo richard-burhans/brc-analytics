@@ -36,6 +36,10 @@ NCBI assemblies are measured over the Primary Assembly unit only; organelles and
 
 `build-catalog.ts` compares the two: N50, L50, sequence count and length must match exactly (a truncated Salk N50 agrees when the calculated N50 is within the following megabase), and GC% within 0.25 points (NCBI rounds to the nearest 0.5). The result is shown as "Reported vs Calculated" (Agrees, Differs or Not reported) with the differences spelled out, and the differing fields are listed in `reportedDiffers`. A calculated cell is left blank when its reported value exists and agrees, so only differences, and values nobody reported, are shown.
 
+## Describing papers
+
+`source/assembly_papers.yml` names the paper that describes each assembly (its own data, not a later paper that uses it), with the evidence: the paper names the assembly's accession, BioProject, GWH, CoGe or GigaDB identifier as data it generated, or the repository record names the paper. Every DOI was checked on Crossref. It was curated with the help of cannabis-genome's `data/processed/tables/` (assembly, identifier and paper-mention tables). `build-catalog.ts` sets `doi` and `citation` from it, overriding the inventory, and fails on an accession that is not in the catalog. The View menu links the DOI as "Publication". Assemblies with no describing paper are left out of the file.
+
 ## Declared and measured level
 
 `level` (shown as "Declared Level") is the level the submitter declared: NCBI's `assembly_level` for NCBI assemblies, and the survey inventory's recorded level for external ones. `measuredLevel` is computed in `build-catalog.ts` from the calculated scaffold N50: Chromosome-scale at 50 Mb or more (cannabis chromosomes in cs10 are 61.6 to 105 Mb), Megabase-scale from 1 Mb, and Kilobase-scale below that. The two are shown side by side to decide how Level should be defined.

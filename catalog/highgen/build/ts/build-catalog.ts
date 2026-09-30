@@ -43,10 +43,46 @@ const SOURCE_PATH_EXTERNAL_ASSEMBLIES =
 const SOURCE_PATH_MEASURED =
   "catalog/highgen/source/measured_assembly_stats.tsv";
 
+// The paper describing each assembly, curated with the evidence for it.
+const SOURCE_PATH_PAPERS = "catalog/highgen/source/assembly_papers.yml";
+
 const SOURCE_PATH_GENOMES =
   "catalog/highgen/build/intermediate/genomes-from-ncbi.tsv";
 
 const MISSING_IMAGE_MARKER = "missing_image";
+
+interface SourceAssemblyPaper {
+  accessions: string[];
+  citation: string;
+  doi: string;
+  evidence: string;
+}
+
+/**
+ * Sets each assembly's describing paper (DOI and citation) from the curated
+ * paper list, replacing anything the row carried before. Fails on an
+ * accession that is not in the catalog, so a typo cannot pass silently.
+ * @param rows - Assemblies.
+ * @returns assemblies with doi and citation set where a paper is listed.
+ */
+async function attachPapers(
+  rows: ReportedAssembly[]
+): Promise<ReportedAssembly[]> {
+  const { papers } = await readYamlFile<{ papers: SourceAssemblyPaper[] }>(
+    SOURCE_PATH_PAPERS
+  );
+  const byAccession = new Map<string, SourceAssemblyPaper>();
+  for (const paper of papers)
+    for (const accession of paper.accessions) byAccession.set(accession, paper);
+  const known = new Set(rows.map((row) => row.accession));
+  for (const accession of byAccession.keys())
+    if (!known.has(accession))
+      throw new Error(`${SOURCE_PATH_PAPERS} lists unknown ${accession}`);
+  return rows.map((row) => {
+    const paper = byAccession.get(row.accession);
+    return paper ? { ...row, citation: paper.citation, doi: paper.doi } : row;
+  });
+}
 
 buildCatalog();
 
@@ -405,7 +441,10 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
     ...(await buildExternalAssemblies(mappedRows, n50TruncatedIds))
   );
 
-  const measuredRows = await attachMeasurements(mappedRows, n50TruncatedIds);
+  const measuredRows = await attachMeasurements(
+    await attachPapers(mappedRows),
+    n50TruncatedIds
+  );
   const sortedRows = measuredRows.sort((a, b) =>
     a.accession.localeCompare(b.accession)
   );
