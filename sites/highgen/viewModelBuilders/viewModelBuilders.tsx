@@ -410,3 +410,102 @@ export const buildMeasuredLevel = (
 ): ComponentProps<typeof BasicCell> => {
   return { value: entity.measuredLevel };
 };
+
+/**
+ * Build props for the calculated contig n50 cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildCalcContigN50 = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: formatNumber(entity.calcContigN50) };
+};
+
+/**
+ * Build props for the calculated gc% cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildCalcGcPercent = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: entity.calcGcPercent };
+};
+
+/**
+ * Build props for the calculated length cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildCalcLength = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: formatNumber(entity.calcLength) };
+};
+
+/**
+ * Build props for the calculated l50 cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildCalcScaffoldL50 = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: formatNumber(entity.calcScaffoldL50) };
+};
+
+/**
+ * Build props for the calculated n50 cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildCalcScaffoldN50 = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: formatNumber(entity.calcScaffoldN50) };
+};
+
+/**
+ * Build props for the calculated sequences cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildCalcSequences = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: formatNumber(entity.calcSequences) };
+};
+
+/**
+ * Build props for the top-10 share cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildCalcTop10Frac = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: `${(entity.calcTop10Frac * 100).toFixed(1)}%` };
+};
+
+/**
+ * Build props for the reported vs calculated cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildReportedVsCalculated = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: entity.reportedVsCalculated };
+};
+
+/**
+ * Build props for the differences cell.
+ * @param entity - Assembly entity.
+ * @returns Props for the BasicCell component.
+ */
+export const buildReportedVsCalculatedDetail = (
+  entity: HGAssemblyEntity
+): ComponentProps<typeof BasicCell> => {
+  return { value: entity.reportedVsCalculatedDetail };
+};

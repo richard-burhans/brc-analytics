@@ -39,6 +39,11 @@ export const MEASURED_LEVEL: CategoryConfig = {
   label: HG_CATEGORY_LABEL.MEASURED_LEVEL,
 };
 
+export const REPORTED_VS_CALCULATED: CategoryConfig = {
+  key: HG_CATEGORY_KEY.REPORTED_VS_CALCULATED,
+  label: HG_CATEGORY_LABEL.REPORTED_VS_CALCULATED,
+};
+
 export const SOURCE: CategoryConfig = {
   key: HG_CATEGORY_KEY.SOURCE,
   label: HG_CATEGORY_LABEL.SOURCE,

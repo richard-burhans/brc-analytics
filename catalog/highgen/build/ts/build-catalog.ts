@@ -2,6 +2,7 @@ import type { WorkflowCategory } from "@repo/shared/apis/workflow";
 import fsp from "fs/promises";
 import {
   HGAssemblyEntity,
+  HGMeasuredFields,
   ImageData,
 } from "../../../../sites/highgen/apis/assembly";
 import { HGOrganismEntity } from "../../../../sites/highgen/apis/organism";
@@ -38,11 +39,9 @@ const SOURCE_PATH_ORGANISMS = "catalog/highgen/source/organisms.yml";
 const SOURCE_PATH_EXTERNAL_ASSEMBLIES =
   "catalog/highgen/source/external_assemblies.yml";
 
-// Contiguity derived from NCBI's per-sequence reports (primary assembly only),
-// copied from the cannabis-genome survey's data/processed/ncbi_contiguity.csv.
-// NCBI's own scaffold fields are wrong for some cannabis records.
-const SOURCE_PATH_NCBI_CONTIGUITY =
-  "catalog/highgen/source/ncbi_contiguity.csv";
+// Measured from each assembly's FASTA by measure_assemblies.py.
+const SOURCE_PATH_MEASURED =
+  "catalog/highgen/source/measured_assembly_stats.tsv";
 
 const SOURCE_PATH_GENOMES =
   "catalog/highgen/build/intermediate/genomes-from-ncbi.tsv";
@@ -166,30 +165,144 @@ function getMeasuredLevel(n50: number | null): string {
   return "Kilobase-scale";
 }
 
+type ReportedAssembly = Omit<HGAssemblyEntity, keyof HGMeasuredFields>;
+
+interface Measured {
+  contigN50: number;
+  gcPercent: number | null;
+  length: number;
+  scaffoldL50: number;
+  scaffoldN50: number;
+  sequences: number;
+  top10Frac: number;
+}
+
 /**
- * Reads contiguity derived from NCBI's full per-sequence reports, keyed by
- * accession. These replace NCBI's assembly-level scaffold fields, which for
- * Purple Kush and Finola carry contig values (N50 455x and 208x too small).
- * @returns derived sequence count, N50 and L50 per accession.
+ * Reads the per-assembly measurements, keyed by catalog accession.
+ * @returns measurements by accession.
  */
-async function readNcbiContiguity(): Promise<
-  Map<string, { l50: number; n50: number; sequences: number }>
-> {
+async function readMeasured(): Promise<Map<string, Measured>> {
   const rows = await readValuesFile<Record<string, string>>(
-    SOURCE_PATH_NCBI_CONTIGUITY,
-    ",",
-    ["accession", "sequences", "n50", "l50"]
+    SOURCE_PATH_MEASURED,
+    "\t",
+    ["accession", "sequences", "total_bp", "scaffold_n50", "gc_percent"]
   );
   return new Map(
     rows.map((row) => [
       row.accession,
       {
-        l50: parseNumber(row.l50),
-        n50: parseNumber(row.n50),
+        contigN50: parseNumber(row.contig_n50),
+        gcPercent: parseNumberOrNull(row.gc_percent),
+        length: parseNumber(row.total_bp),
+        scaffoldL50: parseNumber(row.scaffold_l50),
+        scaffoldN50: parseNumber(row.scaffold_n50),
         sequences: parseNumber(row.sequences),
+        top10Frac: parseNumber(row.top10_frac),
       },
     ])
   );
+}
+
+// NCBI rounds GC% to the nearest 0.5, so a true value is within 0.25 of it.
+const GC_TOLERANCE = 0.26;
+
+const formatCount = (value: number): string => value.toLocaleString("en-US");
+
+/**
+ * Describes how a measured N50 differs from a reported one: as a ratio when
+ * they are far apart, otherwise as a difference in bp.
+ * @param measured - Measured N50.
+ * @param reported - Reported N50.
+ * @returns description.
+ */
+function describeN50(measured: number, reported: number): string {
+  const ratio = measured / reported;
+  if (ratio >= 1.5) return `N50 ${ratio.toFixed(0)}x higher than reported`;
+  if (ratio <= 1 / 1.5)
+    return `N50 ${(1 / ratio).toFixed(0)}x lower than reported`;
+  const diff = measured - reported;
+  return `N50 ${diff > 0 ? "+" : ""}${formatCount(diff)} bp`;
+}
+
+/**
+ * Compares reported values with measured ones. An N50 the source truncated to
+ * whole megabases (Salk's BUSCO figures) agrees when the measured N50 is in
+ * [reported, reported + 1 Mb); every other value must match exactly, except GC.
+ * @param reported - Assembly with its reported values.
+ * @param measured - Values measured from its FASTA.
+ * @param n50Truncated - Whether the reported N50 is truncated to whole Mb.
+ * @returns comparison status and a description of any differences.
+ */
+function compareReported(
+  reported: ReportedAssembly,
+  measured: Measured,
+  n50Truncated: boolean
+): { detail: string; status: string } {
+  const parts: string[] = [];
+  const rep = reported.scaffoldN50;
+  if (rep !== null) {
+    const agrees = n50Truncated
+      ? measured.scaffoldN50 >= rep && measured.scaffoldN50 < rep + 1_000_000
+      : measured.scaffoldN50 === rep;
+    if (!agrees) parts.push(describeN50(measured.scaffoldN50, rep));
+  }
+  if (
+    reported.scaffoldCount !== null &&
+    reported.scaffoldCount !== measured.sequences
+  )
+    parts.push(
+      `${formatCount(measured.sequences)} sequences, reported ${formatCount(reported.scaffoldCount)}`
+    );
+  if (reported.length !== measured.length)
+    parts.push(`length ${formatCount(measured.length - reported.length)} bp`);
+  if (
+    reported.gcPercent !== null &&
+    measured.gcPercent !== null &&
+    Math.abs(reported.gcPercent - measured.gcPercent) > GC_TOLERANCE
+  )
+    parts.push(`GC ${measured.gcPercent}%, reported ${reported.gcPercent}%`);
+  if (parts.length) return { detail: parts.join("; "), status: "Differs" };
+  if (rep === null)
+    return { detail: "no N50 reported", status: "Not reported" };
+  return { detail: "", status: "Agrees" };
+}
+
+/**
+ * Adds measured values and the reported-vs-measured comparison to each row.
+ * @param rows - Assemblies with their reported values.
+ * @param n50TruncatedIds - Accessions whose reported N50 is truncated to whole Mb.
+ * @returns complete assembly entities.
+ */
+async function attachMeasurements(
+  rows: ReportedAssembly[],
+  n50TruncatedIds: Set<string>
+): Promise<HGAssemblyEntity[]> {
+  const measuredByAccession = await readMeasured();
+  return rows.map((row) => {
+    const measured = measuredByAccession.get(row.accession);
+    if (!measured)
+      throw new Error(
+        `No measurement for ${row.accession} in ${SOURCE_PATH_MEASURED}`
+      );
+    const { detail, status } = compareReported(
+      row,
+      measured,
+      n50TruncatedIds.has(row.accession)
+    );
+    return {
+      ...row,
+      calcContigN50: measured.contigN50,
+      calcGcPercent: measured.gcPercent,
+      calcLength: measured.length,
+      calcScaffoldL50: measured.scaffoldL50,
+      calcScaffoldN50: measured.scaffoldN50,
+      calcSequences: measured.sequences,
+      calcTop10Frac: measured.top10Frac,
+      measuredLevel: getMeasuredLevel(measured.scaffoldN50),
+      reportedVsCalculated: status,
+      reportedVsCalculatedDetail: detail,
+    };
+  });
 }
 
 async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
@@ -201,15 +314,9 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
   const sourceOrganismsByTaxonomyId = await getSourceOrganismsByTaxonomyId(
     SOURCE_PATH_ORGANISMS
   );
-  const contiguityByAccession = await readNcbiContiguity();
 
-  const mappedRows: HGAssemblyEntity[] = [];
+  const mappedRows: ReportedAssembly[] = [];
   for (const row of sourceRows) {
-    const contiguity = contiguityByAccession.get(row.accession);
-    if (!contiguity)
-      throw new Error(
-        `No derived contiguity for ${row.accession} in ${SOURCE_PATH_NCBI_CONTIGUITY}`
-      );
     const ploidy = getPloidyForAssembly(
       sourceOrganismsByTaxonomyId,
       row.speciesTaxonomyId,
@@ -240,13 +347,12 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
       license: null,
       licenseUrl: null,
       lineageTaxonomyIds: parseList(row.lineageTaxonomyIds),
-      measuredLevel: getMeasuredLevel(contiguity.n50),
       ncbiTaxonomyId: row.taxonomyId,
       ploidy,
       releaseDate: row.releaseDate,
-      scaffoldCount: contiguity.sequences,
-      scaffoldL50: contiguity.l50,
-      scaffoldN50: contiguity.n50,
+      scaffoldCount: parseNumberOrNull(row.scaffoldCount),
+      scaffoldL50: parseNumberOrNull(row.scaffoldL50),
+      scaffoldN50: parseNumberOrNull(row.scaffoldN50),
       source: "NCBI",
       sourceUrl: `https://www.ncbi.nlm.nih.gov/datasets/genome/${row.accession}/`,
       speciesTaxonomyId: row.speciesTaxonomyId,
@@ -271,9 +377,13 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
     });
   }
 
-  mappedRows.push(...(await buildExternalAssemblies(mappedRows)));
+  const n50TruncatedIds = new Set<string>();
+  mappedRows.push(
+    ...(await buildExternalAssemblies(mappedRows, n50TruncatedIds))
+  );
 
-  const sortedRows = mappedRows.sort((a, b) =>
+  const measuredRows = await attachMeasurements(mappedRows, n50TruncatedIds);
+  const sortedRows = measuredRows.sort((a, b) =>
     a.accession.localeCompare(b.accession)
   );
   verifyUniqueIds("assembly", sortedRows, getAssemblyId);
@@ -286,14 +396,18 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
  * launch can reach (fastaUrl null, so FASTA workflows are not offered), and
  * link to the repository that publishes them.
  * @param ncbiRows - Entities built from NCBI records.
+ * @param n50TruncatedIds - Filled with ids whose reported N50 is truncated to whole Mb.
  * @returns external assembly entities.
  */
 async function buildExternalAssemblies(
-  ncbiRows: HGAssemblyEntity[]
-): Promise<HGAssemblyEntity[]> {
+  ncbiRows: ReportedAssembly[],
+  n50TruncatedIds: Set<string>
+): Promise<ReportedAssembly[]> {
   const { assemblies } = await readYamlFile<{
     assemblies: SourceExternalAssembly[];
   }>(SOURCE_PATH_EXTERNAL_ASSEMBLIES);
+  for (const row of assemblies)
+    if (row.n50_rounded_to_mb) n50TruncatedIds.add(row.id);
   const species = ncbiRows.find(
     (row) => row.ncbiTaxonomyId === row.speciesTaxonomyId
   );
@@ -315,7 +429,6 @@ async function buildExternalAssemblies(
     level: row.level,
     license: row.license,
     licenseUrl: row.license_url,
-    measuredLevel: getMeasuredLevel(row.scaffold_n50),
     releaseDate: "",
     scaffoldCount: row.sequence_count,
     scaffoldL50: null,
@@ -354,7 +467,10 @@ function buildOrganism(
     ),
     genomes: [...(organism?.genomes ?? []), genome],
     image: organism?.image ?? genome.image,
-    maxScaffoldN50: getMaxDefined(organism?.maxScaffoldN50, genome.scaffoldN50),
+    maxScaffoldN50: getMaxDefined(
+      organism?.maxScaffoldN50,
+      genome.calcScaffoldN50
+    ),
     ncbiTaxonomyId: genome.speciesTaxonomyId,
     taxonomicGroup: genome.taxonomicGroup,
     taxonomicLevelClass: defaultStringToNone(genome.taxonomicLevelClass),

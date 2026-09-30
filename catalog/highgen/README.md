@@ -17,13 +17,28 @@ npm run build-highgen-db
 - `source/organisms.yml` — one entry per species taxonomy ID with its ploidy.
 - `source/organism_image_data.json` — credit and licence for each organism image.
 
-## NCBI contiguity
+## Reported and calculated statistics
 
-`source/ncbi_contiguity.csv` is copied from the cannabis-genome survey's `data/processed/ncbi_contiguity.csv` (produced by its `scripts/ncbi_contiguity.py` from NCBI's full per-sequence reports, primary assembly only). `build-catalog.ts` takes scaffold N50, L50 and count for every NCBI assembly from it instead of from NCBI's assembly-level fields, which carry contig values in the scaffold slots for Purple Kush (GCA_000230575.5) and Finola (GCA_003417725.2). The build fails if an NCBI accession is missing from the table; copy a fresh one after adding assemblies.
+The "Reported" columns show what each source says: NCBI's assembly-level record for NCBI assemblies (including its known errors, such as contig values in the scaffold fields for Purple Kush GCA_000230575.5 and Finola GCA_003417725.2), and the survey inventory's values for external ones (Salk's are BUSCO's N50s, truncated to whole megabases).
+
+The "Calculated" columns come from `source/measured_assembly_stats.tsv`, written by `build/py/measure_assemblies.py`, which streams every assembly's FASTA once:
+
+```
+python3 -m catalog.highgen.build.py.measure_assemblies \
+  --inventory <cannabis-genome>/data/processed/genome_inventory.json \
+  --data-root <directory the inventory's on_disk paths are relative to> \
+  --ncbi-dir <directory of NCBI <acc>_genomic.fna.gz and <acc>_assembly_report.txt> \
+  --jobs 16
+python3 -m catalog.highgen.build.py.measure_assemblies --self-test
+```
+
+NCBI assemblies are measured over the Primary Assembly unit only; organelles and alternate haplotypes are counted as excluded. Contigs are split at runs of 10 or more N. An interrupted run resumes from `build/temp/`. The build fails if any assembly has no measurement.
+
+`build-catalog.ts` compares the two: N50, sequence count and length must match exactly (a truncated Salk N50 agrees when the calculated N50 is within the following megabase), and GC% within 0.25 points (NCBI rounds to the nearest 0.5). The result is shown as "Reported vs Calculated" (Agrees, Differs or Not reported) with the differences spelled out.
 
 ## Declared and measured level
 
-`level` (shown as "Declared Level") is the level the submitter declared: NCBI's `assembly_level` for NCBI assemblies, and the survey inventory's recorded level for external ones. `measuredLevel` is computed in `build-catalog.ts` from scaffold N50: Chromosome-scale at 50 Mb or more (cannabis chromosomes in cs10 are 61.6 to 105 Mb), Megabase-scale from 1 Mb, Kilobase-scale below that, and Not measured when no N50 is recorded. The two are shown side by side to decide how Level should be defined.
+`level` (shown as "Declared Level") is the level the submitter declared: NCBI's `assembly_level` for NCBI assemblies, and the survey inventory's recorded level for external ones. `measuredLevel` is computed in `build-catalog.ts` from the calculated scaffold N50: Chromosome-scale at 50 Mb or more (cannabis chromosomes in cs10 are 61.6 to 105 Mb), Megabase-scale from 1 Mb, and Kilobase-scale below that. The two are shown side by side to decide how Level should be defined.
 
 ## External assemblies
 

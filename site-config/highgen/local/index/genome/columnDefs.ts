@@ -74,6 +74,96 @@ export const ANNOTATION_STATUS: ColumnConfig<HGAssemblyEntity> = {
   width: { max: "0.5fr", min: "180px" },
 };
 
+export const CALC_CONTIG_N50: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildCalcContigN50,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.CALC_CONTIG_N50,
+  id: HG_CATEGORY_KEY.CALC_CONTIG_N50,
+  width: { max: "0.5fr", min: "140px" },
+};
+
+export const CALC_GC_PERCENT: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildCalcGcPercent,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.CALC_GC_PERCENT,
+  id: HG_CATEGORY_KEY.CALC_GC_PERCENT,
+  width: { max: "0.5fr", min: "120px" },
+};
+
+export const CALC_LENGTH: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildCalcLength,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.CALC_LENGTH,
+  id: HG_CATEGORY_KEY.CALC_LENGTH,
+  width: { max: "0.5fr", min: "140px" },
+};
+
+export const CALC_SCAFFOLD_L50: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildCalcScaffoldL50,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.CALC_SCAFFOLD_L50,
+  id: HG_CATEGORY_KEY.CALC_SCAFFOLD_L50,
+  width: { max: "0.5fr", min: "120px" },
+};
+
+export const CALC_SCAFFOLD_N50: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildCalcScaffoldN50,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.CALC_SCAFFOLD_N50,
+  id: HG_CATEGORY_KEY.CALC_SCAFFOLD_N50,
+  width: { max: "0.5fr", min: "140px" },
+};
+
+export const CALC_SEQUENCES: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildCalcSequences,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.CALC_SEQUENCES,
+  id: HG_CATEGORY_KEY.CALC_SEQUENCES,
+  width: { max: "0.5fr", min: "140px" },
+};
+
+export const CALC_TOP10_FRAC: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildCalcTop10Frac,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.CALC_TOP10_FRAC,
+  id: HG_CATEGORY_KEY.CALC_TOP10_FRAC,
+  width: { max: "0.5fr", min: "120px" },
+};
+
+export const REPORTED_VS_CALCULATED: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildReportedVsCalculated,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.REPORTED_VS_CALCULATED,
+  id: HG_CATEGORY_KEY.REPORTED_VS_CALCULATED,
+  width: { max: "0.5fr", min: "160px" },
+};
+
+export const REPORTED_VS_CALCULATED_DETAIL: ColumnConfig<HGAssemblyEntity> = {
+  componentConfig: {
+    component: BasicCell,
+    viewBuilder: V.buildReportedVsCalculatedDetail,
+  } as ComponentConfig<typeof BasicCell, HGAssemblyEntity>,
+  header: HG_CATEGORY_LABEL.REPORTED_VS_CALCULATED_DETAIL,
+  id: HG_CATEGORY_KEY.REPORTED_VS_CALCULATED_DETAIL,
+  width: { max: "2fr", min: "260px" },
+};
+
 export const CHROMOSOMES: ColumnConfig<HGAssemblyEntity> = {
   componentConfig: {
     component: BasicCell,

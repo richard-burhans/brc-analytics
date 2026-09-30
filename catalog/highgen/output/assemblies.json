@@ -45,7 +45,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -72,7 +71,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FL02_coge60295",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2605593,
+    "calcGcPercent": 33.49,
+    "calcLength": 817123838,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 85040076,
+    "calcSequences": 134,
+    "calcTop10Frac": 0.9535,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "coge_first_light-FL18_coge60292",
@@ -120,7 +129,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -147,7 +155,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FL18_coge60292",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2907394,
+    "calcGcPercent": 33.5,
+    "calcLength": 715869149,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 72861358,
+    "calcSequences": 94,
+    "calcTop10Frac": 0.9642,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "coge_first_light-FL48_coge60293",
@@ -195,7 +213,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -222,7 +239,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FL48_coge60293",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 992306,
+    "calcGcPercent": 33.44,
+    "calcLength": 964244916,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 85613803,
+    "calcSequences": 491,
+    "calcTop10Frac": 0.906,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "coge_first_light-FL49_coge60294",
@@ -270,7 +297,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -297,7 +323,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FL49_coge60294",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2122180,
+    "calcGcPercent": 33.51,
+    "calcLength": 727416692,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 74253346,
+    "calcSequences": 18,
+    "calcTop10Frac": 0.9887,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_000230575.5",
@@ -345,15 +381,14 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
     ],
     "releaseDate": "2018-11-30",
-    "scaffoldCount": 6653,
-    "scaffoldL50": 7,
-    "scaffoldN50": 60968100,
+    "scaffoldCount": 12836,
+    "scaffoldL50": 1924,
+    "scaffoldN50": 133904,
     "source": "NCBI",
     "sourceUrl": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000230575.5/",
     "speciesTaxonomyId": "3483",
@@ -372,7 +407,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 133904,
+    "calcGcPercent": 34.01,
+    "calcLength": 891964663,
+    "calcScaffoldL50": 7,
+    "calcScaffoldN50": 60968100,
+    "calcSequences": 6653,
+    "calcTop10Frac": 0.7172,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Differs",
+    "reportedVsCalculatedDetail": "N50 455x higher than reported; 6,653 sequences, reported 12,836"
   },
   {
     "accession": "GCA_001509995.1",
@@ -420,14 +465,13 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Kilobase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
     ],
     "releaseDate": "2016-01-11",
     "scaffoldCount": 175088,
-    "scaffoldL50": 33716,
+    "scaffoldL50": 33730,
     "scaffoldN50": 2250,
     "source": "NCBI",
     "sourceUrl": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001509995.1/",
@@ -447,7 +491,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2189,
+    "calcGcPercent": 32.92,
+    "calcLength": 285932793,
+    "calcScaffoldL50": 33716,
+    "calcScaffoldN50": 2250,
+    "calcSequences": 175088,
+    "calcTop10Frac": 0.0016,
+    "measuredLevel": "Kilobase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_001510005.1",
@@ -496,14 +550,13 @@
       "3483",
       "1302822"
     ],
-    "measuredLevel": "Kilobase-scale",
     "ncbiTaxonomyId": "1302822",
     "ploidy": [
       "DIPLOID"
     ],
     "releaseDate": "2016-01-11",
     "scaffoldCount": 311039,
-    "scaffoldL50": 55039,
+    "scaffoldL50": 55059,
     "scaffoldN50": 2649,
     "source": "NCBI",
     "sourceUrl": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001510005.1/",
@@ -523,7 +576,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2649,
+    "calcGcPercent": 34.56,
+    "calcLength": 595358288,
+    "calcScaffoldL50": 55039,
+    "calcScaffoldN50": 2649,
+    "calcSequences": 311039,
+    "calcTop10Frac": 0.0007,
+    "measuredLevel": "Kilobase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_001865755.1",
@@ -571,7 +634,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Kilobase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -598,7 +660,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001865755.1"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001865755.1",
+    "calcContigN50": 128718,
+    "calcGcPercent": 33.68,
+    "calcLength": 585823666,
+    "calcScaffoldL50": 1210,
+    "calcScaffoldN50": 128718,
+    "calcSequences": 11110,
+    "calcTop10Frac": 0.0128,
+    "measuredLevel": "Kilobase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_002090435.1",
@@ -646,7 +718,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Kilobase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -673,7 +744,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 51819,
+    "calcGcPercent": 33.6,
+    "calcLength": 512174223,
+    "calcScaffoldL50": 2790,
+    "calcScaffoldN50": 51819,
+    "calcSequences": 18355,
+    "calcTop10Frac": 0.0068,
+    "measuredLevel": "Kilobase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_003417725.2",
@@ -721,15 +802,14 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
     ],
     "releaseDate": "2018-11-26",
-    "scaffoldCount": 2362,
-    "scaffoldL50": 6,
-    "scaffoldN50": 77135887,
+    "scaffoldCount": 5303,
+    "scaffoldL50": 784,
+    "scaffoldN50": 370471,
     "source": "NCBI",
     "sourceUrl": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003417725.2/",
     "speciesTaxonomyId": "3483",
@@ -748,7 +828,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 370471,
+    "calcGcPercent": 34.14,
+    "calcLength": 1009674739,
+    "calcScaffoldL50": 6,
+    "calcScaffoldN50": 77135887,
+    "calcSequences": 2362,
+    "calcTop10Frac": 0.7772,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Differs",
+    "reportedVsCalculatedDetail": "N50 208x higher than reported; 2,362 sequences, reported 5,303"
   },
   {
     "accession": "GCA_003660325.2",
@@ -796,7 +886,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -823,7 +912,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_003660325.2"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_003660325.2",
+    "calcContigN50": 3811003,
+    "calcGcPercent": 34.05,
+    "calcLength": 1073903735,
+    "calcScaffoldL50": 66,
+    "calcScaffoldN50": 3811003,
+    "calcSequences": 556,
+    "calcTop10Frac": 0.1906,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_012923435.1",
@@ -871,7 +970,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -898,7 +996,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_012923435.1"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_012923435.1",
+    "calcContigN50": 3283100,
+    "calcGcPercent": 34.08,
+    "calcLength": 876589811,
+    "calcScaffoldL50": 84,
+    "calcScaffoldN50": 3283100,
+    "calcSequences": 1444,
+    "calcTop10Frac": 0.1063,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_013030025.1",
@@ -946,7 +1054,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -973,7 +1080,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1668042,
+    "calcGcPercent": 33.93,
+    "calcLength": 1008789608,
+    "calcScaffoldL50": 123,
+    "calcScaffoldN50": 1668042,
+    "calcSequences": 1263,
+    "calcTop10Frac": 0.1368,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_013030365.1",
@@ -1021,7 +1138,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1048,7 +1164,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_013030365.1"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_013030365.1",
+    "calcContigN50": 509999,
+    "calcGcPercent": 33.79,
+    "calcLength": 812525420,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 82998198,
+    "calcSequences": 483,
+    "calcTop10Frac": 0.9821,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_016165845.1",
@@ -1096,7 +1222,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1123,7 +1248,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_016165845.1"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_016165845.1",
+    "calcContigN50": 172356,
+    "calcGcPercent": 33.78,
+    "calcLength": 914397426,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 91493340,
+    "calcSequences": 147,
+    "calcTop10Frac": 0.9887,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_016415525.1",
@@ -1171,7 +1306,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1198,7 +1332,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3491975,
+    "calcGcPercent": 34.14,
+    "calcLength": 999122115,
+    "calcScaffoldL50": 69,
+    "calcScaffoldN50": 3491975,
+    "calcSequences": 658,
+    "calcTop10Frac": 0.1824,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_025232715.1",
@@ -1246,7 +1390,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1273,7 +1416,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3165999,
+    "calcGcPercent": 34.08,
+    "calcLength": 796583716,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 80612720,
+    "calcSequences": 160,
+    "calcTop10Frac": 0.9723,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_029168945.1",
@@ -1321,7 +1474,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1348,7 +1500,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_029168945.1"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_029168945.1",
+    "calcContigN50": 23500774,
+    "calcGcPercent": 34.09,
+    "calcLength": 770269637,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76975026,
+    "calcSequences": 17,
+    "calcTop10Frac": 0.9684,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_049724855.1",
@@ -1396,7 +1558,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1423,7 +1584,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1597028,
+    "calcGcPercent": 34.25,
+    "calcLength": 802242737,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 81147666,
+    "calcSequences": 721,
+    "calcTop10Frac": 0.9643,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_049725155.1",
@@ -1471,7 +1642,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1498,7 +1668,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2032913,
+    "calcGcPercent": 33.97,
+    "calcLength": 811336179,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 87594644,
+    "calcSequences": 469,
+    "calcTop10Frac": 0.9777,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_051911645.1",
@@ -1546,7 +1726,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1573,7 +1752,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 11627021,
+    "calcGcPercent": 33.88,
+    "calcLength": 699728646,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76217322,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_051911655.1",
@@ -1621,7 +1810,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1648,7 +1836,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 11374188,
+    "calcGcPercent": 33.94,
+    "calcLength": 713238842,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 74435171,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_051911675.1",
@@ -1696,7 +1894,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1723,7 +1920,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 10982035,
+    "calcGcPercent": 34.11,
+    "calcLength": 748269036,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78471338,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_051911705.1",
@@ -1771,7 +1978,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1798,7 +2004,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6215561,
+    "calcGcPercent": 33.79,
+    "calcLength": 682535148,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 73084115,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_051911715.1",
@@ -1846,7 +2062,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1873,7 +2088,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2012729,
+    "calcGcPercent": 33.94,
+    "calcLength": 641793204,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 66404481,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_051911735.1",
@@ -1921,7 +2146,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -1948,7 +2172,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2799508,
+    "calcGcPercent": 33.86,
+    "calcLength": 646027303,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 68254934,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_051911765.1",
@@ -1996,7 +2230,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2023,7 +2256,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 8241849,
+    "calcGcPercent": 34.05,
+    "calcLength": 738598009,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77993926,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_051911785.1",
@@ -2071,7 +2314,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2098,7 +2340,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7939021,
+    "calcGcPercent": 34.06,
+    "calcLength": 735550733,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 79589693,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_054642775.1",
@@ -2146,7 +2398,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2173,7 +2424,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 81064049,
+    "calcGcPercent": 34.07,
+    "calcLength": 755996288,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 81064049,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_054642815.1",
@@ -2221,7 +2482,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2248,7 +2508,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 79746962,
+    "calcGcPercent": 34.1,
+    "calcLength": 751604090,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 79746962,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCA_900626175.2",
@@ -2296,7 +2566,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2304,7 +2573,7 @@
     "releaseDate": "2019-02-14",
     "scaffoldCount": 220,
     "scaffoldL50": 5,
-    "scaffoldN50": 91913879,
+    "scaffoldN50": 91912889,
     "source": "NCBI",
     "sourceUrl": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_900626175.2/",
     "speciesTaxonomyId": "3483",
@@ -2323,7 +2592,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900626175.2"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900626175.2",
+    "calcContigN50": 2019587,
+    "calcGcPercent": 33.51,
+    "calcLength": 875732047,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 91913879,
+    "calcSequences": 220,
+    "calcTop10Frac": 0.9753,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Differs",
+    "reportedVsCalculatedDetail": "N50 +990 bp"
   },
   {
     "accession": "GCF_029168945.1",
@@ -2371,7 +2650,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2398,7 +2676,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_029168945.1"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_029168945.1",
+    "calcContigN50": 23500774,
+    "calcGcPercent": 34.09,
+    "calcLength": 770269637,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76975026,
+    "calcSequences": 17,
+    "calcTop10Frac": 0.9684,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "GCF_900626175.2",
@@ -2446,7 +2734,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2454,7 +2741,7 @@
     "releaseDate": "2019-02-14",
     "scaffoldCount": 220,
     "scaffoldL50": 5,
-    "scaffoldN50": 91913879,
+    "scaffoldN50": 91912889,
     "source": "NCBI",
     "sourceUrl": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_900626175.2/",
     "speciesTaxonomyId": "3483",
@@ -2473,7 +2760,17 @@
     "taxonomicLevelStrain": "None",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900626175.2"
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900626175.2",
+    "calcContigN50": 2019587,
+    "calcGcPercent": 33.51,
+    "calcLength": 875732047,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 91913879,
+    "calcSequences": 220,
+    "calcTop10Frac": 0.9753,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Differs",
+    "reportedVsCalculatedDetail": "N50 +990 bp"
   },
   {
     "accession": "gigadb-Cannbio-2_draft",
@@ -2521,7 +2818,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Kilobase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2548,7 +2844,17 @@
     "taxonomicLevelStrain": "Cannabis sativa Cannbio-2_draft",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 187352,
+    "calcGcPercent": 33.78,
+    "calcLength": 913523049,
+    "calcScaffoldL50": 1295,
+    "calcScaffoldN50": 187352,
+    "calcSequences": 8477,
+    "calcTop10Frac": 0.016,
+    "measuredLevel": "Kilobase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "gigadb-Cb2_Genome_assembly",
@@ -2596,7 +2902,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2623,7 +2928,17 @@
     "taxonomicLevelStrain": "Cannabis sativa Cb2_Genome_assembly",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 173384,
+    "calcGcPercent": 33.77,
+    "calcLength": 904080375,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 91493340,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "ngdc-GWHCAYE00000000",
@@ -2671,7 +2986,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2698,7 +3012,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CANU · GWHCAYE00000000",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7245624,
+    "calcGcPercent": 34.27,
+    "calcLength": 792790049,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 84585251,
+    "calcSequences": 23,
+    "calcTop10Frac": 0.9827,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "ngdc-GWHGZJI00000000.1",
@@ -2746,7 +3070,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2773,7 +3096,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CSLZ_hapA · GWHGZJI00000000.1",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 22823666,
+    "calcGcPercent": 34.18,
+    "calcLength": 739641594,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 80210835,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "ngdc-GWHGZJJ00000000.1",
@@ -2821,7 +3154,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2848,7 +3180,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CSLZ_hapB · GWHGZJJ00000000.1",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 17256760,
+    "calcGcPercent": 34.18,
+    "calcLength": 739445172,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78869632,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "ngdc-GWHISUO00000000.1",
@@ -2896,7 +3238,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2923,7 +3264,17 @@
     "taxonomicLevelStrain": "Cannabis sativa cannabis.hap1 · GWHISUO00000000.1",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 77976642,
+    "calcGcPercent": 34.13,
+    "calcLength": 737239552,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77976642,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "ngdc-GWHISUP00000000.1",
@@ -2971,7 +3322,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -2998,7 +3348,17 @@
     "taxonomicLevelStrain": "Cannabis sativa cannabis.hap2 · GWHISUP00000000.1",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 77869324,
+    "calcGcPercent": 34.16,
+    "calcLength": 737587057,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77869324,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-79X",
@@ -3046,7 +3406,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3073,7 +3432,17 @@
     "taxonomicLevelStrain": "Cannabis sativa 79X",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 27676917,
+    "calcGcPercent": 34.37,
+    "calcLength": 1107374235,
+    "calcScaffoldL50": 11,
+    "calcScaffoldN50": 27676917,
+    "calcSequences": 3908,
+    "calcTop10Frac": 0.4887,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-ABC",
@@ -3121,7 +3490,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3148,7 +3516,17 @@
     "taxonomicLevelStrain": "Cannabis sativa ABC",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 25792401,
+    "calcGcPercent": 34.41,
+    "calcLength": 1034602709,
+    "calcScaffoldL50": 14,
+    "calcScaffoldN50": 25792401,
+    "calcSequences": 4055,
+    "calcTop10Frac": 0.4154,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-ACBD",
@@ -3196,7 +3574,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3223,7 +3600,17 @@
     "taxonomicLevelStrain": "Cannabis sativa ACBD",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 11680593,
+    "calcGcPercent": 34.28,
+    "calcLength": 1229893494,
+    "calcScaffoldL50": 24,
+    "calcScaffoldN50": 11680593,
+    "calcSequences": 2834,
+    "calcTop10Frac": 0.3257,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-ACDC",
@@ -3271,7 +3658,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3298,7 +3684,17 @@
     "taxonomicLevelStrain": "Cannabis sativa ACDC",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4712322,
+    "calcGcPercent": 34.38,
+    "calcLength": 1247304746,
+    "calcScaffoldL50": 57,
+    "calcScaffoldN50": 4712322,
+    "calcSequences": 2877,
+    "calcTop10Frac": 0.2019,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-AH3Ma",
@@ -3346,7 +3742,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3373,7 +3768,17 @@
     "taxonomicLevelStrain": "Cannabis sativa AH3Ma",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 9318715,
+    "calcGcPercent": 34.38,
+    "calcLength": 774667391,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76481500,
+    "calcSequences": 861,
+    "calcTop10Frac": 0.9416,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-AH3Mb",
@@ -3421,7 +3826,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3448,7 +3852,17 @@
     "taxonomicLevelStrain": "Cannabis sativa AH3Mb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7209934,
+    "calcGcPercent": 34.28,
+    "calcLength": 780564901,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76395147,
+    "calcSequences": 395,
+    "calcTop10Frac": 0.9688,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BBKH",
@@ -3496,7 +3910,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3523,7 +3936,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BBKH",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 9807351,
+    "calcGcPercent": 34.47,
+    "calcLength": 1405692088,
+    "calcScaffoldL50": 32,
+    "calcScaffoldN50": 9807351,
+    "calcSequences": 2216,
+    "calcTop10Frac": 0.2792,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BCMa",
@@ -3571,7 +3994,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3598,7 +4020,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BCMa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3216427,
+    "calcGcPercent": 34.38,
+    "calcLength": 770959391,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 75802090,
+    "calcSequences": 807,
+    "calcTop10Frac": 0.9453,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BCMb",
@@ -3646,7 +4078,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3673,7 +4104,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BCMb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3399877,
+    "calcGcPercent": 34.22,
+    "calcLength": 772806052,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76857694,
+    "calcSequences": 478,
+    "calcTop10Frac": 0.9666,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BH4",
@@ -3721,7 +4162,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3748,7 +4188,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BH4",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3143536,
+    "calcGcPercent": 34.5,
+    "calcLength": 1633994995,
+    "calcScaffoldL50": 127,
+    "calcScaffoldN50": 3143536,
+    "calcSequences": 6448,
+    "calcTop10Frac": 0.1051,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BH44",
@@ -3796,7 +4246,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3823,7 +4272,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BH44",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6801021,
+    "calcGcPercent": 34.07,
+    "calcLength": 1011240705,
+    "calcScaffoldL50": 30,
+    "calcScaffoldN50": 6801021,
+    "calcSequences": 381,
+    "calcTop10Frac": 0.329,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BH55",
@@ -3871,7 +4330,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Not measured",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3898,7 +4356,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BH55",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 745857,
+    "calcGcPercent": 34.35,
+    "calcLength": 1640620780,
+    "calcScaffoldL50": 374,
+    "calcScaffoldN50": 745857,
+    "calcSequences": 7352,
+    "calcTop10Frac": 0.0617,
+    "measuredLevel": "Kilobase-scale",
+    "reportedVsCalculated": "Not reported",
+    "reportedVsCalculatedDetail": "no N50 reported"
   },
   {
     "accession": "salk-BLCv1a",
@@ -3946,7 +4414,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -3973,7 +4440,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BLCv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3664570,
+    "calcGcPercent": 34.36,
+    "calcLength": 806780030,
+    "calcScaffoldL50": 61,
+    "calcScaffoldN50": 3664570,
+    "calcSequences": 1561,
+    "calcTop10Frac": 0.1676,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BLCv1b",
@@ -4021,7 +4498,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4048,7 +4524,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BLCv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4090632,
+    "calcGcPercent": 34.29,
+    "calcLength": 814587969,
+    "calcScaffoldL50": 54,
+    "calcScaffoldN50": 4090632,
+    "calcSequences": 952,
+    "calcTop10Frac": 0.1729,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BLYS",
@@ -4096,7 +4582,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4123,7 +4608,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BLYS",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 12854991,
+    "calcGcPercent": 34.36,
+    "calcLength": 1220569341,
+    "calcScaffoldL50": 20,
+    "calcScaffoldN50": 12854991,
+    "calcSequences": 3942,
+    "calcTop10Frac": 0.3436,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BOAXa",
@@ -4171,7 +4666,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4198,7 +4692,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BOAXa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 9558784,
+    "calcGcPercent": 34.46,
+    "calcLength": 787925745,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78036549,
+    "calcSequences": 1250,
+    "calcTop10Frac": 0.9234,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-BOAXb",
@@ -4246,7 +4750,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4273,7 +4776,17 @@
     "taxonomicLevelStrain": "Cannabis sativa BOAXb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7798224,
+    "calcGcPercent": 34.37,
+    "calcLength": 760035851,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 75847500,
+    "calcSequences": 616,
+    "calcTop10Frac": 0.949,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-CALO",
@@ -4321,7 +4834,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4348,7 +4860,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CALO",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 8864043,
+    "calcGcPercent": 34.45,
+    "calcLength": 1085043012,
+    "calcScaffoldL50": 33,
+    "calcScaffoldN50": 8864043,
+    "calcSequences": 2483,
+    "calcTop10Frac": 0.2226,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-CHM9",
@@ -4396,7 +4918,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4423,7 +4944,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CHM9",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 22616518,
+    "calcGcPercent": 34.47,
+    "calcLength": 1062747351,
+    "calcScaffoldL50": 14,
+    "calcScaffoldN50": 22616518,
+    "calcSequences": 4887,
+    "calcTop10Frac": 0.4248,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-CHMD3",
@@ -4471,7 +5002,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4498,7 +5028,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CHMD3",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 20502380,
+    "calcGcPercent": 34.39,
+    "calcLength": 918493928,
+    "calcScaffoldL50": 11,
+    "calcScaffoldN50": 20502380,
+    "calcSequences": 2261,
+    "calcTop10Frac": 0.4905,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-CHMD5",
@@ -4546,7 +5086,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4573,7 +5112,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CHMD5",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 14778117,
+    "calcGcPercent": 34.37,
+    "calcLength": 981275034,
+    "calcScaffoldL50": 20,
+    "calcScaffoldN50": 14778117,
+    "calcSequences": 1481,
+    "calcTop10Frac": 0.3231,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-CNBv1a",
@@ -4621,7 +5170,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4648,7 +5196,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CNBv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2237893,
+    "calcGcPercent": 34.24,
+    "calcLength": 844312555,
+    "calcScaffoldL50": 110,
+    "calcScaffoldN50": 2237893,
+    "calcSequences": 1601,
+    "calcTop10Frac": 0.0948,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-CNBv1b",
@@ -4696,7 +5254,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4723,7 +5280,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CNBv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2542885,
+    "calcGcPercent": 34.12,
+    "calcLength": 791322031,
+    "calcScaffoldL50": 94,
+    "calcScaffoldN50": 2542885,
+    "calcSequences": 1075,
+    "calcTop10Frac": 0.0925,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-COFBa",
@@ -4771,7 +5338,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4798,7 +5364,17 @@
     "taxonomicLevelStrain": "Cannabis sativa COFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4193628,
+    "calcGcPercent": 34.35,
+    "calcLength": 783673532,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78480317,
+    "calcSequences": 607,
+    "calcTop10Frac": 0.9507,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-COFBb",
@@ -4846,7 +5422,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4873,7 +5448,17 @@
     "taxonomicLevelStrain": "Cannabis sativa COFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3004724,
+    "calcGcPercent": 34.4,
+    "calcLength": 770166941,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77072744,
+    "calcSequences": 447,
+    "calcTop10Frac": 0.954,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-COSVa",
@@ -4921,7 +5506,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -4948,7 +5532,17 @@
     "taxonomicLevelStrain": "Cannabis sativa COSVa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 17511511,
+    "calcGcPercent": 34.39,
+    "calcLength": 773535885,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 80858826,
+    "calcSequences": 198,
+    "calcTop10Frac": 0.9857,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-COSVb",
@@ -4996,7 +5590,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5023,7 +5616,17 @@
     "taxonomicLevelStrain": "Cannabis sativa COSVb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 21453136,
+    "calcGcPercent": 34.37,
+    "calcLength": 777392581,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 83040660,
+    "calcSequences": 238,
+    "calcTop10Frac": 0.9812,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-CST53",
@@ -5071,7 +5674,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5098,7 +5700,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CST53",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1351701,
+    "calcGcPercent": 34.37,
+    "calcLength": 1548260248,
+    "calcScaffoldL50": 272,
+    "calcScaffoldN50": 1351701,
+    "calcSequences": 6700,
+    "calcTop10Frac": 0.0746,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-CST8",
@@ -5146,7 +5758,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5173,7 +5784,17 @@
     "taxonomicLevelStrain": "Cannabis sativa CST8",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7778621,
+    "calcGcPercent": 34.45,
+    "calcLength": 1006641074,
+    "calcScaffoldL50": 35,
+    "calcScaffoldN50": 7778621,
+    "calcSequences": 1571,
+    "calcTop10Frac": 0.2309,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-DCHCC",
@@ -5221,7 +5842,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5248,7 +5868,17 @@
     "taxonomicLevelStrain": "Cannabis sativa DCHCC",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3959576,
+    "calcGcPercent": 34.45,
+    "calcLength": 1227111874,
+    "calcScaffoldL50": 65,
+    "calcScaffoldN50": 3959576,
+    "calcSequences": 3366,
+    "calcTop10Frac": 0.1618,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-DPFBa",
@@ -5296,7 +5926,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5323,7 +5952,17 @@
     "taxonomicLevelStrain": "Cannabis sativa DPFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5105651,
+    "calcGcPercent": 34.43,
+    "calcLength": 779215386,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 80341616,
+    "calcSequences": 531,
+    "calcTop10Frac": 0.9532,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-DPFBb",
@@ -5371,7 +6010,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5398,7 +6036,17 @@
     "taxonomicLevelStrain": "Cannabis sativa DPFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5512213,
+    "calcGcPercent": 34.34,
+    "calcLength": 778635225,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 79252878,
+    "calcSequences": 507,
+    "calcTop10Frac": 0.9526,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-DPSVa",
@@ -5446,7 +6094,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5473,7 +6120,17 @@
     "taxonomicLevelStrain": "Cannabis sativa DPSVa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 18895287,
+    "calcGcPercent": 34.36,
+    "calcLength": 770818584,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 83338230,
+    "calcSequences": 169,
+    "calcTop10Frac": 0.9884,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-DPSVb",
@@ -5521,7 +6178,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5548,7 +6204,17 @@
     "taxonomicLevelStrain": "Cannabis sativa DPSVb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 24562569,
+    "calcGcPercent": 34.35,
+    "calcLength": 772805579,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 83063140,
+    "calcSequences": 188,
+    "calcTop10Frac": 0.979,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-DRBP",
@@ -5596,7 +6262,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5623,7 +6288,17 @@
     "taxonomicLevelStrain": "Cannabis sativa DRBP",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1276559,
+    "calcGcPercent": 34.44,
+    "calcLength": 993083885,
+    "calcScaffoldL50": 146,
+    "calcScaffoldN50": 1276559,
+    "calcSequences": 2868,
+    "calcTop10Frac": 0.1121,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-EH23a",
@@ -5671,7 +6346,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5698,7 +6372,17 @@
     "taxonomicLevelStrain": "Cannabis sativa EH23a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 21488361,
+    "calcGcPercent": 34.03,
+    "calcLength": 739940807,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78494000,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-EH23b",
@@ -5746,7 +6430,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5773,7 +6456,17 @@
     "taxonomicLevelStrain": "Cannabis sativa EH23b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 14875164,
+    "calcGcPercent": 34.11,
+    "calcLength": 737334414,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 80012778,
+    "calcSequences": 10,
+    "calcTop10Frac": 1,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-ERB",
@@ -5821,7 +6514,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5848,7 +6540,17 @@
     "taxonomicLevelStrain": "Cannabis sativa ERB",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 14315243,
+    "calcGcPercent": 34.08,
+    "calcLength": 861679067,
+    "calcScaffoldL50": 16,
+    "calcScaffoldN50": 14315243,
+    "calcSequences": 281,
+    "calcTop10Frac": 0.3886,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FB191",
@@ -5896,7 +6598,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5923,7 +6624,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FB191",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4225327,
+    "calcGcPercent": 34.61,
+    "calcLength": 1385879722,
+    "calcScaffoldL50": 80,
+    "calcScaffoldN50": 4225327,
+    "calcSequences": 5415,
+    "calcTop10Frac": 0.1449,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FB30",
@@ -5971,7 +6682,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -5998,7 +6708,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FB30",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 10982859,
+    "calcGcPercent": 34.11,
+    "calcLength": 963719869,
+    "calcScaffoldL50": 22,
+    "calcScaffoldN50": 10982859,
+    "calcSequences": 319,
+    "calcTop10Frac": 0.3057,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FBHO",
@@ -6046,7 +6766,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Not measured",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6073,7 +6792,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FBHO",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 736276,
+    "calcGcPercent": 34.35,
+    "calcLength": 1525535236,
+    "calcScaffoldL50": 556,
+    "calcScaffoldN50": 736276,
+    "calcSequences": 5047,
+    "calcTop10Frac": 0.0357,
+    "measuredLevel": "Kilobase-scale",
+    "reportedVsCalculated": "Not reported",
+    "reportedVsCalculatedDetail": "no N50 reported"
   },
   {
     "accession": "salk-FCS1a",
@@ -6121,7 +6850,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6148,7 +6876,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FCS1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 11046560,
+    "calcGcPercent": 34.4,
+    "calcLength": 814714835,
+    "calcScaffoldL50": 6,
+    "calcScaffoldN50": 76565557,
+    "calcSequences": 1898,
+    "calcTop10Frac": 0.9005,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FCS1b",
@@ -6196,7 +6934,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6223,7 +6960,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FCS1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 10134324,
+    "calcGcPercent": 34.43,
+    "calcLength": 773568994,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 75651000,
+    "calcSequences": 845,
+    "calcTop10Frac": 0.9328,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FIMv1a",
@@ -6271,7 +7018,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6298,7 +7044,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FIMv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4900800,
+    "calcGcPercent": 34.39,
+    "calcLength": 816472748,
+    "calcScaffoldL50": 47,
+    "calcScaffoldN50": 4900800,
+    "calcSequences": 1148,
+    "calcTop10Frac": 0.1999,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FIMv1b",
@@ -6346,7 +7102,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6373,7 +7128,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FIMv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4112003,
+    "calcGcPercent": 34.26,
+    "calcLength": 803793610,
+    "calcScaffoldL50": 49,
+    "calcScaffoldN50": 4112003,
+    "calcSequences": 759,
+    "calcTop10Frac": 0.2062,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FMv1a",
@@ -6421,7 +7186,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6448,7 +7212,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FMv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3854043,
+    "calcGcPercent": 34.42,
+    "calcLength": 828408689,
+    "calcScaffoldL50": 62,
+    "calcScaffoldN50": 3854043,
+    "calcSequences": 1465,
+    "calcTop10Frac": 0.157,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FMv1b",
@@ -6496,7 +7270,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6523,7 +7296,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FMv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4248085,
+    "calcGcPercent": 34.35,
+    "calcLength": 853406820,
+    "calcScaffoldL50": 57,
+    "calcScaffoldN50": 4248085,
+    "calcSequences": 1013,
+    "calcTop10Frac": 0.1592,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-FOG",
@@ -6571,7 +7354,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6598,7 +7380,17 @@
     "taxonomicLevelStrain": "Cannabis sativa FOG",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 8866947,
+    "calcGcPercent": 34.39,
+    "calcLength": 1135285721,
+    "calcScaffoldL50": 25,
+    "calcScaffoldN50": 8866947,
+    "calcSequences": 4476,
+    "calcTop10Frac": 0.333,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-GERv1a",
@@ -6646,7 +7438,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6673,7 +7464,17 @@
     "taxonomicLevelStrain": "Cannabis sativa GERv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 13254598,
+    "calcGcPercent": 34.36,
+    "calcLength": 767536888,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76360155,
+    "calcSequences": 479,
+    "calcTop10Frac": 0.9774,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-GERv1b",
@@ -6721,7 +7522,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6748,7 +7548,17 @@
     "taxonomicLevelStrain": "Cannabis sativa GERv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 12007711,
+    "calcGcPercent": 34.23,
+    "calcLength": 725952592,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 73311767,
+    "calcSequences": 175,
+    "calcTop10Frac": 0.9831,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-GMO",
@@ -6796,7 +7606,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6823,7 +7632,17 @@
     "taxonomicLevelStrain": "Cannabis sativa GMO",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6550460,
+    "calcGcPercent": 34.33,
+    "calcLength": 1384890144,
+    "calcScaffoldL50": 48,
+    "calcScaffoldN50": 6550460,
+    "calcSequences": 2626,
+    "calcTop10Frac": 0.236,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-GRMa",
@@ -6871,7 +7690,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6898,7 +7716,17 @@
     "taxonomicLevelStrain": "Cannabis sativa GRMa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3624447,
+    "calcGcPercent": 34.77,
+    "calcLength": 815879185,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77201340,
+    "calcSequences": 1245,
+    "calcTop10Frac": 0.9182,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-GRMb",
@@ -6946,7 +7774,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -6973,7 +7800,17 @@
     "taxonomicLevelStrain": "Cannabis sativa GRMb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4387795,
+    "calcGcPercent": 34.24,
+    "calcLength": 749581874,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76052787,
+    "calcSequences": 556,
+    "calcTop10Frac": 0.9641,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-GSC",
@@ -7021,7 +7858,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7048,7 +7884,17 @@
     "taxonomicLevelStrain": "Cannabis sativa GSC",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2041895,
+    "calcGcPercent": 34.27,
+    "calcLength": 1196365737,
+    "calcScaffoldL50": 108,
+    "calcScaffoldN50": 2041895,
+    "calcSequences": 2695,
+    "calcTop10Frac": 0.1892,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-H3S1a",
@@ -7096,7 +7942,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7123,7 +7968,17 @@
     "taxonomicLevelStrain": "Cannabis sativa H3S1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 8584024,
+    "calcGcPercent": 34.34,
+    "calcLength": 779307913,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 74296500,
+    "calcSequences": 1216,
+    "calcTop10Frac": 0.923,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-H3S1b",
@@ -7171,7 +8026,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7198,7 +8052,17 @@
     "taxonomicLevelStrain": "Cannabis sativa H3S1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 9905861,
+    "calcGcPercent": 34.39,
+    "calcLength": 766363058,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 74785771,
+    "calcSequences": 653,
+    "calcTop10Frac": 0.9439,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-H3S7a",
@@ -7246,7 +8110,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7273,7 +8136,17 @@
     "taxonomicLevelStrain": "Cannabis sativa H3S7a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2992883,
+    "calcGcPercent": 34.33,
+    "calcLength": 784102755,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78549000,
+    "calcSequences": 1056,
+    "calcTop10Frac": 0.9356,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-H3S7b",
@@ -7321,7 +8194,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7348,7 +8220,17 @@
     "taxonomicLevelStrain": "Cannabis sativa H3S7b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3159505,
+    "calcGcPercent": 34.23,
+    "calcLength": 760591964,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 75498049,
+    "calcSequences": 523,
+    "calcTop10Frac": 0.9547,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-HO40",
@@ -7396,7 +8278,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7423,7 +8304,17 @@
     "taxonomicLevelStrain": "Cannabis sativa HO40",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4759877,
+    "calcGcPercent": 34.03,
+    "calcLength": 993578240,
+    "calcScaffoldL50": 52,
+    "calcScaffoldN50": 4759877,
+    "calcSequences": 517,
+    "calcTop10Frac": 0.1978,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-I3",
@@ -7471,7 +8362,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7498,7 +8388,17 @@
     "taxonomicLevelStrain": "Cannabis sativa I3",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4020689,
+    "calcGcPercent": 33.98,
+    "calcLength": 960142515,
+    "calcScaffoldL50": 56,
+    "calcScaffoldN50": 4020689,
+    "calcSequences": 577,
+    "calcTop10Frac": 0.1713,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-I52",
@@ -7546,7 +8446,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7573,7 +8472,17 @@
     "taxonomicLevelStrain": "Cannabis sativa I52",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 12516510,
+    "calcGcPercent": 33.98,
+    "calcLength": 920242199,
+    "calcScaffoldL50": 18,
+    "calcScaffoldN50": 12516510,
+    "calcSequences": 247,
+    "calcTop10Frac": 0.3796,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-I53",
@@ -7621,7 +8530,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7648,7 +8556,17 @@
     "taxonomicLevelStrain": "Cannabis sativa I53",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5257093,
+    "calcGcPercent": 34,
+    "calcLength": 1005135485,
+    "calcScaffoldL50": 43,
+    "calcScaffoldN50": 5257093,
+    "calcSequences": 400,
+    "calcTop10Frac": 0.2501,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-I59",
@@ -7696,7 +8614,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7723,7 +8640,17 @@
     "taxonomicLevelStrain": "Cannabis sativa I59",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 9589705,
+    "calcGcPercent": 34.06,
+    "calcLength": 967182610,
+    "calcScaffoldL50": 25,
+    "calcScaffoldN50": 9589705,
+    "calcSequences": 333,
+    "calcTop10Frac": 0.3204,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-I61",
@@ -7771,7 +8698,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7798,7 +8724,17 @@
     "taxonomicLevelStrain": "Cannabis sativa I61",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5006784,
+    "calcGcPercent": 34.03,
+    "calcLength": 1009818797,
+    "calcScaffoldL50": 42,
+    "calcScaffoldN50": 5006784,
+    "calcSequences": 461,
+    "calcTop10Frac": 0.2603,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-I68",
@@ -7846,7 +8782,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7873,7 +8808,17 @@
     "taxonomicLevelStrain": "Cannabis sativa I68",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5421535,
+    "calcGcPercent": 34.04,
+    "calcLength": 1200011785,
+    "calcScaffoldL50": 64,
+    "calcScaffoldN50": 5421535,
+    "calcSequences": 439,
+    "calcTop10Frac": 0.1489,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-I75",
@@ -7921,7 +8866,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -7948,7 +8892,17 @@
     "taxonomicLevelStrain": "Cannabis sativa I75",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 9356942,
+    "calcGcPercent": 33.96,
+    "calcLength": 1012228996,
+    "calcScaffoldL50": 27,
+    "calcScaffoldN50": 9356942,
+    "calcSequences": 295,
+    "calcTop10Frac": 0.2925,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-I78",
@@ -7996,7 +8950,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8023,7 +8976,17 @@
     "taxonomicLevelStrain": "Cannabis sativa I78",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 8944532,
+    "calcGcPercent": 34.02,
+    "calcLength": 1007135506,
+    "calcScaffoldL50": 33,
+    "calcScaffoldN50": 8944532,
+    "calcSequences": 360,
+    "calcTop10Frac": 0.2491,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-ITLv1a",
@@ -8071,7 +9034,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8098,7 +9060,17 @@
     "taxonomicLevelStrain": "Cannabis sativa ITLv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3074540,
+    "calcGcPercent": 34.39,
+    "calcLength": 832468102,
+    "calcScaffoldL50": 70,
+    "calcScaffoldN50": 3074540,
+    "calcSequences": 1437,
+    "calcTop10Frac": 0.1456,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-ITLv1b",
@@ -8146,7 +9118,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8173,7 +9144,17 @@
     "taxonomicLevelStrain": "Cannabis sativa ITLv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2651917,
+    "calcGcPercent": 34.25,
+    "calcLength": 816465928,
+    "calcScaffoldL50": 86,
+    "calcScaffoldN50": 2651917,
+    "calcSequences": 1101,
+    "calcTop10Frac": 0.1247,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-KCDv1a",
@@ -8221,7 +9202,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8248,7 +9228,17 @@
     "taxonomicLevelStrain": "Cannabis sativa KCDv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3713980,
+    "calcGcPercent": 34.24,
+    "calcLength": 793979540,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 72720707,
+    "calcSequences": 1142,
+    "calcTop10Frac": 0.9283,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-KCDv1b",
@@ -8296,7 +9286,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8323,7 +9312,17 @@
     "taxonomicLevelStrain": "Cannabis sativa KCDv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4236606,
+    "calcGcPercent": 34.24,
+    "calcLength": 768010219,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76348809,
+    "calcSequences": 404,
+    "calcTop10Frac": 0.9521,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-KOMPa",
@@ -8371,7 +9370,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8398,7 +9396,17 @@
     "taxonomicLevelStrain": "Cannabis sativa KOMPa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3384282,
+    "calcGcPercent": 34.45,
+    "calcLength": 761555493,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 74083650,
+    "calcSequences": 915,
+    "calcTop10Frac": 0.9441,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-KOMPb",
@@ -8446,7 +9454,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8473,7 +9480,17 @@
     "taxonomicLevelStrain": "Cannabis sativa KOMPb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3275333,
+    "calcGcPercent": 34.29,
+    "calcLength": 779429402,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76503500,
+    "calcSequences": 526,
+    "calcTop10Frac": 0.9669,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-LP10",
@@ -8521,7 +9538,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8548,7 +9564,17 @@
     "taxonomicLevelStrain": "Cannabis sativa LP10",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3708611,
+    "calcGcPercent": 34.19,
+    "calcLength": 1356574188,
+    "calcScaffoldL50": 78,
+    "calcScaffoldN50": 3708611,
+    "calcSequences": 2726,
+    "calcTop10Frac": 0.1566,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-LP6",
@@ -8596,7 +9622,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8623,7 +9648,17 @@
     "taxonomicLevelStrain": "Cannabis sativa LP6",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6591443,
+    "calcGcPercent": 34.21,
+    "calcLength": 1237628959,
+    "calcScaffoldL50": 43,
+    "calcScaffoldN50": 6591443,
+    "calcSequences": 1843,
+    "calcTop10Frac": 0.231,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-MBFBa",
@@ -8671,7 +9706,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8698,7 +9732,17 @@
     "taxonomicLevelStrain": "Cannabis sativa MBFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2316546,
+    "calcGcPercent": 34.42,
+    "calcLength": 778819604,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76317444,
+    "calcSequences": 766,
+    "calcTop10Frac": 0.9406,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-MBFBb",
@@ -8746,7 +9790,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8773,7 +9816,17 @@
     "taxonomicLevelStrain": "Cannabis sativa MBFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2890244,
+    "calcGcPercent": 34.29,
+    "calcLength": 754895123,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77256943,
+    "calcSequences": 455,
+    "calcTop10Frac": 0.9621,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-MBSVa",
@@ -8821,7 +9874,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8848,7 +9900,17 @@
     "taxonomicLevelStrain": "Cannabis sativa MBSVa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 11021475,
+    "calcGcPercent": 34.38,
+    "calcLength": 773921562,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 83902427,
+    "calcSequences": 226,
+    "calcTop10Frac": 0.984,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-MBSVb",
@@ -8896,7 +9958,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8923,7 +9984,17 @@
     "taxonomicLevelStrain": "Cannabis sativa MBSVb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 13806878,
+    "calcGcPercent": 34.34,
+    "calcLength": 788872941,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 83724169,
+    "calcSequences": 212,
+    "calcTop10Frac": 0.9744,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-MM3v1a",
@@ -8971,7 +10042,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -8998,7 +10068,17 @@
     "taxonomicLevelStrain": "Cannabis sativa MM3v1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 677106,
+    "calcGcPercent": 34.1,
+    "calcLength": 779124191,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76957883,
+    "calcSequences": 940,
+    "calcTop10Frac": 0.9302,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-MM3v1b",
@@ -9046,7 +10126,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9073,7 +10152,17 @@
     "taxonomicLevelStrain": "Cannabis sativa MM3v1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 655588,
+    "calcGcPercent": 34.05,
+    "calcLength": 741450548,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 75212027,
+    "calcSequences": 572,
+    "calcTop10Frac": 0.9333,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-MNDB",
@@ -9121,7 +10210,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9148,7 +10236,17 @@
     "taxonomicLevelStrain": "Cannabis sativa MNDB",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3936316,
+    "calcGcPercent": 34.57,
+    "calcLength": 1256859404,
+    "calcScaffoldL50": 70,
+    "calcScaffoldN50": 3936316,
+    "calcSequences": 4385,
+    "calcTop10Frac": 0.196,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-NLv1a",
@@ -9196,7 +10294,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9223,7 +10320,17 @@
     "taxonomicLevelStrain": "Cannabis sativa NLv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3357921,
+    "calcGcPercent": 34.23,
+    "calcLength": 792474023,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76500019,
+    "calcSequences": 1080,
+    "calcTop10Frac": 0.9269,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-NLv1b",
@@ -9271,7 +10378,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9298,7 +10404,17 @@
     "taxonomicLevelStrain": "Cannabis sativa NLv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3876374,
+    "calcGcPercent": 34.21,
+    "calcLength": 768583077,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77119858,
+    "calcSequences": 493,
+    "calcTop10Frac": 0.9522,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-OFBa",
@@ -9346,7 +10462,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9373,7 +10488,17 @@
     "taxonomicLevelStrain": "Cannabis sativa OFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3722434,
+    "calcGcPercent": 34.33,
+    "calcLength": 750693340,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78863828,
+    "calcSequences": 489,
+    "calcTop10Frac": 0.9555,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-OFBb",
@@ -9421,7 +10546,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9448,7 +10572,17 @@
     "taxonomicLevelStrain": "Cannabis sativa OFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6604009,
+    "calcGcPercent": 34.31,
+    "calcLength": 809196100,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 80069015,
+    "calcSequences": 429,
+    "calcTop10Frac": 0.9393,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-OFP5",
@@ -9496,7 +10630,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Not measured",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9523,7 +10656,17 @@
     "taxonomicLevelStrain": "Cannabis sativa OFP5",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 934267,
+    "calcGcPercent": 34.32,
+    "calcLength": 1478138246,
+    "calcScaffoldL50": 439,
+    "calcScaffoldN50": 934267,
+    "calcSequences": 4621,
+    "calcTop10Frac": 0.0417,
+    "measuredLevel": "Kilobase-scale",
+    "reportedVsCalculated": "Not reported",
+    "reportedVsCalculatedDetail": "no N50 reported"
   },
   {
     "accession": "salk-P20",
@@ -9571,7 +10714,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9598,7 +10740,17 @@
     "taxonomicLevelStrain": "Cannabis sativa P20",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3372950,
+    "calcGcPercent": 34.33,
+    "calcLength": 988832686,
+    "calcScaffoldL50": 73,
+    "calcScaffoldN50": 3372950,
+    "calcSequences": 2559,
+    "calcTop10Frac": 0.1492,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-P22",
@@ -9646,7 +10798,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9673,7 +10824,17 @@
     "taxonomicLevelStrain": "Cannabis sativa P22",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1343981,
+    "calcGcPercent": 34.39,
+    "calcLength": 1253358581,
+    "calcScaffoldL50": 208,
+    "calcScaffoldN50": 1343981,
+    "calcSequences": 4326,
+    "calcTop10Frac": 0.0711,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-PPFBa",
@@ -9721,7 +10882,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9748,7 +10908,17 @@
     "taxonomicLevelStrain": "Cannabis sativa PPFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2334542,
+    "calcGcPercent": 34.24,
+    "calcLength": 773714153,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 79301934,
+    "calcSequences": 411,
+    "calcTop10Frac": 0.9572,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-PPFBb",
@@ -9796,7 +10966,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9823,7 +10992,17 @@
     "taxonomicLevelStrain": "Cannabis sativa PPFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2983507,
+    "calcGcPercent": 34.25,
+    "calcLength": 776635578,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78769858,
+    "calcSequences": 290,
+    "calcTop10Frac": 0.9648,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-PTK32",
@@ -9871,7 +11050,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9898,7 +11076,17 @@
     "taxonomicLevelStrain": "Cannabis sativa PTK32",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 41916823,
+    "calcGcPercent": 34.46,
+    "calcLength": 997757466,
+    "calcScaffoldL50": 8,
+    "calcScaffoldN50": 41916823,
+    "calcSequences": 3067,
+    "calcTop10Frac": 0.5914,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-PURD",
@@ -9946,7 +11134,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -9973,7 +11160,17 @@
     "taxonomicLevelStrain": "Cannabis sativa PURD",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6102460,
+    "calcGcPercent": 34.29,
+    "calcLength": 1469373434,
+    "calcScaffoldL50": 50,
+    "calcScaffoldN50": 6102460,
+    "calcSequences": 6219,
+    "calcTop10Frac": 0.2066,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-PURP",
@@ -10021,7 +11218,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10048,7 +11244,17 @@
     "taxonomicLevelStrain": "Cannabis sativa PURP",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2288906,
+    "calcGcPercent": 34.41,
+    "calcLength": 1642372233,
+    "calcScaffoldL50": 178,
+    "calcScaffoldN50": 2288906,
+    "calcSequences": 7206,
+    "calcTop10Frac": 0.0767,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-S8H2LR",
@@ -10096,7 +11302,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10123,7 +11328,17 @@
     "taxonomicLevelStrain": "Cannabis sativa S8H2LR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3728583,
+    "calcGcPercent": 33.99,
+    "calcLength": 1335587876,
+    "calcScaffoldL50": 111,
+    "calcScaffoldN50": 3728583,
+    "calcSequences": 696,
+    "calcTop10Frac": 0.0892,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-S8Ha",
@@ -10171,7 +11386,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10198,7 +11412,17 @@
     "taxonomicLevelStrain": "Cannabis sativa S8Ha",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 626535,
+    "calcGcPercent": 34.26,
+    "calcLength": 757481573,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76025916,
+    "calcSequences": 498,
+    "calcTop10Frac": 0.9472,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-S8Hb",
@@ -10246,7 +11470,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10273,7 +11496,17 @@
     "taxonomicLevelStrain": "Cannabis sativa S8Hb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 686999,
+    "calcGcPercent": 34.14,
+    "calcLength": 762158918,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78452670,
+    "calcSequences": 288,
+    "calcTop10Frac": 0.9603,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-S8LR",
@@ -10321,7 +11554,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10348,7 +11580,17 @@
     "taxonomicLevelStrain": "Cannabis sativa S8LR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5718374,
+    "calcGcPercent": 34.07,
+    "calcLength": 1071166765,
+    "calcScaffoldL50": 47,
+    "calcScaffoldN50": 5718374,
+    "calcSequences": 422,
+    "calcTop10Frac": 0.2276,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SAN2a",
@@ -10396,7 +11638,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10423,7 +11664,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SAN2a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7352791,
+    "calcGcPercent": 34.44,
+    "calcLength": 805332400,
+    "calcScaffoldL50": 6,
+    "calcScaffoldN50": 69857991,
+    "calcSequences": 2405,
+    "calcTop10Frac": 0.8947,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SAN2b",
@@ -10471,7 +11722,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10498,7 +11748,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SAN2b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7772124,
+    "calcGcPercent": 34.33,
+    "calcLength": 774845836,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 75001906,
+    "calcSequences": 686,
+    "calcTop10Frac": 0.9393,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SCFB",
@@ -10546,7 +11806,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10573,7 +11832,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SCFB",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2066098,
+    "calcGcPercent": 34.46,
+    "calcLength": 1737592224,
+    "calcScaffoldL50": 219,
+    "calcScaffoldN50": 2066098,
+    "calcSequences": 8337,
+    "calcTop10Frac": 0.0624,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SDFBa",
@@ -10621,7 +11890,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10648,7 +11916,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SDFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3253543,
+    "calcGcPercent": 34.34,
+    "calcLength": 784478046,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77767414,
+    "calcSequences": 728,
+    "calcTop10Frac": 0.9398,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SDFBb",
@@ -10696,7 +11974,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10723,7 +12000,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SDFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4714448,
+    "calcGcPercent": 34.33,
+    "calcLength": 763604955,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77911450,
+    "calcSequences": 478,
+    "calcTop10Frac": 0.9585,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SDI",
@@ -10771,7 +12058,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10798,7 +12084,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SDI",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7222489,
+    "calcGcPercent": 34.37,
+    "calcLength": 1363862142,
+    "calcScaffoldL50": 38,
+    "calcScaffoldN50": 7222489,
+    "calcSequences": 4067,
+    "calcTop10Frac": 0.2703,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SG123",
@@ -10846,7 +12142,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10873,7 +12168,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SG123",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7699826,
+    "calcGcPercent": 34,
+    "calcLength": 964203964,
+    "calcScaffoldL50": 24,
+    "calcScaffoldN50": 7699826,
+    "calcSequences": 374,
+    "calcTop10Frac": 0.3343,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SGVA",
@@ -10921,7 +12226,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -10948,7 +12252,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SGVA",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7256254,
+    "calcGcPercent": 34.35,
+    "calcLength": 1463274647,
+    "calcScaffoldL50": 42,
+    "calcScaffoldN50": 7256254,
+    "calcSequences": 4291,
+    "calcTop10Frac": 0.2325,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SH50",
@@ -10996,7 +12310,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11023,7 +12336,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SH50",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2707878,
+    "calcGcPercent": 34.35,
+    "calcLength": 1131792855,
+    "calcScaffoldL50": 102,
+    "calcScaffoldN50": 2707878,
+    "calcSequences": 2557,
+    "calcTop10Frac": 0.134,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SHH24",
@@ -11071,7 +12394,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11098,7 +12420,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SHH24",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3304642,
+    "calcGcPercent": 34.67,
+    "calcLength": 1389103176,
+    "calcScaffoldL50": 109,
+    "calcScaffoldN50": 3304642,
+    "calcSequences": 3992,
+    "calcTop10Frac": 0.1113,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SHH5a",
@@ -11146,7 +12478,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11173,7 +12504,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SHH5a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1973440,
+    "calcGcPercent": 34.35,
+    "calcLength": 774525676,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77446001,
+    "calcSequences": 456,
+    "calcTop10Frac": 0.948,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SHH5b",
@@ -11221,7 +12562,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11248,7 +12588,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SHH5b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2447187,
+    "calcGcPercent": 34.16,
+    "calcLength": 767684413,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 79489014,
+    "calcSequences": 176,
+    "calcTop10Frac": 0.9677,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SHLR",
@@ -11296,7 +12646,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11323,7 +12672,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SHLR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5689964,
+    "calcGcPercent": 34.07,
+    "calcLength": 1008960985,
+    "calcScaffoldL50": 45,
+    "calcScaffoldN50": 5689964,
+    "calcSequences": 443,
+    "calcTop10Frac": 0.2085,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SK88",
@@ -11371,7 +12730,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11398,7 +12756,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SK88",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1752433,
+    "calcGcPercent": 34.36,
+    "calcLength": 1538485019,
+    "calcScaffoldL50": 213,
+    "calcScaffoldN50": 1752433,
+    "calcSequences": 6028,
+    "calcTop10Frac": 0.0825,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SKFBa",
@@ -11446,7 +12814,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11473,7 +12840,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SKFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4980077,
+    "calcGcPercent": 34.42,
+    "calcLength": 782059425,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77839341,
+    "calcSequences": 609,
+    "calcTop10Frac": 0.9397,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SKFBb",
@@ -11521,7 +12898,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11548,7 +12924,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SKFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5299691,
+    "calcGcPercent": 34.35,
+    "calcLength": 800315147,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77012020,
+    "calcSequences": 438,
+    "calcTop10Frac": 0.9385,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SKSV",
@@ -11596,7 +12982,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11623,7 +13008,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SKSV",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1849839,
+    "calcGcPercent": 34.23,
+    "calcLength": 2296564300,
+    "calcScaffoldL50": 193,
+    "calcScaffoldN50": 1849839,
+    "calcSequences": 16850,
+    "calcTop10Frac": 0.0998,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SKTZ",
@@ -11671,7 +13066,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11698,7 +13092,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SKTZ",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2580379,
+    "calcGcPercent": 34.38,
+    "calcLength": 1232690822,
+    "calcScaffoldL50": 102,
+    "calcScaffoldN50": 2580379,
+    "calcSequences": 4911,
+    "calcTop10Frac": 0.1364,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SMSQ",
@@ -11746,7 +13150,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11773,7 +13176,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SMSQ",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2167645,
+    "calcGcPercent": 35.23,
+    "calcLength": 1368470652,
+    "calcScaffoldL50": 133,
+    "calcScaffoldN50": 2167645,
+    "calcSequences": 8525,
+    "calcTop10Frac": 0.1125,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SN1v3a",
@@ -11821,7 +13234,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11848,7 +13260,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SN1v3a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 14845301,
+    "calcGcPercent": 34.45,
+    "calcLength": 854206927,
+    "calcScaffoldL50": 6,
+    "calcScaffoldN50": 72632050,
+    "calcSequences": 2216,
+    "calcTop10Frac": 0.8831,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SN1v3b",
@@ -11896,7 +13318,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11923,7 +13344,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SN1v3b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 11814029,
+    "calcGcPercent": 34.29,
+    "calcLength": 736964078,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 74779058,
+    "calcSequences": 483,
+    "calcTop10Frac": 0.9371,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SODLa",
@@ -11971,7 +13402,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -11998,7 +13428,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SODLa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 23524408,
+    "calcGcPercent": 34.43,
+    "calcLength": 784656579,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76771728,
+    "calcSequences": 888,
+    "calcTop10Frac": 0.9353,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SODLb",
@@ -12046,7 +13486,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12073,7 +13512,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SODLb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 22913352,
+    "calcGcPercent": 34.27,
+    "calcLength": 761703114,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77487165,
+    "calcSequences": 454,
+    "calcTop10Frac": 0.9637,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SSA1",
@@ -12121,7 +13570,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12148,7 +13596,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SSA1",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2654051,
+    "calcGcPercent": 34.34,
+    "calcLength": 857737996,
+    "calcScaffoldL50": 82,
+    "calcScaffoldN50": 2654051,
+    "calcSequences": 1970,
+    "calcTop10Frac": 0.1289,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SSA2",
@@ -12196,7 +13654,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12223,7 +13680,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SSA2",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3670655,
+    "calcGcPercent": 34.42,
+    "calcLength": 864687072,
+    "calcScaffoldL50": 70,
+    "calcScaffoldN50": 3670655,
+    "calcSequences": 2165,
+    "calcTop10Frac": 0.1267,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SSH",
@@ -12271,7 +13738,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12298,7 +13764,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SSH",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2754107,
+    "calcGcPercent": 33.99,
+    "calcLength": 1355786030,
+    "calcScaffoldL50": 157,
+    "calcScaffoldN50": 2754107,
+    "calcSequences": 933,
+    "calcTop10Frac": 0.064,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SSHS",
@@ -12346,7 +13822,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12373,7 +13848,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SSHS",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3373889,
+    "calcGcPercent": 34.64,
+    "calcLength": 1460047339,
+    "calcScaffoldL50": 107,
+    "calcScaffoldN50": 3373889,
+    "calcSequences": 4721,
+    "calcTop10Frac": 0.0988,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SSLR",
@@ -12421,7 +13906,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12448,7 +13932,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SSLR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5452671,
+    "calcGcPercent": 34.03,
+    "calcLength": 1084791106,
+    "calcScaffoldL50": 51,
+    "calcScaffoldN50": 5452671,
+    "calcSequences": 439,
+    "calcTop10Frac": 0.2281,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SSV",
@@ -12496,7 +13990,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12523,7 +14016,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SSV",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2134941,
+    "calcGcPercent": 34.56,
+    "calcLength": 1272982636,
+    "calcScaffoldL50": 132,
+    "calcScaffoldN50": 2134941,
+    "calcSequences": 4907,
+    "calcTop10Frac": 0.1289,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-STHa",
@@ -12571,7 +14074,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12598,7 +14100,17 @@
     "taxonomicLevelStrain": "Cannabis sativa STHa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3330994,
+    "calcGcPercent": 34.47,
+    "calcLength": 772084937,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 75722392,
+    "calcSequences": 777,
+    "calcTop10Frac": 0.943,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-STHb",
@@ -12646,7 +14158,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12673,7 +14184,17 @@
     "taxonomicLevelStrain": "Cannabis sativa STHb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4269905,
+    "calcGcPercent": 34.35,
+    "calcLength": 776072682,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78192662,
+    "calcSequences": 463,
+    "calcTop10Frac": 0.9556,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-STLR",
@@ -12721,7 +14242,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12748,7 +14268,17 @@
     "taxonomicLevelStrain": "Cannabis sativa STLR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3075426,
+    "calcGcPercent": 34.06,
+    "calcLength": 1146165660,
+    "calcScaffoldL50": 93,
+    "calcScaffoldN50": 3075426,
+    "calcSequences": 695,
+    "calcTop10Frac": 0.1714,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SUNDR",
@@ -12796,7 +14326,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12823,7 +14352,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SUNDR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3873780,
+    "calcGcPercent": 34.41,
+    "calcLength": 1368886955,
+    "calcScaffoldL50": 76,
+    "calcScaffoldN50": 3873780,
+    "calcSequences": 3157,
+    "calcTop10Frac": 0.162,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SUV8",
@@ -12871,7 +14410,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12898,7 +14436,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SUV8",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1649928,
+    "calcGcPercent": 34.51,
+    "calcLength": 1352262466,
+    "calcScaffoldL50": 188,
+    "calcScaffoldN50": 1649928,
+    "calcSequences": 6619,
+    "calcTop10Frac": 0.094,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SV2",
@@ -12946,7 +14494,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -12973,7 +14520,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SV2",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1975267,
+    "calcGcPercent": 34.71,
+    "calcLength": 1324512150,
+    "calcScaffoldL50": 156,
+    "calcScaffoldN50": 1975267,
+    "calcSequences": 7116,
+    "calcTop10Frac": 0.0848,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SVA12a",
@@ -13021,7 +14578,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13048,7 +14604,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SVA12a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6443887,
+    "calcGcPercent": 34.36,
+    "calcLength": 794275283,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 79982148,
+    "calcSequences": 587,
+    "calcTop10Frac": 0.9355,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SVA12b",
@@ -13096,7 +14662,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13123,7 +14688,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SVA12b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4697011,
+    "calcGcPercent": 34.28,
+    "calcLength": 762765204,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 80244834,
+    "calcSequences": 197,
+    "calcTop10Frac": 0.9735,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SVA6a",
@@ -13171,7 +14746,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13198,7 +14772,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SVA6a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6086052,
+    "calcGcPercent": 34.4,
+    "calcLength": 780799001,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78654828,
+    "calcSequences": 594,
+    "calcTop10Frac": 0.9491,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SVA6b",
@@ -13246,7 +14830,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13273,7 +14856,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SVA6b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6248459,
+    "calcGcPercent": 34.28,
+    "calcLength": 769829657,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78125434,
+    "calcSequences": 297,
+    "calcTop10Frac": 0.9547,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SZFBa",
@@ -13321,7 +14914,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13348,7 +14940,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SZFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5181660,
+    "calcGcPercent": 34.41,
+    "calcLength": 780752624,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78826521,
+    "calcSequences": 745,
+    "calcTop10Frac": 0.9504,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-SZFBb",
@@ -13396,7 +14998,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13423,7 +15024,17 @@
     "taxonomicLevelStrain": "Cannabis sativa SZFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 8065275,
+    "calcGcPercent": 34.34,
+    "calcLength": 767515276,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 81769975,
+    "calcSequences": 319,
+    "calcTop10Frac": 0.9761,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TIBv1a",
@@ -13471,7 +15082,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13498,7 +15108,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TIBv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2582210,
+    "calcGcPercent": 34.43,
+    "calcLength": 848617248,
+    "calcScaffoldL50": 90,
+    "calcScaffoldN50": 2582210,
+    "calcSequences": 1529,
+    "calcTop10Frac": 0.1142,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TIBv1b",
@@ -13546,7 +15166,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13573,7 +15192,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TIBv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2501518,
+    "calcGcPercent": 34.26,
+    "calcLength": 805719660,
+    "calcScaffoldL50": 96,
+    "calcScaffoldN50": 2501518,
+    "calcSequences": 1015,
+    "calcTop10Frac": 0.1144,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TK10",
@@ -13621,7 +15250,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13648,7 +15276,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TK10",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 8837055,
+    "calcGcPercent": 34.57,
+    "calcLength": 924286173,
+    "calcScaffoldL50": 30,
+    "calcScaffoldN50": 8837055,
+    "calcSequences": 1504,
+    "calcTop10Frac": 0.2324,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TK7",
@@ -13696,7 +15334,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13723,7 +15360,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TK7",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3032950,
+    "calcGcPercent": 34.54,
+    "calcLength": 1042315672,
+    "calcScaffoldL50": 84,
+    "calcScaffoldN50": 3032950,
+    "calcSequences": 5473,
+    "calcTop10Frac": 0.125,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TKFBa",
@@ -13771,7 +15418,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13798,7 +15444,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TKFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3974437,
+    "calcGcPercent": 34.41,
+    "calcLength": 775423456,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76663250,
+    "calcSequences": 673,
+    "calcTop10Frac": 0.9478,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TKFBb",
@@ -13846,7 +15502,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13873,7 +15528,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TKFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5302651,
+    "calcGcPercent": 34.32,
+    "calcLength": 775729421,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77730426,
+    "calcSequences": 489,
+    "calcTop10Frac": 0.955,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TRWR",
@@ -13921,7 +15586,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -13948,7 +15612,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TRWR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2710124,
+    "calcGcPercent": 34.46,
+    "calcLength": 1204939231,
+    "calcScaffoldL50": 98,
+    "calcScaffoldN50": 2710124,
+    "calcSequences": 5679,
+    "calcTop10Frac": 0.1663,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TS13",
@@ -13996,7 +15670,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14023,7 +15696,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TS13",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2612914,
+    "calcGcPercent": 33.99,
+    "calcLength": 1068264444,
+    "calcScaffoldL50": 91,
+    "calcScaffoldN50": 2612914,
+    "calcSequences": 870,
+    "calcTop10Frac": 0.1741,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TST192",
@@ -14071,7 +15754,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14098,7 +15780,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TST192",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1703799,
+    "calcGcPercent": 34.46,
+    "calcLength": 1114334898,
+    "calcScaffoldL50": 147,
+    "calcScaffoldN50": 1703799,
+    "calcSequences": 3283,
+    "calcTop10Frac": 0.093,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TST58",
@@ -14146,7 +15838,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14173,7 +15864,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TST58",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5816507,
+    "calcGcPercent": 34.64,
+    "calcLength": 1191587844,
+    "calcScaffoldL50": 50,
+    "calcScaffoldN50": 5816507,
+    "calcSequences": 5572,
+    "calcTop10Frac": 0.1758,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TURv1a",
@@ -14221,7 +15922,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14248,7 +15948,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TURv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2528868,
+    "calcGcPercent": 34.32,
+    "calcLength": 820033637,
+    "calcScaffoldL50": 84,
+    "calcScaffoldN50": 2528868,
+    "calcSequences": 1593,
+    "calcTop10Frac": 0.1286,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TURv1b",
@@ -14296,7 +16006,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14323,7 +16032,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TURv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2199121,
+    "calcGcPercent": 34.19,
+    "calcLength": 810287403,
+    "calcScaffoldL50": 111,
+    "calcScaffoldN50": 2199121,
+    "calcSequences": 1165,
+    "calcTop10Frac": 0.0992,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TWFBa",
@@ -14371,7 +16090,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14398,7 +16116,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TWFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4478471,
+    "calcGcPercent": 34.31,
+    "calcLength": 762148212,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76345160,
+    "calcSequences": 526,
+    "calcTop10Frac": 0.953,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TWFBb",
@@ -14446,7 +16174,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14473,7 +16200,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TWFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5833158,
+    "calcGcPercent": 34.33,
+    "calcLength": 781279873,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78452931,
+    "calcSequences": 445,
+    "calcTop10Frac": 0.9494,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TWSVa",
@@ -14521,7 +16258,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14548,7 +16284,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TWSVa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 13109184,
+    "calcGcPercent": 34.31,
+    "calcLength": 757751335,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78038278,
+    "calcSequences": 221,
+    "calcTop10Frac": 0.9823,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-TWSVb",
@@ -14596,7 +16342,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14623,7 +16368,17 @@
     "taxonomicLevelStrain": "Cannabis sativa TWSVb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 15196441,
+    "calcGcPercent": 34.36,
+    "calcLength": 776770578,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 82568472,
+    "calcSequences": 210,
+    "calcTop10Frac": 0.9794,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-UFBa",
@@ -14671,7 +16426,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14698,7 +16452,17 @@
     "taxonomicLevelStrain": "Cannabis sativa UFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4777746,
+    "calcGcPercent": 34.39,
+    "calcLength": 779773457,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78576332,
+    "calcSequences": 601,
+    "calcTop10Frac": 0.9427,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-UFBb",
@@ -14746,7 +16510,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14773,7 +16536,17 @@
     "taxonomicLevelStrain": "Cannabis sativa UFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 7992776,
+    "calcGcPercent": 34.33,
+    "calcLength": 781009937,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 79104990,
+    "calcSequences": 297,
+    "calcTop10Frac": 0.9597,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-URKL",
@@ -14821,7 +16594,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14848,7 +16620,17 @@
     "taxonomicLevelStrain": "Cannabis sativa URKL",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4197447,
+    "calcGcPercent": 34.47,
+    "calcLength": 1249905334,
+    "calcScaffoldL50": 73,
+    "calcScaffoldN50": 4197447,
+    "calcSequences": 2536,
+    "calcTop10Frac": 0.1614,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-USV",
@@ -14896,7 +16678,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14923,7 +16704,17 @@
     "taxonomicLevelStrain": "Cannabis sativa USV",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5495972,
+    "calcGcPercent": 34.36,
+    "calcLength": 1562700480,
+    "calcScaffoldL50": 77,
+    "calcScaffoldN50": 5495972,
+    "calcSequences": 3397,
+    "calcTop10Frac": 0.1299,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-W103",
@@ -14971,7 +16762,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -14998,7 +16788,17 @@
     "taxonomicLevelStrain": "Cannabis sativa W103",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3326558,
+    "calcGcPercent": 34.21,
+    "calcLength": 1098391585,
+    "calcScaffoldL50": 73,
+    "calcScaffoldN50": 3326558,
+    "calcSequences": 2057,
+    "calcTop10Frac": 0.1876,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-W19LR",
@@ -15046,7 +16846,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15073,7 +16872,17 @@
     "taxonomicLevelStrain": "Cannabis sativa W19LR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5158124,
+    "calcGcPercent": 34.03,
+    "calcLength": 1027573028,
+    "calcScaffoldL50": 44,
+    "calcScaffoldN50": 5158124,
+    "calcSequences": 432,
+    "calcTop10Frac": 0.2348,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WC",
@@ -15121,7 +16930,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15148,7 +16956,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WC",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2528593,
+    "calcGcPercent": 34.55,
+    "calcLength": 1582695867,
+    "calcScaffoldL50": 151,
+    "calcScaffoldN50": 2528593,
+    "calcSequences": 7750,
+    "calcTop10Frac": 0.0883,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WCFBa",
@@ -15196,7 +17014,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15223,7 +17040,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WCFBa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4338772,
+    "calcGcPercent": 34.43,
+    "calcLength": 780421562,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 78439510,
+    "calcSequences": 659,
+    "calcTop10Frac": 0.9415,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WCFBb",
@@ -15271,7 +17098,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15298,7 +17124,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WCFBb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 6261236,
+    "calcGcPercent": 34.31,
+    "calcLength": 769265022,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77694554,
+    "calcSequences": 331,
+    "calcTop10Frac": 0.9626,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WCSV",
@@ -15346,7 +17182,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15373,7 +17208,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WCSV",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1050322,
+    "calcGcPercent": 34.23,
+    "calcLength": 1534674414,
+    "calcScaffoldL50": 426,
+    "calcScaffoldN50": 1050322,
+    "calcSequences": 4217,
+    "calcTop10Frac": 0.0303,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WFv1a",
@@ -15421,7 +17266,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15448,7 +17292,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WFv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5108723,
+    "calcGcPercent": 34.9,
+    "calcLength": 839142715,
+    "calcScaffoldL50": 46,
+    "calcScaffoldN50": 5108723,
+    "calcSequences": 1775,
+    "calcTop10Frac": 0.2047,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WFv1b",
@@ -15496,7 +17350,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15523,7 +17376,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WFv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 4964907,
+    "calcGcPercent": 34.44,
+    "calcLength": 811785963,
+    "calcScaffoldL50": 44,
+    "calcScaffoldN50": 4964907,
+    "calcSequences": 905,
+    "calcTop10Frac": 0.2123,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WH106",
@@ -15571,7 +17434,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15598,7 +17460,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WH106",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3805460,
+    "calcGcPercent": 34.48,
+    "calcLength": 1415450108,
+    "calcScaffoldL50": 85,
+    "calcScaffoldN50": 3805460,
+    "calcSequences": 5906,
+    "calcTop10Frac": 0.1561,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WH72",
@@ -15646,7 +17518,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15673,7 +17544,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WH72",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3260622,
+    "calcGcPercent": 34.38,
+    "calcLength": 1351768576,
+    "calcScaffoldL50": 93,
+    "calcScaffoldN50": 3260622,
+    "calcSequences": 7068,
+    "calcTop10Frac": 0.1585,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WH94",
@@ -15721,7 +17602,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15748,7 +17628,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WH94",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 2551660,
+    "calcGcPercent": 34.47,
+    "calcLength": 1193290042,
+    "calcScaffoldL50": 119,
+    "calcScaffoldN50": 2551660,
+    "calcSequences": 3946,
+    "calcTop10Frac": 0.0974,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WH96",
@@ -15796,7 +17686,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15823,7 +17712,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WH96",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3564957,
+    "calcGcPercent": 34.51,
+    "calcLength": 1331717845,
+    "calcScaffoldL50": 88,
+    "calcScaffoldN50": 3564957,
+    "calcSequences": 6430,
+    "calcTop10Frac": 0.1404,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WHLR",
@@ -15871,7 +17770,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15898,7 +17796,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WHLR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 3271795,
+    "calcGcPercent": 33.98,
+    "calcLength": 1351380720,
+    "calcScaffoldL50": 118,
+    "calcScaffoldN50": 3271795,
+    "calcSequences": 796,
+    "calcTop10Frac": 0.0922,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WHWa",
@@ -15946,7 +17854,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -15973,7 +17880,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WHWa",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5564200,
+    "calcGcPercent": 34.31,
+    "calcLength": 766854130,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76746485,
+    "calcSequences": 769,
+    "calcTop10Frac": 0.9493,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WHWb",
@@ -16021,7 +17938,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -16048,7 +17964,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WHWb",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5406031,
+    "calcGcPercent": 34.24,
+    "calcLength": 748783500,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 76693735,
+    "calcSequences": 501,
+    "calcTop10Frac": 0.9677,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WIv1a",
@@ -16096,7 +18022,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -16123,7 +18048,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WIv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1648209,
+    "calcGcPercent": 34.61,
+    "calcLength": 867117339,
+    "calcScaffoldL50": 147,
+    "calcScaffoldN50": 1648209,
+    "calcSequences": 2363,
+    "calcTop10Frac": 0.0814,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WIv1b",
@@ -16171,7 +18106,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -16198,7 +18132,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WIv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 1498651,
+    "calcGcPercent": 34.26,
+    "calcLength": 801797972,
+    "calcScaffoldL50": 141,
+    "calcScaffoldN50": 1498651,
+    "calcSequences": 1500,
+    "calcTop10Frac": 0.0963,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-WLR",
@@ -16246,7 +18190,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -16273,7 +18216,17 @@
     "taxonomicLevelStrain": "Cannabis sativa WLR",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 8460297,
+    "calcGcPercent": 34.01,
+    "calcLength": 1002052543,
+    "calcScaffoldL50": 31,
+    "calcScaffoldN50": 8460297,
+    "calcSequences": 369,
+    "calcTop10Frac": 0.2665,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-YMMv1a",
@@ -16321,7 +18274,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -16348,7 +18300,17 @@
     "taxonomicLevelStrain": "Cannabis sativa YMMv1a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5490616,
+    "calcGcPercent": 34.7,
+    "calcLength": 862103214,
+    "calcScaffoldL50": 44,
+    "calcScaffoldN50": 5490616,
+    "calcSequences": 945,
+    "calcTop10Frac": 0.2022,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-YMMv1b",
@@ -16396,7 +18358,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Megabase-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -16423,7 +18384,17 @@
     "taxonomicLevelStrain": "Cannabis sativa YMMv1b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 5210583,
+    "calcGcPercent": 34.29,
+    "calcLength": 825953608,
+    "calcScaffoldL50": 48,
+    "calcScaffoldN50": 5210583,
+    "calcSequences": 485,
+    "calcTop10Frac": 0.1759,
+    "measuredLevel": "Megabase-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-YMv2a",
@@ -16471,7 +18442,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -16498,7 +18468,17 @@
     "taxonomicLevelStrain": "Cannabis sativa YMv2a",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 11493827,
+    "calcGcPercent": 34.41,
+    "calcLength": 785155530,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77979186,
+    "calcSequences": 836,
+    "calcTop10Frac": 0.9426,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   },
   {
     "accession": "salk-YMv2b",
@@ -16546,7 +18526,6 @@
       "3482",
       "3483"
     ],
-    "measuredLevel": "Chromosome-scale",
     "ncbiTaxonomyId": "3483",
     "ploidy": [
       "DIPLOID"
@@ -16573,6 +18552,16 @@
     "taxonomicLevelStrain": "Cannabis sativa YMv2b",
     "thumbnailUrl": "/organism_image/Cannabis_sativa_300x300.jpg",
     "tolId": "d",
-    "ucscBrowserUrl": null
+    "ucscBrowserUrl": null,
+    "calcContigN50": 10306565,
+    "calcGcPercent": 34.23,
+    "calcLength": 767133593,
+    "calcScaffoldL50": 5,
+    "calcScaffoldN50": 77362515,
+    "calcSequences": 336,
+    "calcTop10Frac": 0.9625,
+    "measuredLevel": "Chromosome-scale",
+    "reportedVsCalculated": "Agrees",
+    "reportedVsCalculatedDetail": ""
   }
 ]

@@ -1,6 +1,25 @@
 import type { ORGANISM_PLOIDY } from "@repo/shared/apis/schema-types";
 
-export interface HGAssemblyEntity {
+/**
+ * Values measured from each assembly's FASTA (measure_assemblies.py), and how
+ * they compare with the reported ones.
+ */
+export interface HGMeasuredFields {
+  calcContigN50: number;
+  calcGcPercent: number | null;
+  calcLength: number;
+  calcScaffoldL50: number;
+  calcScaffoldN50: number;
+  calcSequences: number;
+  calcTop10Frac: number;
+  // Contiguity class from the calculated scaffold N50.
+  measuredLevel: string;
+  // "Agrees", "Differs" or "Not reported".
+  reportedVsCalculated: string;
+  reportedVsCalculatedDetail: string;
+}
+
+export interface HGAssemblyEntity extends HGMeasuredFields {
   accession: string;
   annotationStatus: string | null;
   chromosomes: number | null;
@@ -18,8 +37,6 @@ export interface HGAssemblyEntity {
   license: string | null;
   licenseUrl: string | null;
   lineageTaxonomyIds: string[];
-  // Contiguity class from scaffold N50 (see getMeasuredLevel in build-catalog.ts).
-  measuredLevel: string;
   ncbiTaxonomyId: string;
   ploidy: ORGANISM_PLOIDY[];
   releaseDate: string;
