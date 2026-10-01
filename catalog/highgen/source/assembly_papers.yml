@@ -1,8 +1,21 @@
 # The paper that describes each assembly, with the evidence it is that paper and not
-# one that only uses the assembly. Curated 2026-09-30; every DOI checked on Crossref.
-# Assemblies with no describing paper are absent (company deposits, CoGe FL02, and
-# Jamaican Lion DASH, whose likely paper never names its accession).
+# one that only uses the assembly. Curated 2026-09-30 and 2026-10-01 (citation tracing);
+# every DOI checked on Crossref. Assemblies with no describing paper are absent: the
+# company deposits Chemdog91, LA Confidential, Cannatonic, Pineapple Banana Bubba Kush
+# and Abacus, whose citing papers attribute them only to NCBI or the company, and CoGe FL02.
 papers:
+  - doi: 10.31219/osf.io/7d968
+    citation:
+      "McKernan KJ et al. (2018). Cryptocurrencies and Zero Mode Wave guides: An unclouded path to a
+      more contiguous Cannabis sativa L. genome assembly. OSF Preprints."
+    evidence:
+      "cited-attribution: the preprint never prints the accession, but Allen et al. 2019 (PLoS One,
+      co-authored by the submitter) names GCA_003660325.2 and says 'more details are available in a
+      pre-print described by McKernan et al. (https://osf.io/7d968/)', and Ren et al. 2021 (Sci
+      Adv) cites the same accession to it; submitter (The DASH DAO), cultivar and the 3.8 Mb N50 in
+      the assembly name match."
+    accessions:
+      - GCA_003660325.2
   - doi: 10.1101/gr.242594.118
     citation:
       Laverty KU et al. (2019). A physical and genetic map of Cannabis sativa identifies extensive
