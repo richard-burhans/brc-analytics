@@ -378,9 +378,14 @@ export const buildHgAnalyzeGenome = (
   const publication = entity.doi
     ? [{ label: "Publication", url: `https://doi.org/${entity.doi}` }]
     : [];
+  // Read defensively: a cached catalog from before the field existed has no
+  // hubBrowserUrl at all, and a view builder must not crash on it.
+  const hub = entity.hubBrowserUrl
+    ? [{ label: "HighGen Assembly Hub", url: entity.hubBrowserUrl }]
+    : [];
   if (entity.source === "NCBI") {
     const props = buildAnalyzeGenome(entity);
-    return { ...props, views: [...props.views, ...publication] };
+    return { ...props, views: [...props.views, ...hub, ...publication] };
   }
   return {
     analyze: { label: "Analyze", url: "" },
@@ -388,6 +393,7 @@ export const buildHgAnalyzeGenome = (
       ...(entity.sourceUrl
         ? [{ label: entity.source, url: entity.sourceUrl }]
         : []),
+      ...hub,
       ...publication,
     ],
   };

@@ -46,6 +46,14 @@ const SOURCE_PATH_MEASURED =
 // The paper describing each assembly, curated with the evidence for it.
 const SOURCE_PATH_PAPERS = "catalog/highgen/source/assembly_papers.yml";
 
+// Which genome in the HighGen assembly hub each assembly is. A COPY of
+// cannabis-genome data/processed/hub_genomes.tsv, which that repo rewrites
+// every time it publishes the hub; re-copy after a hub refresh.
+const SOURCE_PATH_HUB_GENOMES = "catalog/highgen/source/hub_genomes.tsv";
+
+// The published assembly hub. UCSC reads it by URL, so this is all the site needs.
+const HUB_URL = "https://depot.galaxyproject.org/highgen/hub.txt";
+
 const SOURCE_PATH_GENOMES =
   "catalog/highgen/build/intermediate/genomes-from-ncbi.tsv";
 
@@ -81,6 +89,72 @@ async function attachPapers(
   return rows.map((row) => {
     const paper = byAccession.get(row.accession);
     return paper ? { ...row, citation: paper.citation, doi: paper.doi } : row;
+  });
+}
+
+/**
+ * Sets each assembly's link to its genome in the HighGen assembly hub. Hub
+ * genomes are matched on preferred_id (the record the catalog lists when one
+ * assembly has several): `ncbi:<accession>` for NCBI records,
+ * external_assemblies.yml's inventory_id for the rest. Fails on a hub genome
+ * no assembly matches, so a renamed id cannot silently drop links. When two
+ * hub genomes are one assembly, the genome built from the listed record wins,
+ * then the one whose label is the assembly's own name; anything else fails
+ * rather than picking one.
+ * @param rows - Assemblies.
+ * @returns assemblies with hubBrowserUrl set where the hub has the genome.
+ */
+async function attachHubLinks(
+  rows: ReportedAssembly[]
+): Promise<ReportedAssembly[]> {
+  const hubRows = await readValuesFile<Record<string, string>>(
+    SOURCE_PATH_HUB_GENOMES,
+    "\t",
+    ["hub_genome", "label", "inventory_id", "preferred_id"]
+  );
+  const { assemblies } = await readYamlFile<{
+    assemblies: SourceExternalAssembly[];
+  }>(SOURCE_PATH_EXTERNAL_ASSEMBLIES);
+  const idByInventoryId = new Map<string, string>(
+    assemblies.map((a) => [a.inventory_id, a.id])
+  );
+  const rowsById = new Map(rows.map((row) => [row.accession, row]));
+  const chosen = new Map<string, Record<string, string>>();
+  for (const hub of hubRows) {
+    const id = hub.preferred_id.startsWith("ncbi:")
+      ? hub.preferred_id.slice("ncbi:".length)
+      : idByInventoryId.get(hub.preferred_id);
+    const row = id ? rowsById.get(id) : undefined;
+    if (!id || !row)
+      throw new Error(
+        `${SOURCE_PATH_HUB_GENOMES}: hub genome ${hub.hub_genome} (${hub.preferred_id}) matches no assembly`
+      );
+    const prior = chosen.get(id);
+    if (!prior) {
+      chosen.set(id, hub);
+      continue;
+    }
+    const own = [row.strainName, row.accession];
+    // Higher is better: built from the listed record, then named as the assembly.
+    const rank = (h: Record<string, string>): number =>
+      (h.inventory_id === h.preferred_id ? 2 : 0) +
+      (own.includes(h.label) ? 1 : 0);
+    const priorRank = rank(prior);
+    const hubRank = rank(hub);
+    if (priorRank === hubRank)
+      throw new Error(
+        `${SOURCE_PATH_HUB_GENOMES}: ${prior.hub_genome} and ${hub.hub_genome} are both ${id}; cannot choose`
+      );
+    if (hubRank > priorRank) chosen.set(id, hub);
+  }
+  return rows.map((row) => {
+    const hub = chosen.get(row.accession);
+    return hub
+      ? {
+          ...row,
+          hubBrowserUrl: `https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=${encodeURIComponent(HUB_URL)}&genome=${encodeURIComponent(hub.hub_genome)}`,
+        }
+      : row;
   });
 }
 
@@ -399,6 +473,7 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
       galaxyDatacacheUrl: parseStringOrNull(row.galaxyDatacacheUrl),
       gcPercent: parseNumberOrNull(row.gcPercent),
       geneModelUrl: parseStringOrNull(row.geneModelUrl),
+      hubBrowserUrl: null,
       image: buildOrganismImage(row),
       isRef: parseBoolean(row.isRef),
       length: parseNumber(row.length),
@@ -442,7 +517,7 @@ async function buildAssemblies(): Promise<HGAssemblyEntity[]> {
   );
 
   const measuredRows = await attachMeasurements(
-    await attachPapers(mappedRows),
+    await attachHubLinks(await attachPapers(mappedRows)),
     n50TruncatedIds
   );
   const sortedRows = measuredRows.sort((a, b) =>
@@ -486,6 +561,7 @@ async function buildExternalAssemblies(
     galaxyDatacacheUrl: null,
     gcPercent: null,
     geneModelUrl: null,
+    hubBrowserUrl: null,
     isRef: "No",
     length: row.length,
     level: row.level,

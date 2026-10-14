@@ -32,6 +32,8 @@ export interface HGAssemblyEntity extends HGMeasuredFields {
   galaxyDatacacheUrl: string | null;
   gcPercent: number | null;
   geneModelUrl: string | null;
+  // The assembly's genome in the HighGen assembly hub, opened in the UCSC Genome Browser.
+  hubBrowserUrl: string | null;
   image: ImageData | null;
   isRef: "No" | "Yes";
   length: number;
