@@ -976,7 +976,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": 34,
         "geneModelUrl": "https://hgdownload.soe.ucsc.edu/hubs/GCA/012/923/435/GCA_012923435.1/genes/GCA_012923435.1_JL_Mother.ncbiGene.gtf.gz",
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=JL_Mother",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -1664,7 +1664,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": 34,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=Punto_Rojo",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -8720,7 +8720,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=I53",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -9064,7 +9064,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=I75",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -9494,7 +9494,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=KCDv1b",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -9580,7 +9580,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=KOMPa",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -11386,7 +11386,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=PURD",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -11472,7 +11472,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=PURP",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -11558,7 +11558,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=S8H2LR",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -11644,7 +11644,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=S8Ha",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -11730,7 +11730,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=S8Hb",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -11816,7 +11816,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=S8LR",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
@@ -11902,7 +11902,7 @@
         "galaxyDatacacheUrl": null,
         "gcPercent": null,
         "geneModelUrl": null,
-        "hubBrowserUrl": null,
+        "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=SAN2a",
         "image": {
           "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
           "license": "Public domain",
