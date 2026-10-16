@@ -883,7 +883,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": 34,
     "geneModelUrl": "https://hgdownload.soe.ucsc.edu/hubs/GCA/003/660/325/GCA_003660325.2/genes/GCA_003660325.2_Oct15_3.7Mb_N50_Jamaican_Lion_Assembly.augustus.gtf.gz",
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=JL_DASH",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -9401,7 +9401,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=KCDv1a",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -9659,7 +9659,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=KOMPb",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -9745,7 +9745,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=LP10",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -9831,7 +9831,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=LP6",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -9917,7 +9917,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=MBFBa",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -10089,7 +10089,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=MBSVa",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -10261,7 +10261,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=MM3v1a",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -10347,7 +10347,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=MM3v1b",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -11121,7 +11121,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=PPFBa",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -11207,7 +11207,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=PPFBb",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
@@ -11293,7 +11293,7 @@
     "galaxyDatacacheUrl": null,
     "gcPercent": null,
     "geneModelUrl": null,
-    "hubBrowserUrl": null,
+    "hubBrowserUrl": "https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https%3A%2F%2Fdepot.galaxyproject.org%2Fhighgen%2Fhub.txt&genome=PTK32",
     "image": {
       "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
       "license": "Public domain",
